@@ -37,21 +37,24 @@ namespace MVPTimer
             this.MvpName = new System.Windows.Forms.Label();
             this.FallenUBI = new System.Windows.Forms.LinkLabel();
             this.Elemento = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.Elemento1 = new System.Windows.Forms.Label();
             this.IfritUBI = new System.Windows.Forms.LinkLabel();
-            this.label2 = new System.Windows.Forms.Label();
             this.timerLabel2 = new System.Windows.Forms.Label();
             this.resetButton2 = new System.Windows.Forms.Button();
             this.startButton2 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel2.SuspendLayout();
+            this.AmonRaUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel3 = new System.Windows.Forms.Label();
+            this.resetButton3 = new System.Windows.Forms.Button();
+            this.startButton3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // startButton1
             // 
             this.startButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.startButton1.Location = new System.Drawing.Point(52, 147);
+            this.startButton1.Location = new System.Drawing.Point(25, 147);
             this.startButton1.Name = "startButton1";
             this.startButton1.Size = new System.Drawing.Size(75, 23);
             this.startButton1.TabIndex = 0;
@@ -62,7 +65,7 @@ namespace MVPTimer
             // resetButton1
             // 
             this.resetButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.resetButton1.Location = new System.Drawing.Point(153, 147);
+            this.resetButton1.Location = new System.Drawing.Point(126, 147);
             this.resetButton1.Name = "resetButton1";
             this.resetButton1.Size = new System.Drawing.Size(75, 23);
             this.resetButton1.TabIndex = 1;
@@ -73,10 +76,10 @@ namespace MVPTimer
             // timerLabel1
             // 
             this.timerLabel1.AutoSize = true;
-            this.timerLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.timerLabel1.Location = new System.Drawing.Point(93, 102);
+            this.timerLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel1.Location = new System.Drawing.Point(56, 96);
             this.timerLabel1.Name = "timerLabel1";
-            this.timerLabel1.Size = new System.Drawing.Size(90, 25);
+            this.timerLabel1.Size = new System.Drawing.Size(120, 31);
             this.timerLabel1.TabIndex = 2;
             this.timerLabel1.Text = "00:00:00";
             // 
@@ -84,7 +87,7 @@ namespace MVPTimer
             // 
             this.MvpName.AutoSize = true;
             this.MvpName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MvpName.Location = new System.Drawing.Point(48, 34);
+            this.MvpName.Location = new System.Drawing.Point(21, 21);
             this.MvpName.Name = "MvpName";
             this.MvpName.Size = new System.Drawing.Size(180, 20);
             this.MvpName.TabIndex = 3;
@@ -95,7 +98,7 @@ namespace MVPTimer
             // 
             this.FallenUBI.AutoSize = true;
             this.FallenUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.FallenUBI.Location = new System.Drawing.Point(105, 69);
+            this.FallenUBI.Location = new System.Drawing.Point(78, 56);
             this.FallenUBI.Name = "FallenUBI";
             this.FallenUBI.Size = new System.Drawing.Size(64, 17);
             this.FallenUBI.TabIndex = 4;
@@ -110,33 +113,12 @@ namespace MVPTimer
             this.Elemento.AutoSize = true;
             this.Elemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.Elemento.ForeColor = System.Drawing.Color.Silver;
-            this.Elemento.Location = new System.Drawing.Point(117, 54);
+            this.Elemento.Location = new System.Drawing.Point(90, 41);
             this.Elemento.Name = "Elemento";
             this.Elemento.Size = new System.Drawing.Size(39, 15);
             this.Elemento.TabIndex = 5;
             this.Elemento.Text = "(Holy)";
             this.Elemento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Location = new System.Drawing.Point(38, 25);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(199, 155);
-            this.panel1.TabIndex = 6;
-            // 
-            // Elemento1
-            // 
-            this.Elemento1.AutoSize = true;
-            this.Elemento1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.Elemento1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.Elemento1.Location = new System.Drawing.Point(75, 29);
-            this.Elemento1.Name = "Elemento1";
-            this.Elemento1.Size = new System.Drawing.Size(47, 15);
-            this.Elemento1.TabIndex = 12;
-            this.Elemento1.Text = "(Water)";
-            this.Elemento1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // IfritUBI
             // 
@@ -151,17 +133,6 @@ namespace MVPTimer
             this.IfritUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.IfritUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             this.IfritUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.IfritUBI_LinkClicked);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(80, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 20);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Ifrit";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // timerLabel2
             // 
@@ -195,39 +166,98 @@ namespace MVPTimer
             this.startButton2.UseVisualStyleBackColor = false;
             this.startButton2.Click += new System.EventHandler(this.startButton2_Click);
             // 
-            // panel2
+            // AmonRaUBI
             // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel2.Controls.Add(this.Elemento1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(243, 25);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(199, 155);
-            this.panel2.TabIndex = 13;
+            this.AmonRaUBI.AutoSize = true;
+            this.AmonRaUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.AmonRaUBI.Location = new System.Drawing.Point(515, 69);
+            this.AmonRaUBI.Name = "AmonRaUBI";
+            this.AmonRaUBI.Size = new System.Drawing.Size(64, 17);
+            this.AmonRaUBI.TabIndex = 17;
+            this.AmonRaUBI.TabStop = true;
+            this.AmonRaUBI.Text = "thor_v03";
+            this.AmonRaUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AmonRaUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            // 
+            // timerLabel3
+            // 
+            this.timerLabel3.AutoSize = true;
+            this.timerLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.timerLabel3.Location = new System.Drawing.Point(503, 102);
+            this.timerLabel3.Name = "timerLabel3";
+            this.timerLabel3.Size = new System.Drawing.Size(90, 25);
+            this.timerLabel3.TabIndex = 16;
+            this.timerLabel3.Text = "00:00:00";
+            // 
+            // resetButton3
+            // 
+            this.resetButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton3.Location = new System.Drawing.Point(563, 147);
+            this.resetButton3.Name = "resetButton3";
+            this.resetButton3.Size = new System.Drawing.Size(75, 23);
+            this.resetButton3.TabIndex = 15;
+            this.resetButton3.Text = "Reset";
+            this.resetButton3.UseVisualStyleBackColor = false;
+            this.resetButton3.Click += new System.EventHandler(this.resetButton3_Click);
+            // 
+            // startButton3
+            // 
+            this.startButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton3.Location = new System.Drawing.Point(462, 147);
+            this.startButton3.Name = "startButton3";
+            this.startButton3.Size = new System.Drawing.Size(75, 23);
+            this.startButton3.TabIndex = 14;
+            this.startButton3.Text = "Start";
+            this.startButton3.UseVisualStyleBackColor = false;
+            this.startButton3.Click += new System.EventHandler(this.startButton3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(243, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(971, 574);
+            this.Controls.Add(this.AmonRaUBI);
+            this.Controls.Add(this.timerLabel3);
+            this.Controls.Add(this.resetButton3);
+            this.Controls.Add(this.startButton3);
             this.Controls.Add(this.IfritUBI);
             this.Controls.Add(this.timerLabel2);
             this.Controls.Add(this.resetButton2);
             this.Controls.Add(this.startButton2);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.Elemento);
             this.Controls.Add(this.FallenUBI);
             this.Controls.Add(this.MvpName);
             this.Controls.Add(this.timerLabel1);
             this.Controls.Add(this.resetButton1);
             this.Controls.Add(this.startButton1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "MVP Timer";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,14 +271,16 @@ namespace MVPTimer
         private Label MvpName;
         private LinkLabel FallenUBI;
         private Label Elemento;
-        private Panel panel1;
-        private Label Elemento1;
         private LinkLabel IfritUBI;
-        private Label label2;
         private Label timerLabel2;
         private Button resetButton2;
         private Button startButton2;
-        private Panel panel2;
+        private LinkLabel AmonRaUBI;
+        private Label timerLabel3;
+        private Button resetButton3;
+        private Button startButton3;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
 
