@@ -18,12 +18,15 @@ namespace MVPTimer
         private Timer timer1;
         private Timer timer2;
         private Timer timer3;
+        private Timer timer4;
         private int totalSeconds1; // Total de segundos del primer temporizador
         private int remainingSeconds1; // Segundos restantes del primer temporizador
         private int totalSeconds2; // Total de segundos del segundo temporizador
         private int remainingSeconds2; // Segundos restantes del segundo temporizador
         private int totalSeconds3; // Total de segundos del segundo temporizador
         private int remainingSeconds3;
+        private int totalSeconds4; // Total de segundos del segundo temporizador
+        private int remainingSeconds4;
 
         public Form1()
         {
@@ -40,16 +43,23 @@ namespace MVPTimer
             timer2 = new Timer();
             timer2.Interval = 1000; // Actualiza el temporizador cada segundo
             timer2.Tick += Timer2_Tick;
-            totalSeconds2 = 1800; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
+            totalSeconds2 = 2400; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
             remainingSeconds2 = totalSeconds2;
             UpdateTimerLabel(timerLabel2, remainingSeconds2); // Actualizar la etiqueta del segundo temporizador
             // Configurar el tercer temporizador
             timer3 = new Timer();
             timer3.Interval = 1000; // Actualiza el temporizador cada segundo
             timer3.Tick += Timer3_Tick;
-            totalSeconds3 = 7200; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
+            totalSeconds3 = 4200; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
             remainingSeconds3 = totalSeconds3;
             UpdateTimerLabel(timerLabel3, remainingSeconds3); // Actualizar la etiqueta del segundo temporizador
+            // Configurar el cuarto temporizador
+            timer4 = new Timer();
+            timer4.Interval = 1000; // Actualiza el temporizador cada segundo
+            timer4.Tick += Timer4_Tick;
+            totalSeconds4 = 2000; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
+            remainingSeconds4 = totalSeconds4;
+            UpdateTimerLabel(timerLabel4, remainingSeconds4); // Actualizar la etiqueta del segundo temporizador
         }
 
         private void UpdateTimerLabel(System.Windows.Forms.Label label, int remainingSeconds)
@@ -127,7 +137,7 @@ namespace MVPTimer
         private void Timer3_Tick(object sender, EventArgs e)
         {
             remainingSeconds3--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds2 >= 0)
+            if (remainingSeconds3 >= 0)
             {
                 UpdateTimerLabel(timerLabel3, remainingSeconds3); // Actualizar la etiqueta del segundo temporizador
             }
@@ -137,6 +147,33 @@ namespace MVPTimer
             }
         }
         // TEMPORIZADOR 3
+
+        // TEMPORIZADOR 4
+        private void startButton4_Click(object sender, EventArgs e)
+        {
+            timer4.Start(); // Iniciar el primer temporizador
+        }
+
+        private void resetButton4_Click(object sender, EventArgs e)
+        {
+            timer4.Stop(); // Detener el primer temporizador
+            remainingSeconds4 = totalSeconds4; // Restablecer el tiempo restante del primer temporizador
+            UpdateTimerLabel(timerLabel4, remainingSeconds4);
+        }
+
+        private void Timer4_Tick(object sender, EventArgs e)
+        {
+            remainingSeconds4--; // Decrementar los segundos restantes del segundo temporizador
+            if (remainingSeconds4 >= 0)
+            {
+                UpdateTimerLabel(timerLabel4, remainingSeconds4); // Actualizar la etiqueta del segundo temporizador
+            }
+            else
+            {
+                timer4.Stop(); // Detener el segundo temporizador cuando llega a 0
+            }
+        }
+        // TEMPORIZADOR 4
 
         // IGNORAR
         private void Form1_Load(object sender, EventArgs e)
@@ -156,6 +193,20 @@ namespace MVPTimer
             IfritUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=thor_v03&s_block=mob_block&small=1");
         }
+
+        private void AmonRaUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AmonRaUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=moc_pryd06&s_block=mob_block&small=1");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ValkyUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=odin_tem03&s_block=mob_block&small=1");
+        }
+
+
 
         // LINKS MAPAS----------------------------------------------------------------------------
     }
