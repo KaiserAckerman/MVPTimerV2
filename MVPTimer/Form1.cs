@@ -19,6 +19,7 @@ namespace MVPTimer
         private Timer timer2;
         private Timer timer3;
         private Timer timer4;
+        private Timer timer5;
         private int totalSeconds1; // Total de segundos del primer temporizador
         private int remainingSeconds1; // Segundos restantes del primer temporizador
         private int totalSeconds2; // Total de segundos del segundo temporizador
@@ -27,6 +28,8 @@ namespace MVPTimer
         private int remainingSeconds3;
         private int totalSeconds4; // Total de segundos del segundo temporizador
         private int remainingSeconds4;
+        private int totalSeconds5; // Total de segundos del segundo temporizador
+        private int remainingSeconds5;
 
         public Form1()
         {
@@ -41,25 +44,32 @@ namespace MVPTimer
 
             // Configurar el segundo temporizador
             timer2 = new Timer();
-            timer2.Interval = 1000; // Actualiza el temporizador cada segundo
+            timer2.Interval = 1000; 
             timer2.Tick += Timer2_Tick;
-            totalSeconds2 = 2400; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
+            totalSeconds2 = 2400; 
             remainingSeconds2 = totalSeconds2;
-            UpdateTimerLabel(timerLabel2, remainingSeconds2); // Actualizar la etiqueta del segundo temporizador
+            UpdateTimerLabel(timerLabel2, remainingSeconds2); 
             // Configurar el tercer temporizador
             timer3 = new Timer();
-            timer3.Interval = 1000; // Actualiza el temporizador cada segundo
+            timer3.Interval = 1000; 
             timer3.Tick += Timer3_Tick;
-            totalSeconds3 = 4200; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
+            totalSeconds3 = 4200; 
             remainingSeconds3 = totalSeconds3;
-            UpdateTimerLabel(timerLabel3, remainingSeconds3); // Actualizar la etiqueta del segundo temporizador
+            UpdateTimerLabel(timerLabel3, remainingSeconds3); 
             // Configurar el cuarto temporizador
             timer4 = new Timer();
-            timer4.Interval = 1000; // Actualiza el temporizador cada segundo
+            timer4.Interval = 1000; 
             timer4.Tick += Timer4_Tick;
-            totalSeconds4 = 2000; // 30 minutos para el segundo temporizador (puedes cambiar este valor)
+            totalSeconds4 = 2000; 
             remainingSeconds4 = totalSeconds4;
-            UpdateTimerLabel(timerLabel4, remainingSeconds4); // Actualizar la etiqueta del segundo temporizador
+            UpdateTimerLabel(timerLabel4, remainingSeconds4);
+            // Configurar el quinto temporizador
+            timer5 = new Timer();
+            timer5.Interval = 1000;
+            timer5.Tick += Timer5_Tick;
+            totalSeconds5 = 2000;
+            remainingSeconds5 = totalSeconds5;
+            UpdateTimerLabel(timerLabel5, remainingSeconds5);
         }
 
         private void UpdateTimerLabel(System.Windows.Forms.Label label, int remainingSeconds)
@@ -174,6 +184,31 @@ namespace MVPTimer
             }
         }
         // TEMPORIZADOR 4
+        // TEMPORIZADOR 5
+        private void startButton5_Click(object sender, EventArgs e)
+        {
+            timer5.Start(); // Iniciar el primer temporizador
+        }
+
+        private void resetButton5_Click(object sender, EventArgs e)
+        {
+            timer5.Stop(); // Detener el primer temporizador
+            remainingSeconds5 = totalSeconds5; // Restablecer el tiempo restante del primer temporizador
+            UpdateTimerLabel(timerLabel5, remainingSeconds5);
+        }
+        private void Timer5_Tick(object sender, EventArgs e)
+        {
+            remainingSeconds5--; // Decrementar los segundos restantes del segundo temporizador
+            if (remainingSeconds5 >= 0)
+            {
+                UpdateTimerLabel(timerLabel5, remainingSeconds5); // Actualizar la etiqueta del segundo temporizador
+            }
+            else
+            {
+                timer5.Stop(); // Detener el segundo temporizador cuando llega a 0
+            }
+        }
+        // TEMPORIZADOR 5
 
         // IGNORAR
         private void Form1_Load(object sender, EventArgs e)
@@ -206,7 +241,11 @@ namespace MVPTimer
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=odin_tem03&s_block=mob_block&small=1");
         }
 
-
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            GloomUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ra_san05&s_block=mob_block&small=1");
+        }
 
         // LINKS MAPAS----------------------------------------------------------------------------
     }

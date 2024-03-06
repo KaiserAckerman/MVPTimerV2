@@ -56,10 +56,10 @@ namespace MVPTimer
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.GloomUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel5 = new System.Windows.Forms.Label();
+            this.resetButton5 = new System.Windows.Forms.Button();
+            this.startButton5 = new System.Windows.Forms.Button();
             this.ValkyUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel4 = new System.Windows.Forms.Label();
             this.resetButton4 = new System.Windows.Forms.Button();
@@ -417,23 +417,23 @@ namespace MVPTimer
             this.label6.AutoSize = true;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(892, 21);
+            this.label6.Location = new System.Drawing.Point(855, 21);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 22);
+            this.label6.Size = new System.Drawing.Size(164, 22);
             this.label6.TabIndex = 37;
-            this.label6.Text = "Amon Ra";
+            this.label6.Text = "Gloom Under Night";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(913, 43);
+            this.label7.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.label7.Location = new System.Drawing.Point(908, 43);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 15);
+            this.label7.Size = new System.Drawing.Size(47, 15);
             this.label7.TabIndex = 39;
-            this.label7.Text = "(Fire)";
+            this.label7.Text = "(Ghost)";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label8
@@ -448,49 +448,52 @@ namespace MVPTimer
             this.label8.Text = "(Shadow)";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel1
+            // GloomUBI
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel1.Location = new System.Drawing.Point(891, 56);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(86, 17);
-            this.linkLabel1.TabIndex = 33;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Moc_pryd06";
-            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.GloomUBI.AutoSize = true;
+            this.GloomUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.GloomUBI.Location = new System.Drawing.Point(898, 56);
+            this.GloomUBI.Name = "GloomUBI";
+            this.GloomUBI.Size = new System.Drawing.Size(73, 17);
+            this.GloomUBI.TabIndex = 33;
+            this.GloomUBI.TabStop = true;
+            this.GloomUBI.Text = "Ra_san05";
+            this.GloomUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.GloomUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.GloomUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // label9
+            // timerLabel5
             // 
-            this.label9.AutoSize = true;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label9.Location = new System.Drawing.Point(875, 96);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(122, 33);
-            this.label9.TabIndex = 32;
-            this.label9.Text = "00:00:00";
+            this.timerLabel5.AutoSize = true;
+            this.timerLabel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel5.Location = new System.Drawing.Point(875, 96);
+            this.timerLabel5.Name = "timerLabel5";
+            this.timerLabel5.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel5.TabIndex = 32;
+            this.timerLabel5.Text = "00:00:00";
             // 
-            // button1
+            // resetButton5
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(951, 147);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = false;
+            this.resetButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton5.Location = new System.Drawing.Point(951, 147);
+            this.resetButton5.Name = "resetButton5";
+            this.resetButton5.Size = new System.Drawing.Size(75, 23);
+            this.resetButton5.TabIndex = 31;
+            this.resetButton5.Text = "Reset";
+            this.resetButton5.UseVisualStyleBackColor = false;
+            this.resetButton5.Click += new System.EventHandler(this.resetButton5_Click);
             // 
-            // button2
+            // startButton5
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(850, 147);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "Start";
-            this.button2.UseVisualStyleBackColor = false;
+            this.startButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton5.Location = new System.Drawing.Point(850, 147);
+            this.startButton5.Name = "startButton5";
+            this.startButton5.Size = new System.Drawing.Size(75, 23);
+            this.startButton5.TabIndex = 30;
+            this.startButton5.Text = "Start";
+            this.startButton5.UseVisualStyleBackColor = false;
+            this.startButton5.Click += new System.EventHandler(this.startButton5_Click);
             // 
             // ValkyUBI
             // 
@@ -1358,7 +1361,8 @@ namespace MVPTimer
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1049, 681);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1049, 636);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
@@ -1433,10 +1437,10 @@ namespace MVPTimer
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.GloomUBI);
+            this.Controls.Add(this.timerLabel5);
+            this.Controls.Add(this.resetButton5);
+            this.Controls.Add(this.startButton5);
             this.Controls.Add(this.ValkyUBI);
             this.Controls.Add(this.timerLabel4);
             this.Controls.Add(this.resetButton4);
@@ -1515,10 +1519,10 @@ namespace MVPTimer
         private Label label6;
         private Label label7;
         private Label label8;
-        private LinkLabel linkLabel1;
-        private Label label9;
-        private Button button1;
-        private Button button2;
+        private LinkLabel GloomUBI;
+        private Label timerLabel5;
+        private Button resetButton5;
+        private Button startButton5;
         private LinkLabel ValkyUBI;
         private Label timerLabel4;
         private Button resetButton4;
