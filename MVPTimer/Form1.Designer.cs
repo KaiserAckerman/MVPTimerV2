@@ -69,15 +69,14 @@ namespace MVPTimer
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.OrcHeroUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel10 = new System.Windows.Forms.Label();
+            this.resetButton10 = new System.Windows.Forms.Button();
+            this.startButton10 = new System.Windows.Forms.Button();
+            this.OrcLordUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel9 = new System.Windows.Forms.Label();
+            this.resetButton9 = new System.Windows.Forms.Button();
+            this.startButton9 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -85,57 +84,58 @@ namespace MVPTimer
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.MayaUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel8 = new System.Windows.Forms.Label();
+            this.resetButton8 = new System.Windows.Forms.Button();
+            this.startButton8 = new System.Windows.Forms.Button();
+            this.TaoUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel7 = new System.Windows.Forms.Label();
+            this.resetButton7 = new System.Windows.Forms.Button();
+            this.startButton7 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.DrakeUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel6 = new System.Windows.Forms.Label();
+            this.resetButton6 = new System.Windows.Forms.Button();
+            this.startButton6 = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.linkLabel9 = new System.Windows.Forms.LinkLabel();
-            this.label31 = new System.Windows.Forms.Label();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.linkLabel10 = new System.Windows.Forms.LinkLabel();
-            this.label37 = new System.Windows.Forms.Label();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.DoppelUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel12 = new System.Windows.Forms.Label();
+            this.resetButton12 = new System.Windows.Forms.Button();
+            this.startButton12 = new System.Windows.Forms.Button();
             this.label39 = new System.Windows.Forms.Label();
-            this.linkLabel12 = new System.Windows.Forms.LinkLabel();
-            this.label40 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
+            this.DraculaUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel11 = new System.Windows.Forms.Label();
+            this.resetButton11 = new System.Windows.Forms.Button();
+            this.startButton11 = new System.Windows.Forms.Button();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.DoppeUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel13 = new System.Windows.Forms.Label();
+            this.resetButton13 = new System.Windows.Forms.Button();
+            this.startButton13 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.DarkLordUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel14 = new System.Windows.Forms.Label();
+            this.resetButton14 = new System.Windows.Forms.Button();
+            this.startButton14 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.BaphoUBI = new System.Windows.Forms.LinkLabel();
+            this.timerLabel15 = new System.Windows.Forms.Label();
+            this.resetButton15 = new System.Windows.Forms.Button();
+            this.startButton15 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -569,11 +569,11 @@ namespace MVPTimer
             this.label11.AutoSize = true;
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(711, 230);
+            this.label11.Location = new System.Drawing.Point(693, 230);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(39, 22);
+            this.label11.Size = new System.Drawing.Size(80, 22);
             this.label11.TabIndex = 70;
-            this.label11.Text = "Ifrit";
+            this.label11.Text = "Orc Lord";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -583,9 +583,9 @@ namespace MVPTimer
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(892, 230);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 22);
+            this.label12.Size = new System.Drawing.Size(83, 22);
             this.label12.TabIndex = 72;
-            this.label12.Text = "Amon Ra";
+            this.label12.Text = "Orc Hero";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
@@ -600,105 +600,99 @@ namespace MVPTimer
             this.label13.Text = "(Fire)";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // OrcHeroUBI
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label14.Location = new System.Drawing.Point(708, 252);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 15);
-            this.label14.TabIndex = 71;
-            this.label14.Text = "(Water)";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OrcHeroUBI.AutoSize = true;
+            this.OrcHeroUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.OrcHeroUBI.Location = new System.Drawing.Point(897, 265);
+            this.OrcHeroUBI.Name = "OrcHeroUBI";
+            this.OrcHeroUBI.Size = new System.Drawing.Size(73, 17);
+            this.OrcHeroUBI.TabIndex = 68;
+            this.OrcHeroUBI.TabStop = true;
+            this.OrcHeroUBI.Text = "Gef_fild14";
+            this.OrcHeroUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OrcHeroUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.OrcHeroUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OrcHeroUBI_LinkClicked);
             // 
-            // linkLabel3
+            // timerLabel10
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel3.Location = new System.Drawing.Point(891, 265);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(86, 17);
-            this.linkLabel3.TabIndex = 68;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Moc_pryd06";
-            this.linkLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel3.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.timerLabel10.AutoSize = true;
+            this.timerLabel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel10.Location = new System.Drawing.Point(875, 305);
+            this.timerLabel10.Name = "timerLabel10";
+            this.timerLabel10.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel10.TabIndex = 67;
+            this.timerLabel10.Text = "00:00:00";
             // 
-            // label15
+            // resetButton10
             // 
-            this.label15.AutoSize = true;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label15.Location = new System.Drawing.Point(875, 305);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(122, 33);
-            this.label15.TabIndex = 67;
-            this.label15.Text = "00:00:00";
+            this.resetButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton10.Location = new System.Drawing.Point(951, 356);
+            this.resetButton10.Name = "resetButton10";
+            this.resetButton10.Size = new System.Drawing.Size(75, 23);
+            this.resetButton10.TabIndex = 66;
+            this.resetButton10.Text = "Reset";
+            this.resetButton10.UseVisualStyleBackColor = false;
+            this.resetButton10.Click += new System.EventHandler(this.resetButton10_Click);
             // 
-            // button5
+            // startButton10
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.Location = new System.Drawing.Point(951, 356);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 66;
-            this.button5.Text = "Reset";
-            this.button5.UseVisualStyleBackColor = false;
+            this.startButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton10.Location = new System.Drawing.Point(850, 356);
+            this.startButton10.Name = "startButton10";
+            this.startButton10.Size = new System.Drawing.Size(75, 23);
+            this.startButton10.TabIndex = 65;
+            this.startButton10.Text = "Start";
+            this.startButton10.UseVisualStyleBackColor = false;
+            this.startButton10.Click += new System.EventHandler(this.startButton10_Click);
             // 
-            // button6
+            // OrcLordUBI
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.Location = new System.Drawing.Point(850, 356);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 65;
-            this.button6.Text = "Start";
-            this.button6.UseVisualStyleBackColor = false;
+            this.OrcLordUBI.AutoSize = true;
+            this.OrcLordUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.OrcLordUBI.Location = new System.Drawing.Point(698, 265);
+            this.OrcLordUBI.Name = "OrcLordUBI";
+            this.OrcLordUBI.Size = new System.Drawing.Size(73, 17);
+            this.OrcLordUBI.TabIndex = 64;
+            this.OrcLordUBI.TabStop = true;
+            this.OrcLordUBI.Text = "Gef_fild10";
+            this.OrcLordUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OrcLordUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.OrcLordUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OrcLordUBI_LinkClicked);
             // 
-            // linkLabel4
+            // timerLabel9
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel4.Location = new System.Drawing.Point(697, 265);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(69, 17);
-            this.linkLabel4.TabIndex = 64;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Thor_v03";
-            this.linkLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel4.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.timerLabel9.AutoSize = true;
+            this.timerLabel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel9.Location = new System.Drawing.Point(676, 305);
+            this.timerLabel9.Name = "timerLabel9";
+            this.timerLabel9.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel9.TabIndex = 63;
+            this.timerLabel9.Text = "00:00:00";
             // 
-            // label16
+            // resetButton9
             // 
-            this.label16.AutoSize = true;
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label16.Location = new System.Drawing.Point(676, 305);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(122, 33);
-            this.label16.TabIndex = 63;
-            this.label16.Text = "00:00:00";
+            this.resetButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton9.Location = new System.Drawing.Point(746, 356);
+            this.resetButton9.Name = "resetButton9";
+            this.resetButton9.Size = new System.Drawing.Size(75, 23);
+            this.resetButton9.TabIndex = 62;
+            this.resetButton9.Text = "Reset";
+            this.resetButton9.UseVisualStyleBackColor = false;
+            this.resetButton9.Click += new System.EventHandler(this.resetButton9_Click);
             // 
-            // button7
+            // startButton9
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button7.Location = new System.Drawing.Point(746, 356);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 62;
-            this.button7.Text = "Reset";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.Location = new System.Drawing.Point(645, 356);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 61;
-            this.button8.Text = "Start";
-            this.button8.UseVisualStyleBackColor = false;
+            this.startButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton9.Location = new System.Drawing.Point(645, 356);
+            this.startButton9.Name = "startButton9";
+            this.startButton9.Size = new System.Drawing.Size(75, 23);
+            this.startButton9.TabIndex = 61;
+            this.startButton9.Text = "Start";
+            this.startButton9.UseVisualStyleBackColor = false;
+            this.startButton9.Click += new System.EventHandler(this.startButton9_Click);
             // 
             // pictureBox6
             // 
@@ -727,11 +721,11 @@ namespace MVPTimer
             this.label17.AutoSize = true;
             this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(21, 230);
+            this.label17.Location = new System.Drawing.Point(83, 230);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(182, 22);
+            this.label17.Size = new System.Drawing.Size(59, 22);
             this.label17.TabIndex = 43;
-            this.label17.Text = "Fallen Bishop Hibram";
+            this.label17.Text = "Drake";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label18
@@ -739,11 +733,11 @@ namespace MVPTimer
             this.label18.AutoSize = true;
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(299, 230);
+            this.label18.Location = new System.Drawing.Point(270, 230);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(39, 22);
+            this.label18.Size = new System.Drawing.Size(99, 22);
             this.label18.TabIndex = 56;
-            this.label18.Text = "Ifrit";
+            this.label18.Text = "Tao Gunka";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label19
@@ -751,11 +745,11 @@ namespace MVPTimer
             this.label19.AutoSize = true;
             this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(480, 230);
+            this.label19.Location = new System.Drawing.Point(491, 230);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(85, 22);
+            this.label19.Size = new System.Drawing.Size(53, 22);
             this.label19.TabIndex = 58;
-            this.label19.Text = "Amon Ra";
+            this.label19.Text = "Maya";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
@@ -774,101 +768,107 @@ namespace MVPTimer
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label21.Location = new System.Drawing.Point(296, 252);
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(305, 252);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(47, 15);
+            this.label21.Size = new System.Drawing.Size(28, 15);
             this.label21.TabIndex = 57;
-            this.label21.Text = "(Water)";
+            this.label21.Text = "(All)";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel5
+            // MayaUBI
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel5.Location = new System.Drawing.Point(479, 265);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(86, 17);
-            this.linkLabel5.TabIndex = 53;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Moc_pryd06";
-            this.linkLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel5.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.MayaUBI.AutoSize = true;
+            this.MayaUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.MayaUBI.Location = new System.Drawing.Point(488, 265);
+            this.MayaUBI.Name = "MayaUBI";
+            this.MayaUBI.Size = new System.Drawing.Size(67, 17);
+            this.MayaUBI.TabIndex = 53;
+            this.MayaUBI.TabStop = true;
+            this.MayaUBI.Text = "Anthell02";
+            this.MayaUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.MayaUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.MayaUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
-            // label22
+            // timerLabel8
             // 
-            this.label22.AutoSize = true;
-            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label22.Location = new System.Drawing.Point(463, 305);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(122, 33);
-            this.label22.TabIndex = 52;
-            this.label22.Text = "00:00:00";
+            this.timerLabel8.AutoSize = true;
+            this.timerLabel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel8.Location = new System.Drawing.Point(463, 305);
+            this.timerLabel8.Name = "timerLabel8";
+            this.timerLabel8.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel8.TabIndex = 52;
+            this.timerLabel8.Text = "00:00:00";
             // 
-            // button9
+            // resetButton8
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button9.Location = new System.Drawing.Point(539, 356);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 51;
-            this.button9.Text = "Reset";
-            this.button9.UseVisualStyleBackColor = false;
+            this.resetButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton8.Location = new System.Drawing.Point(539, 356);
+            this.resetButton8.Name = "resetButton8";
+            this.resetButton8.Size = new System.Drawing.Size(75, 23);
+            this.resetButton8.TabIndex = 51;
+            this.resetButton8.Text = "Reset";
+            this.resetButton8.UseVisualStyleBackColor = false;
+            this.resetButton8.Click += new System.EventHandler(this.resetButton8_Click);
             // 
-            // button10
+            // startButton8
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button10.Location = new System.Drawing.Point(438, 356);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 50;
-            this.button10.Text = "Start";
-            this.button10.UseVisualStyleBackColor = false;
+            this.startButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton8.Location = new System.Drawing.Point(438, 356);
+            this.startButton8.Name = "startButton8";
+            this.startButton8.Size = new System.Drawing.Size(75, 23);
+            this.startButton8.TabIndex = 50;
+            this.startButton8.Text = "Start";
+            this.startButton8.UseVisualStyleBackColor = false;
+            this.startButton8.Click += new System.EventHandler(this.startButton8_Click);
             // 
-            // linkLabel6
+            // TaoUBI
             // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel6.Location = new System.Drawing.Point(285, 265);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(69, 17);
-            this.linkLabel6.TabIndex = 49;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "Thor_v03";
-            this.linkLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel6.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.TaoUBI.AutoSize = true;
+            this.TaoUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.TaoUBI.Location = new System.Drawing.Point(279, 265);
+            this.TaoUBI.Name = "TaoUBI";
+            this.TaoUBI.Size = new System.Drawing.Size(80, 17);
+            this.TaoUBI.TabIndex = 49;
+            this.TaoUBI.TabStop = true;
+            this.TaoUBI.Text = "Beach_dun";
+            this.TaoUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TaoUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.TaoUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
             // 
-            // label23
+            // timerLabel7
             // 
-            this.label23.AutoSize = true;
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label23.Location = new System.Drawing.Point(264, 305);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(122, 33);
-            this.label23.TabIndex = 48;
-            this.label23.Text = "00:00:00";
+            this.timerLabel7.AutoSize = true;
+            this.timerLabel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel7.Location = new System.Drawing.Point(264, 305);
+            this.timerLabel7.Name = "timerLabel7";
+            this.timerLabel7.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel7.TabIndex = 48;
+            this.timerLabel7.Text = "00:00:00";
             // 
-            // button11
+            // resetButton7
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button11.Location = new System.Drawing.Point(334, 356);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 47;
-            this.button11.Text = "Reset";
-            this.button11.UseVisualStyleBackColor = false;
+            this.resetButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton7.Location = new System.Drawing.Point(334, 356);
+            this.resetButton7.Name = "resetButton7";
+            this.resetButton7.Size = new System.Drawing.Size(75, 23);
+            this.resetButton7.TabIndex = 47;
+            this.resetButton7.Text = "Reset";
+            this.resetButton7.UseVisualStyleBackColor = false;
+            this.resetButton7.Click += new System.EventHandler(this.resetButton7_Click);
             // 
-            // button12
+            // startButton7
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.Location = new System.Drawing.Point(233, 356);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 46;
-            this.button12.Text = "Start";
-            this.button12.UseVisualStyleBackColor = false;
+            this.startButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton7.Location = new System.Drawing.Point(233, 356);
+            this.startButton7.Name = "startButton7";
+            this.startButton7.Size = new System.Drawing.Size(75, 23);
+            this.startButton7.TabIndex = 46;
+            this.startButton7.Text = "Start";
+            this.startButton7.UseVisualStyleBackColor = false;
+            this.startButton7.Click += new System.EventHandler(this.startButton7_Click);
             // 
             // label24
             // 
@@ -882,49 +882,52 @@ namespace MVPTimer
             this.label24.Text = "(Holy)";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel7
+            // DrakeUBI
             // 
-            this.linkLabel7.AutoSize = true;
-            this.linkLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel7.Location = new System.Drawing.Point(81, 265);
-            this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(64, 17);
-            this.linkLabel7.TabIndex = 44;
-            this.linkLabel7.TabStop = true;
-            this.linkLabel7.Text = "Abbey02";
-            this.linkLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel7.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DrakeUBI.AutoSize = true;
+            this.DrakeUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DrakeUBI.Location = new System.Drawing.Point(73, 265);
+            this.DrakeUBI.Name = "DrakeUBI";
+            this.DrakeUBI.Size = new System.Drawing.Size(82, 17);
+            this.DrakeUBI.TabIndex = 44;
+            this.DrakeUBI.TabStop = true;
+            this.DrakeUBI.Text = "Treasure02";
+            this.DrakeUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DrakeUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DrakeUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel7_LinkClicked);
             // 
-            // label25
+            // timerLabel6
             // 
-            this.label25.AutoSize = true;
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label25.Location = new System.Drawing.Point(52, 305);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(122, 33);
-            this.label25.TabIndex = 42;
-            this.label25.Text = "00:00:00";
+            this.timerLabel6.AutoSize = true;
+            this.timerLabel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel6.Location = new System.Drawing.Point(52, 305);
+            this.timerLabel6.Name = "timerLabel6";
+            this.timerLabel6.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel6.TabIndex = 42;
+            this.timerLabel6.Text = "00:00:00";
             // 
-            // button13
+            // resetButton6
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button13.Location = new System.Drawing.Point(126, 356);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 41;
-            this.button13.Text = "Reset";
-            this.button13.UseVisualStyleBackColor = false;
+            this.resetButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton6.Location = new System.Drawing.Point(126, 356);
+            this.resetButton6.Name = "resetButton6";
+            this.resetButton6.Size = new System.Drawing.Size(75, 23);
+            this.resetButton6.TabIndex = 41;
+            this.resetButton6.Text = "Reset";
+            this.resetButton6.UseVisualStyleBackColor = false;
+            this.resetButton6.Click += new System.EventHandler(this.resetButton6_Click);
             // 
-            // button14
+            // startButton6
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button14.Location = new System.Drawing.Point(25, 356);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 40;
-            this.button14.Text = "Start";
-            this.button14.UseVisualStyleBackColor = false;
+            this.startButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton6.Location = new System.Drawing.Point(25, 356);
+            this.startButton6.Name = "startButton6";
+            this.startButton6.Size = new System.Drawing.Size(75, 23);
+            this.startButton6.TabIndex = 40;
+            this.startButton6.Text = "Start";
+            this.startButton6.UseVisualStyleBackColor = false;
+            this.startButton6.Click += new System.EventHandler(this.startButton6_Click);
             // 
             // pictureBox8
             // 
@@ -960,142 +963,6 @@ namespace MVPTimer
             this.pictureBox10.TabIndex = 59;
             this.pictureBox10.TabStop = false;
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(711, 436);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(39, 22);
-            this.label26.TabIndex = 105;
-            this.label26.Text = "Ifrit";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(892, 436);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(85, 22);
-            this.label27.TabIndex = 107;
-            this.label27.Text = "Amon Ra";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label28.ForeColor = System.Drawing.Color.Red;
-            this.label28.Location = new System.Drawing.Point(913, 458);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(36, 15);
-            this.label28.TabIndex = 109;
-            this.label28.Text = "(Fire)";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label29.Location = new System.Drawing.Point(708, 458);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(47, 15);
-            this.label29.TabIndex = 106;
-            this.label29.Text = "(Water)";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // linkLabel8
-            // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel8.Location = new System.Drawing.Point(891, 471);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(86, 17);
-            this.linkLabel8.TabIndex = 103;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "Moc_pryd06";
-            this.linkLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel8.VisitedLinkColor = System.Drawing.Color.Blue;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label30.Location = new System.Drawing.Point(875, 511);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(122, 33);
-            this.label30.TabIndex = 102;
-            this.label30.Text = "00:00:00";
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button15.Location = new System.Drawing.Point(951, 562);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 101;
-            this.button15.Text = "Reset";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button16.Location = new System.Drawing.Point(850, 562);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 100;
-            this.button16.Text = "Start";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // linkLabel9
-            // 
-            this.linkLabel9.AutoSize = true;
-            this.linkLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel9.Location = new System.Drawing.Point(697, 471);
-            this.linkLabel9.Name = "linkLabel9";
-            this.linkLabel9.Size = new System.Drawing.Size(69, 17);
-            this.linkLabel9.TabIndex = 99;
-            this.linkLabel9.TabStop = true;
-            this.linkLabel9.Text = "Thor_v03";
-            this.linkLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel9.VisitedLinkColor = System.Drawing.Color.Blue;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label31.Location = new System.Drawing.Point(676, 511);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(122, 33);
-            this.label31.TabIndex = 98;
-            this.label31.Text = "00:00:00";
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button17.Location = new System.Drawing.Point(746, 562);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 97;
-            this.button17.Text = "Reset";
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button18.Location = new System.Drawing.Point(645, 562);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 96;
-            this.button18.Text = "Start";
-            this.button18.UseVisualStyleBackColor = false;
-            // 
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -1123,11 +990,11 @@ namespace MVPTimer
             this.label32.AutoSize = true;
             this.label32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(21, 436);
+            this.label32.Location = new System.Drawing.Point(76, 436);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(182, 22);
+            this.label32.Size = new System.Drawing.Size(73, 22);
             this.label32.TabIndex = 78;
-            this.label32.Text = "Fallen Bishop Hibram";
+            this.label32.Text = "Dracula";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label33
@@ -1135,136 +1002,59 @@ namespace MVPTimer
             this.label33.AutoSize = true;
             this.label33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(299, 436);
+            this.label33.Location = new System.Drawing.Point(260, 436);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(39, 22);
+            this.label33.Size = new System.Drawing.Size(124, 22);
             this.label33.TabIndex = 91;
-            this.label33.Text = "Ifrit";
+            this.label33.Text = "Doppelganger";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label34
+            // DoppelUBI
             // 
-            this.label34.AutoSize = true;
-            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(480, 436);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(85, 22);
-            this.label34.TabIndex = 93;
-            this.label34.Text = "Amon Ra";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DoppelUBI.AutoSize = true;
+            this.DoppelUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DoppelUBI.Location = new System.Drawing.Point(282, 471);
+            this.DoppelUBI.Name = "DoppelUBI";
+            this.DoppelUBI.Size = new System.Drawing.Size(79, 17);
+            this.DoppelUBI.TabIndex = 84;
+            this.DoppelUBI.TabStop = true;
+            this.DoppelUBI.Text = "Gef_dun02";
+            this.DoppelUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DoppelUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DoppelUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.DoppelUBI_LinkClicked);
             // 
-            // label35
+            // timerLabel12
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label35.ForeColor = System.Drawing.Color.Red;
-            this.label35.Location = new System.Drawing.Point(501, 458);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(36, 15);
-            this.label35.TabIndex = 95;
-            this.label35.Text = "(Fire)";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.timerLabel12.AutoSize = true;
+            this.timerLabel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel12.Location = new System.Drawing.Point(264, 511);
+            this.timerLabel12.Name = "timerLabel12";
+            this.timerLabel12.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel12.TabIndex = 83;
+            this.timerLabel12.Text = "00:00:00";
             // 
-            // label36
+            // resetButton12
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label36.Location = new System.Drawing.Point(296, 458);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(47, 15);
-            this.label36.TabIndex = 92;
-            this.label36.Text = "(Water)";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.resetButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton12.Location = new System.Drawing.Point(334, 562);
+            this.resetButton12.Name = "resetButton12";
+            this.resetButton12.Size = new System.Drawing.Size(75, 23);
+            this.resetButton12.TabIndex = 82;
+            this.resetButton12.Text = "Reset";
+            this.resetButton12.UseVisualStyleBackColor = false;
+            this.resetButton12.Click += new System.EventHandler(this.resetButton12_Click);
             // 
-            // linkLabel10
+            // startButton12
             // 
-            this.linkLabel10.AutoSize = true;
-            this.linkLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel10.Location = new System.Drawing.Point(479, 471);
-            this.linkLabel10.Name = "linkLabel10";
-            this.linkLabel10.Size = new System.Drawing.Size(86, 17);
-            this.linkLabel10.TabIndex = 88;
-            this.linkLabel10.TabStop = true;
-            this.linkLabel10.Text = "Moc_pryd06";
-            this.linkLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel10.VisitedLinkColor = System.Drawing.Color.Blue;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label37.Location = new System.Drawing.Point(463, 511);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(122, 33);
-            this.label37.TabIndex = 87;
-            this.label37.Text = "00:00:00";
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button19.Location = new System.Drawing.Point(539, 562);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 86;
-            this.button19.Text = "Reset";
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button20.Location = new System.Drawing.Point(438, 562);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 85;
-            this.button20.Text = "Start";
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // linkLabel11
-            // 
-            this.linkLabel11.AutoSize = true;
-            this.linkLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel11.Location = new System.Drawing.Point(285, 471);
-            this.linkLabel11.Name = "linkLabel11";
-            this.linkLabel11.Size = new System.Drawing.Size(69, 17);
-            this.linkLabel11.TabIndex = 84;
-            this.linkLabel11.TabStop = true;
-            this.linkLabel11.Text = "Thor_v03";
-            this.linkLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel11.VisitedLinkColor = System.Drawing.Color.Blue;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label38.Location = new System.Drawing.Point(264, 511);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(122, 33);
-            this.label38.TabIndex = 83;
-            this.label38.Text = "00:00:00";
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button21.Location = new System.Drawing.Point(334, 562);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 82;
-            this.button21.Text = "Reset";
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button22.Location = new System.Drawing.Point(233, 562);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 81;
-            this.button22.Text = "Start";
-            this.button22.UseVisualStyleBackColor = false;
+            this.startButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton12.Location = new System.Drawing.Point(233, 562);
+            this.startButton12.Name = "startButton12";
+            this.startButton12.Size = new System.Drawing.Size(75, 23);
+            this.startButton12.TabIndex = 81;
+            this.startButton12.Text = "Start";
+            this.startButton12.UseVisualStyleBackColor = false;
+            this.startButton12.Click += new System.EventHandler(this.startButton12_Click);
             // 
             // label39
             // 
@@ -1278,49 +1068,52 @@ namespace MVPTimer
             this.label39.Text = "(Holy)";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel12
+            // DraculaUBI
             // 
-            this.linkLabel12.AutoSize = true;
-            this.linkLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel12.Location = new System.Drawing.Point(81, 471);
-            this.linkLabel12.Name = "linkLabel12";
-            this.linkLabel12.Size = new System.Drawing.Size(64, 17);
-            this.linkLabel12.TabIndex = 79;
-            this.linkLabel12.TabStop = true;
-            this.linkLabel12.Text = "Abbey02";
-            this.linkLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel12.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DraculaUBI.AutoSize = true;
+            this.DraculaUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DraculaUBI.Location = new System.Drawing.Point(75, 471);
+            this.DraculaUBI.Name = "DraculaUBI";
+            this.DraculaUBI.Size = new System.Drawing.Size(79, 17);
+            this.DraculaUBI.TabIndex = 79;
+            this.DraculaUBI.TabStop = true;
+            this.DraculaUBI.Text = "Gef_dun01";
+            this.DraculaUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DraculaUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DraculaUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.DraculaUBI_LinkClicked);
             // 
-            // label40
+            // timerLabel11
             // 
-            this.label40.AutoSize = true;
-            this.label40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label40.Location = new System.Drawing.Point(52, 511);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(122, 33);
-            this.label40.TabIndex = 77;
-            this.label40.Text = "00:00:00";
+            this.timerLabel11.AutoSize = true;
+            this.timerLabel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel11.Location = new System.Drawing.Point(52, 511);
+            this.timerLabel11.Name = "timerLabel11";
+            this.timerLabel11.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel11.TabIndex = 77;
+            this.timerLabel11.Text = "00:00:00";
             // 
-            // button23
+            // resetButton11
             // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button23.Location = new System.Drawing.Point(126, 562);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 76;
-            this.button23.Text = "Reset";
-            this.button23.UseVisualStyleBackColor = false;
+            this.resetButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton11.Location = new System.Drawing.Point(126, 562);
+            this.resetButton11.Name = "resetButton11";
+            this.resetButton11.Size = new System.Drawing.Size(75, 23);
+            this.resetButton11.TabIndex = 76;
+            this.resetButton11.Text = "Reset";
+            this.resetButton11.UseVisualStyleBackColor = false;
+            this.resetButton11.Click += new System.EventHandler(this.resetButton11_Click);
             // 
-            // button24
+            // startButton11
             // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button24.Location = new System.Drawing.Point(25, 562);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 75;
-            this.button24.Text = "Start";
-            this.button24.UseVisualStyleBackColor = false;
+            this.startButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton11.Location = new System.Drawing.Point(25, 562);
+            this.startButton11.Name = "startButton11";
+            this.startButton11.Size = new System.Drawing.Size(75, 23);
+            this.startButton11.TabIndex = 75;
+            this.startButton11.Text = "Start";
+            this.startButton11.UseVisualStyleBackColor = false;
+            this.startButton11.Click += new System.EventHandler(this.startButton11_Click);
             // 
             // pictureBox13
             // 
@@ -1356,6 +1149,243 @@ namespace MVPTimer
             this.pictureBox15.TabIndex = 94;
             this.pictureBox15.TabStop = false;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label9.ForeColor = System.Drawing.Color.Red;
+            this.label9.Location = new System.Drawing.Point(714, 252);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(36, 15);
+            this.label9.TabIndex = 110;
+            this.label9.Text = "(Fire)";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label10.ForeColor = System.Drawing.Color.Silver;
+            this.label10.Location = new System.Drawing.Point(300, 458);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(39, 15);
+            this.label10.TabIndex = 111;
+            this.label10.Text = "(Holy)";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label14.ForeColor = System.Drawing.Color.Silver;
+            this.label14.Location = new System.Drawing.Point(503, 458);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(39, 15);
+            this.label14.TabIndex = 117;
+            this.label14.Text = "(Holy)";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(463, 436);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(124, 22);
+            this.label15.TabIndex = 116;
+            this.label15.Text = "Doppelganger";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DoppeUBI
+            // 
+            this.DoppeUBI.AutoSize = true;
+            this.DoppeUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DoppeUBI.Location = new System.Drawing.Point(485, 471);
+            this.DoppeUBI.Name = "DoppeUBI";
+            this.DoppeUBI.Size = new System.Drawing.Size(79, 17);
+            this.DoppeUBI.TabIndex = 115;
+            this.DoppeUBI.TabStop = true;
+            this.DoppeUBI.Text = "Gef_dun03";
+            this.DoppeUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DoppeUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DoppeUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.DoppeUBI_LinkClicked);
+            // 
+            // timerLabel13
+            // 
+            this.timerLabel13.AutoSize = true;
+            this.timerLabel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel13.Location = new System.Drawing.Point(467, 511);
+            this.timerLabel13.Name = "timerLabel13";
+            this.timerLabel13.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel13.TabIndex = 114;
+            this.timerLabel13.Text = "00:00:00";
+            // 
+            // resetButton13
+            // 
+            this.resetButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton13.Location = new System.Drawing.Point(537, 562);
+            this.resetButton13.Name = "resetButton13";
+            this.resetButton13.Size = new System.Drawing.Size(75, 23);
+            this.resetButton13.TabIndex = 113;
+            this.resetButton13.Text = "Reset";
+            this.resetButton13.UseVisualStyleBackColor = false;
+            this.resetButton13.Click += new System.EventHandler(this.resetButton13_Click);
+            // 
+            // startButton13
+            // 
+            this.startButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton13.Location = new System.Drawing.Point(436, 562);
+            this.startButton13.Name = "startButton13";
+            this.startButton13.Size = new System.Drawing.Size(75, 23);
+            this.startButton13.TabIndex = 112;
+            this.startButton13.Text = "Start";
+            this.startButton13.UseVisualStyleBackColor = false;
+            this.startButton13.Click += new System.EventHandler(this.startButton13_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label22.ForeColor = System.Drawing.Color.Silver;
+            this.label22.Location = new System.Drawing.Point(712, 458);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(39, 15);
+            this.label22.TabIndex = 123;
+            this.label22.Text = "(Holy)";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(690, 436);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(90, 22);
+            this.label23.TabIndex = 122;
+            this.label23.Text = "Dark Lord";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DarkLordUBI
+            // 
+            this.DarkLordUBI.AutoSize = true;
+            this.DarkLordUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DarkLordUBI.Location = new System.Drawing.Point(694, 471);
+            this.DarkLordUBI.Name = "DarkLordUBI";
+            this.DarkLordUBI.Size = new System.Drawing.Size(79, 17);
+            this.DarkLordUBI.TabIndex = 121;
+            this.DarkLordUBI.TabStop = true;
+            this.DarkLordUBI.Text = "Gef_dun03";
+            this.DarkLordUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DarkLordUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DarkLordUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.DarkLordUBI_LinkClicked);
+            // 
+            // timerLabel14
+            // 
+            this.timerLabel14.AutoSize = true;
+            this.timerLabel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel14.Location = new System.Drawing.Point(676, 511);
+            this.timerLabel14.Name = "timerLabel14";
+            this.timerLabel14.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel14.TabIndex = 120;
+            this.timerLabel14.Text = "00:00:00";
+            // 
+            // resetButton14
+            // 
+            this.resetButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton14.Location = new System.Drawing.Point(746, 562);
+            this.resetButton14.Name = "resetButton14";
+            this.resetButton14.Size = new System.Drawing.Size(75, 23);
+            this.resetButton14.TabIndex = 119;
+            this.resetButton14.Text = "Reset";
+            this.resetButton14.UseVisualStyleBackColor = false;
+            this.resetButton14.Click += new System.EventHandler(this.resetButton14_Click);
+            // 
+            // startButton14
+            // 
+            this.startButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton14.Location = new System.Drawing.Point(645, 562);
+            this.startButton14.Name = "startButton14";
+            this.startButton14.Size = new System.Drawing.Size(75, 23);
+            this.startButton14.TabIndex = 118;
+            this.startButton14.Text = "Start";
+            this.startButton14.UseVisualStyleBackColor = false;
+            this.startButton14.Click += new System.EventHandler(this.startButton14_Click);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label26.ForeColor = System.Drawing.Color.Silver;
+            this.label26.Location = new System.Drawing.Point(911, 458);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(39, 15);
+            this.label26.TabIndex = 129;
+            this.label26.Text = "(Holy)";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(887, 436);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(93, 22);
+            this.label27.TabIndex = 128;
+            this.label27.Text = "Baphomet";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BaphoUBI
+            // 
+            this.BaphoUBI.AutoSize = true;
+            this.BaphoUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BaphoUBI.Location = new System.Drawing.Point(893, 471);
+            this.BaphoUBI.Name = "BaphoUBI";
+            this.BaphoUBI.Size = new System.Drawing.Size(79, 17);
+            this.BaphoUBI.TabIndex = 127;
+            this.BaphoUBI.TabStop = true;
+            this.BaphoUBI.Text = "Gef_dun03";
+            this.BaphoUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BaphoUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.BaphoUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BaphoUBI_LinkClicked);
+            // 
+            // timerLabel15
+            // 
+            this.timerLabel15.AutoSize = true;
+            this.timerLabel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel15.Location = new System.Drawing.Point(875, 511);
+            this.timerLabel15.Name = "timerLabel15";
+            this.timerLabel15.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel15.TabIndex = 126;
+            this.timerLabel15.Text = "00:00:00";
+            // 
+            // resetButton15
+            // 
+            this.resetButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton15.Location = new System.Drawing.Point(951, 562);
+            this.resetButton15.Name = "resetButton15";
+            this.resetButton15.Size = new System.Drawing.Size(75, 23);
+            this.resetButton15.TabIndex = 125;
+            this.resetButton15.Text = "Reset";
+            this.resetButton15.UseVisualStyleBackColor = false;
+            this.resetButton15.Click += new System.EventHandler(this.resetButton15_Click);
+            // 
+            // startButton15
+            // 
+            this.startButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton15.Location = new System.Drawing.Point(850, 562);
+            this.startButton15.Name = "startButton15";
+            this.startButton15.Size = new System.Drawing.Size(75, 23);
+            this.startButton15.TabIndex = 124;
+            this.startButton15.Text = "Start";
+            this.startButton15.UseVisualStyleBackColor = false;
+            this.startButton15.Click += new System.EventHandler(this.startButton15_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1365,51 +1395,51 @@ namespace MVPTimer
             this.ClientSize = new System.Drawing.Size(1049, 636);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.linkLabel8);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.linkLabel9);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.BaphoUBI);
+            this.Controls.Add(this.timerLabel15);
+            this.Controls.Add(this.resetButton15);
+            this.Controls.Add(this.startButton15);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.DarkLordUBI);
+            this.Controls.Add(this.timerLabel14);
+            this.Controls.Add(this.resetButton14);
+            this.Controls.Add(this.startButton14);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.DoppeUBI);
+            this.Controls.Add(this.timerLabel13);
+            this.Controls.Add(this.resetButton13);
+            this.Controls.Add(this.startButton13);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.label32);
             this.Controls.Add(this.label33);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.linkLabel10);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.linkLabel11);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
+            this.Controls.Add(this.DoppelUBI);
+            this.Controls.Add(this.timerLabel12);
+            this.Controls.Add(this.resetButton12);
+            this.Controls.Add(this.startButton12);
             this.Controls.Add(this.label39);
-            this.Controls.Add(this.linkLabel12);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
+            this.Controls.Add(this.DraculaUBI);
+            this.Controls.Add(this.timerLabel11);
+            this.Controls.Add(this.resetButton11);
+            this.Controls.Add(this.startButton11);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.linkLabel4);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.OrcHeroUBI);
+            this.Controls.Add(this.timerLabel10);
+            this.Controls.Add(this.resetButton10);
+            this.Controls.Add(this.startButton10);
+            this.Controls.Add(this.OrcLordUBI);
+            this.Controls.Add(this.timerLabel9);
+            this.Controls.Add(this.resetButton9);
+            this.Controls.Add(this.startButton9);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.label17);
@@ -1417,19 +1447,19 @@ namespace MVPTimer
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.linkLabel5);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.linkLabel6);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.MayaUBI);
+            this.Controls.Add(this.timerLabel8);
+            this.Controls.Add(this.resetButton8);
+            this.Controls.Add(this.startButton8);
+            this.Controls.Add(this.TaoUBI);
+            this.Controls.Add(this.timerLabel7);
+            this.Controls.Add(this.resetButton7);
+            this.Controls.Add(this.startButton7);
             this.Controls.Add(this.label24);
-            this.Controls.Add(this.linkLabel7);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
+            this.Controls.Add(this.DrakeUBI);
+            this.Controls.Add(this.timerLabel6);
+            this.Controls.Add(this.resetButton6);
+            this.Controls.Add(this.startButton6);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox10);
@@ -1532,15 +1562,14 @@ namespace MVPTimer
         private Label label11;
         private Label label12;
         private Label label13;
-        private Label label14;
-        private LinkLabel linkLabel3;
-        private Label label15;
-        private Button button5;
-        private Button button6;
-        private LinkLabel linkLabel4;
-        private Label label16;
-        private Button button7;
-        private Button button8;
+        private LinkLabel OrcHeroUBI;
+        private Label timerLabel10;
+        private Button resetButton10;
+        private Button startButton10;
+        private LinkLabel OrcLordUBI;
+        private Label timerLabel9;
+        private Button resetButton9;
+        private Button startButton9;
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
         private Label label17;
@@ -1548,57 +1577,58 @@ namespace MVPTimer
         private Label label19;
         private Label label20;
         private Label label21;
-        private LinkLabel linkLabel5;
-        private Label label22;
-        private Button button9;
-        private Button button10;
-        private LinkLabel linkLabel6;
-        private Label label23;
-        private Button button11;
-        private Button button12;
+        private LinkLabel MayaUBI;
+        private Label timerLabel8;
+        private Button resetButton8;
+        private Button startButton8;
+        private LinkLabel TaoUBI;
+        private Label timerLabel7;
+        private Button resetButton7;
+        private Button startButton7;
         private Label label24;
-        private LinkLabel linkLabel7;
-        private Label label25;
-        private Button button13;
-        private Button button14;
+        private LinkLabel DrakeUBI;
+        private Label timerLabel6;
+        private Button resetButton6;
+        private Button startButton6;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
-        private Label label26;
-        private Label label27;
-        private Label label28;
-        private Label label29;
-        private LinkLabel linkLabel8;
-        private Label label30;
-        private Button button15;
-        private Button button16;
-        private LinkLabel linkLabel9;
-        private Label label31;
-        private Button button17;
-        private Button button18;
         private PictureBox pictureBox11;
         private PictureBox pictureBox12;
         private Label label32;
         private Label label33;
-        private Label label34;
-        private Label label35;
-        private Label label36;
-        private LinkLabel linkLabel10;
-        private Label label37;
-        private Button button19;
-        private Button button20;
-        private LinkLabel linkLabel11;
-        private Label label38;
-        private Button button21;
-        private Button button22;
+        private LinkLabel DoppelUBI;
+        private Label timerLabel12;
+        private Button resetButton12;
+        private Button startButton12;
         private Label label39;
-        private LinkLabel linkLabel12;
-        private Label label40;
-        private Button button23;
-        private Button button24;
+        private LinkLabel DraculaUBI;
+        private Label timerLabel11;
+        private Button resetButton11;
+        private Button startButton11;
         private PictureBox pictureBox13;
         private PictureBox pictureBox14;
         private PictureBox pictureBox15;
+        private Label label9;
+        private Label label10;
+        private Label label14;
+        private Label label15;
+        private LinkLabel DoppeUBI;
+        private Label timerLabel13;
+        private Button resetButton13;
+        private Button startButton13;
+        private Label label22;
+        private Label label23;
+        private LinkLabel DarkLordUBI;
+        private Label timerLabel14;
+        private Button resetButton14;
+        private Button startButton14;
+        private Label label26;
+        private Label label27;
+        private LinkLabel BaphoUBI;
+        private Label timerLabel15;
+        private Button resetButton15;
+        private Button startButton15;
     }
 }
 
