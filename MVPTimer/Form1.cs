@@ -1,720 +1,126 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
-
 
 namespace MVPTimer
 {
     public partial class Form1 : Form
     {
         private System.Media.SoundPlayer player;
-        private Timer timer1;
-        private Timer timer2;
-        private Timer timer3;
-        private Timer timer4;
-        private Timer timer5;
-        private Timer timer6;
-        private Timer timer7;
-        private Timer timer8;
-        private Timer timer9;
-        private Timer timer10;
-        private Timer timer11;
-        private Timer timer12;
-        private Timer timer13;
-        private Timer timer14;
-        private Timer timer15;
-        private int totalSeconds1; // Total de segundos del primer temporizador
-        private int remainingSeconds1; // Segundos restantes del primer temporizador
-        private int totalSeconds2; 
-        private int remainingSeconds2; 
-        private int totalSeconds3; 
-        private int remainingSeconds3;
-        private int totalSeconds4; 
-        private int remainingSeconds4;
-        private int totalSeconds5; 
-        private int remainingSeconds5;
-        private int totalSeconds6; 
-        private int remainingSeconds6;
-        private int totalSeconds7;
-        private int remainingSeconds7;
-        private int totalSeconds8;
-        private int remainingSeconds8;
-        private int totalSeconds9;
-        private int remainingSeconds9;
-        private int totalSeconds10;
-        private int remainingSeconds10;
-        private int totalSeconds11;
-        private int remainingSeconds11;
-        private int totalSeconds12;
-        private int remainingSeconds12;
-        private int totalSeconds13;
-        private int remainingSeconds13;
-        private int totalSeconds14;
-        private int remainingSeconds14;
-        private int totalSeconds15;
-        private int remainingSeconds15;
+        private List<Timer> timers;
+        private List<int> totalSeconds;
+        private List<int> remainingSeconds;
+        private List<bool> timerExpiredFlags;
+        private List<Label> timerLabels;
+        private List<Button> startButtons;
+        private List<Button> resetButtons;
+        private List<PictureBox> imageMessages;
+
         public Form1()
         {
             InitializeComponent();
             player = new System.Media.SoundPlayer(@"C:\Users\Kaiser\Downloads\LVL-UP.wav");
-            // Configurar el primer temporizador
-            timer1 = new Timer();
-            timer1.Interval = 1000; // Actualiza el temporizador cada segundo
-            timer1.Tick += Timer1_Tick;
-            totalSeconds1 = 3600; // 1 hora para el primer temporizador (puedes cambiar este valor)
-            remainingSeconds1 = totalSeconds1;
-            UpdateTimerLabel(timerLabel1, remainingSeconds1); // Actualizar la etiqueta del primer temporizador
+            InitializeTimers();
+            this.MinimumSize = new Size(250, 287);
+            this.MaximumSize = new Size(1069, 730);
+        }
+        private void InitializeTimers()
+        {
+            timers = new List<Timer>();
+            totalSeconds = new List<int>();
+            remainingSeconds = new List<int>();
+            timerExpiredFlags = new List<bool>();
+            timerLabels = new List<Label>();
+            startButtons = new List<Button>();
+            resetButtons = new List<Button>();
+            imageMessages = new List<PictureBox>();
 
-            // Configurar el segundo temporizador
-            timer2 = new Timer();
-            timer2.Interval = 1000; 
-            timer2.Tick += Timer2_Tick;
-            totalSeconds2 = 2400; 
-            remainingSeconds2 = totalSeconds2;
-            UpdateTimerLabel(timerLabel2, remainingSeconds2); 
-            // Configurar el tercer temporizador
-            timer3 = new Timer();
-            timer3.Interval = 1000; 
-            timer3.Tick += Timer3_Tick;
-            totalSeconds3 = 3600; 
-            remainingSeconds3 = totalSeconds3;
-            UpdateTimerLabel(timerLabel3, remainingSeconds3); 
-            // Configurar el cuarto temporizador
-            timer4 = new Timer();
-            timer4.Interval = 1000; 
-            timer4.Tick += Timer4_Tick;
-            totalSeconds4 = 3600; 
-            remainingSeconds4 = totalSeconds4;
-            UpdateTimerLabel(timerLabel4, remainingSeconds4);
-            // Configurar el quinto temporizador
-            timer5 = new Timer();
-            timer5.Interval = 1000;
-            timer5.Tick += Timer5_Tick;
-            totalSeconds5 = 3600;
-            remainingSeconds5 = totalSeconds5;
-            UpdateTimerLabel(timerLabel5, remainingSeconds5);
-            // Configurar el sexto temporizador
-            timer6 = new Timer();
-            timer6.Interval = 1000;
-            timer6.Tick += Timer6_Tick;
-            totalSeconds6 = 7200;
-            remainingSeconds6 = totalSeconds6;
-            UpdateTimerLabel(timerLabel6, remainingSeconds6);
-            // Configurar el septimo temporizador
-            timer7 = new Timer();
-            timer7.Interval = 1000;
-            timer7.Tick += Timer7_Tick;
-            totalSeconds7 = 3600;
-            remainingSeconds7 = totalSeconds7;
-            UpdateTimerLabel(timerLabel7, remainingSeconds7);
-            // Configurar el octavo temporizador
-            timer8 = new Timer();
-            timer8.Interval = 1000;
-            timer8.Tick += Timer8_Tick;
-            totalSeconds8 = 3600;
-            remainingSeconds8 = totalSeconds8;
-            UpdateTimerLabel(timerLabel8, remainingSeconds8);
-            // Configurar el noveno temporizador
-            timer9 = new Timer();
-            timer9.Interval = 1000;
-            timer9.Tick += Timer9_Tick;
-            totalSeconds9 = 2400;
-            remainingSeconds9 = totalSeconds9;
-            UpdateTimerLabel(timerLabel9, remainingSeconds9);
-            // Configurar el decimo temporizador
-            timer10 = new Timer();
-            timer10.Interval = 1000;
-            timer10.Tick += Timer10_Tick;
-            totalSeconds10 = 3600;
-            remainingSeconds10 = totalSeconds10;
-            UpdateTimerLabel(timerLabel10, remainingSeconds10);
-            // Configurar el undecimo temporizador
-            timer11 = new Timer();
-            timer11.Interval = 1000;
-            timer11.Tick += Timer11_Tick;
-            totalSeconds11 = 600;
-            remainingSeconds11 = totalSeconds11;
-            UpdateTimerLabel(timerLabel11, remainingSeconds11);
-            // Configurar el duodecimo temporizador
-            timer12 = new Timer();
-            timer12.Interval = 1000;
-            timer12.Tick += Timer12_Tick;
-            totalSeconds12 = 600;
-            remainingSeconds12 = totalSeconds12;
-            UpdateTimerLabel(timerLabel12, remainingSeconds12);
-            // Configurar el decimotercero temporizador
-            timer13 = new Timer();
-            timer13.Interval = 1000;
-            timer13.Tick += Timer13_Tick;
-            totalSeconds13 = 600;
-            remainingSeconds13 = totalSeconds13;
-            UpdateTimerLabel(timerLabel13, remainingSeconds13);
-            // Configurar el decimocuarto temporizador
-            timer14 = new Timer();
-            timer14.Interval = 1000;
-            timer14.Tick += Timer14_Tick;
-            totalSeconds14 = 600;
-            remainingSeconds14 = totalSeconds14;
-            UpdateTimerLabel(timerLabel14, remainingSeconds14);
-            // Configurar el decimoquinto temporizador
-            timer15 = new Timer();
-            timer15.Interval = 1000;
-            timer15.Tick += Timer15_Tick;
-            totalSeconds15 = 600;
-            remainingSeconds15 = totalSeconds15;
-            UpdateTimerLabel(timerLabel15, remainingSeconds15);
+            // Agregar los controles a las listas
+            totalSeconds.AddRange(new int[] { 3600, 2400, 3600, 3600, 3600, 7200, 3600, 3600, 2400, 3600, 600, 600, 600, 600, 600 });
+            remainingSeconds.AddRange(totalSeconds);
+            timerExpiredFlags.AddRange(new bool[15]);
+            timerLabels.AddRange(new Label[] { timerLabel1, timerLabel2, timerLabel3, timerLabel4, timerLabel5, timerLabel6, timerLabel7, timerLabel8, timerLabel9, timerLabel10, timerLabel11, timerLabel12, timerLabel13, timerLabel14, timerLabel15 });
+            startButtons.AddRange(new Button[] { startButton1, startButton2, startButton3, startButton4, startButton5, startButton6, startButton7, startButton8, startButton9, startButton10, startButton11, startButton12, startButton13, startButton14, startButton15 });
+            resetButtons.AddRange(new Button[] { resetButton1, resetButton2, resetButton3, resetButton4, resetButton5, resetButton6, resetButton7, resetButton8, resetButton9, resetButton10, resetButton11, resetButton12, resetButton13, resetButton14, resetButton15 });
+            imageMessages.AddRange(new PictureBox[] { imageMessage1, imageMessage2, imageMessage3, imageMessage4, imageMessage5, imageMessage6, imageMessage7, imageMessage8, imageMessage9, imageMessage10, imageMessage11, imageMessage12, imageMessage13, imageMessage14, imageMessage15 });
+
+            // Crear y configurar los temporizadores
+            for (int i = 0; i < totalSeconds.Count; i++)
+            {
+                Timer timer = new Timer();
+                timer.Interval = 1000;
+                timers.Add(timer);
+                int index = i; // Variable de captura necesaria para el cierre sobre la variable en el evento
+                startButtons[i].Click += (sender, e) => StartTimer(index);
+                resetButtons[i].Click += (sender, e) => ResetTimer(index);
+                timers[i].Tick += (sender, e) => Timer_Tick(index);
+                UpdateTimerLabel(timerLabels[i], remainingSeconds[i]);
+            }
         }
 
-        private void UpdateTimerLabel(System.Windows.Forms.Label label, int remainingSeconds)
+        private void StartTimer(int index)
         {
-            TimeSpan time = TimeSpan.FromSeconds(remainingSeconds);
+            if (!timerExpiredFlags[index])
+            {
+                timers[index].Start(); // Iniciar el temporizador solo si no ha expirado
+            }
+        }
+
+        private void ResetTimer(int index)
+        {
+            timerExpiredFlags[index] = false; // Reiniciar la bandera
+            timers[index].Stop(); // Detener el temporizador
+            remainingSeconds[index] = totalSeconds[index]; // Restablecer el tiempo restante del temporizador
+            UpdateTimerLabel(timerLabels[index], remainingSeconds[index]);
+            imageMessages[index].Visible = false; // Ocultar el control PictureBox
+        }
+
+        private void Timer_Tick(int index)
+        {
+            remainingSeconds[index]--; // Decrementar los segundos restantes del temporizador
+            if (remainingSeconds[index] >= 0)
+            {
+                UpdateTimerLabel(timerLabels[index], remainingSeconds[index]); // Actualizar la etiqueta del temporizador
+            }
+            else
+            {
+                timerExpiredFlags[index] = true; // Establecer la bandera de expiración
+                timers[index].Stop(); // Detener el temporizador
+                player.Play(); // Reproducir el sonido de la alarma
+                imageMessages[index].Visible = true; // Mostrar el control PictureBox
+            }
+        }
+
+        private void UpdateTimerLabel(Label label, int seconds)
+        {
+            TimeSpan time = TimeSpan.FromSeconds(seconds);
             label.Text = time.ToString(@"hh\:mm\:ss");
         }
 
-        private bool timer1Expired = false; // Bandera para indicar si el temporizador ha expirado
-        private bool timer2Expired = false;
-        private bool timer3Expired = false;
-        private bool timer4Expired = false;
-        private bool timer5Expired = false;
-        private bool timer6Expired = false;
-        private bool timer7Expired = false;
-        private bool timer8Expired = false;
-        private bool timer9Expired = false;
-        private bool timer10Expired = false;
-        private bool timer11Expired = false;
-        private bool timer12Expired = false;
-        private bool timer13Expired = false;
-        private bool timer14Expired = false;
-        private bool timer15Expired = false;
-        // TEMPORIZADOR 1
-        private void startButton1_Click(object sender, EventArgs e)
+        private void PlaySound()
         {
-            if (!timer1Expired)
-            {
-                timer1.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
+            player.Play();
         }
 
-        private void resetButton1_Click(object sender, EventArgs e)
+        private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            timer1Expired = false; // Reiniciar la bandera
-            timer1.Stop(); // Detener el primer temporizador
-            remainingSeconds1 = totalSeconds1; // Restablecer el tiempo restante del primer temporizador
-            UpdateTimerLabel(timerLabel1, remainingSeconds1);
-            imageMessage1.Visible = false; // Ocultar el control Label nuevamente
+            // Cambiar a la pestaña deseada en el TabControl
+            miTabControl.SelectedIndex = 1; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
+        }
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            // Cambiar a la pestaña deseada en el TabControl
+            miTabControl.SelectedIndex = 0; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
+        }
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            // Cambiar a la pestaña deseada en el TabControl
+            miTabControl.SelectedIndex = 2; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
         }
 
-        private void Timer1_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds1--; // Decrementar los segundos restantes del primer temporizador
-            if (remainingSeconds1 >= 0)
-            {
-                UpdateTimerLabel(timerLabel1, remainingSeconds1); // Actualizar la etiqueta del primer temporizador
-            }
-            else
-            {
-                timer1.Stop(); // Detener el primer temporizador cuando llega a 0
-                timer1Expired = true; // Establecer la bandera de expiración
-                imageMessage1.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 1
-
-        // TEMPORIZADOR 2
-        private void startButton2_Click(object sender, EventArgs e)
-        {
-            if (!timer2Expired)
-            {
-                timer2.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton2_Click(object sender, EventArgs e)
-        {
-            timer2Expired = false; // Reiniciar la bandera
-            timer2.Stop(); // Detener el segundo temporizador
-            remainingSeconds2 = totalSeconds2; // Restablecer el tiempo restante del segundo temporizador
-            UpdateTimerLabel(timerLabel2, remainingSeconds2);
-            imageMessage2.Visible = false;
-        }
-
-        private void Timer2_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds2--; 
-            if (remainingSeconds2 >= 0)
-            {
-                UpdateTimerLabel(timerLabel2, remainingSeconds2); 
-            }
-            else
-            {
-                timer2.Stop();
-                timer2Expired = true;
-                imageMessage2.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 2
-        
-        // TEMPORIZADOR 3
-        private void startButton3_Click(object sender, EventArgs e)
-        {
-            if (!timer3Expired)
-            {
-                timer3.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton3_Click(object sender, EventArgs e)
-        {
-            timer3Expired = false; // Reiniciar la bandera
-            timer3.Stop(); 
-            remainingSeconds3 = totalSeconds3; 
-            UpdateTimerLabel(timerLabel3, remainingSeconds3);
-            imageMessage3.Visible = false;
-        }
-        private void Timer3_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds3--; 
-            if (remainingSeconds3 >= 0)
-            {
-                UpdateTimerLabel(timerLabel3, remainingSeconds3); 
-            }
-            else
-            {
-                timer3.Stop();
-                timer3Expired = true;
-                imageMessage3.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 3
-
-        // TEMPORIZADOR 4
-        private void startButton4_Click(object sender, EventArgs e)
-        {
-            if (!timer4Expired)
-            {
-                timer4.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton4_Click(object sender, EventArgs e)
-        {
-            timer4Expired = false; // Reiniciar la bandera
-            timer4.Stop(); 
-            remainingSeconds4 = totalSeconds4; 
-            UpdateTimerLabel(timerLabel4, remainingSeconds4);
-            imageMessage4.Visible = false;
-        }
-
-        private void Timer4_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds4--; 
-            if (remainingSeconds4 >= 0)
-            {
-                UpdateTimerLabel(timerLabel4, remainingSeconds4); 
-            }
-            else
-            {
-                timer4.Stop();
-                timer4Expired = true;
-                imageMessage4.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 4
-
-        // TEMPORIZADOR 5
-        private void startButton5_Click(object sender, EventArgs e)
-        {
-            if (!timer5Expired)
-            {
-                timer5.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton5_Click(object sender, EventArgs e)
-        {
-            timer5Expired = false; // Reiniciar la bandera
-            timer5.Stop(); 
-            remainingSeconds5 = totalSeconds5; 
-            UpdateTimerLabel(timerLabel5, remainingSeconds5);
-            imageMessage5.Visible = false;
-        }
-        private void Timer5_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds5--; 
-            if (remainingSeconds5 >= 0)
-            {
-                UpdateTimerLabel(timerLabel5, remainingSeconds5);
-            }
-            else
-            {
-                timer5.Stop();
-                timer5Expired = true;
-                imageMessage5.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 5
-
-        // TEMPORIZADOR 6
-        private void startButton6_Click(object sender, EventArgs e)
-        {
-            if (!timer6Expired)
-            {
-                timer6.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton6_Click(object sender, EventArgs e)
-        {
-            timer6Expired = false; // Reiniciar la bandera
-            timer6.Stop();
-            remainingSeconds6 = totalSeconds6;
-            UpdateTimerLabel(timerLabel6, remainingSeconds6);
-            imageMessage6.Visible = false;
-        }
-        private void Timer6_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds6--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds6 >= 0)
-            {
-                UpdateTimerLabel(timerLabel6, remainingSeconds6); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer6.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer6Expired = true;
-                imageMessage6.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 6
-
-        // TEMPORIZADOR 7
-        private void startButton7_Click(object sender, EventArgs e)
-        {
-            if (!timer7Expired)
-            {
-                timer7.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton7_Click(object sender, EventArgs e)
-        {
-            timer7Expired = false; // Reiniciar la bandera
-            timer7.Stop();
-            remainingSeconds7 = totalSeconds7;
-            UpdateTimerLabel(timerLabel7, remainingSeconds7);
-            imageMessage7.Visible = false;
-        }
-        private void Timer7_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds7--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds7 >= 0)
-            {
-                UpdateTimerLabel(timerLabel7, remainingSeconds7); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer7.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer7Expired = true;
-                imageMessage7.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 7
-
-        // TEMPORIZADOR 8
-        private void startButton8_Click(object sender, EventArgs e)
-        {
-            if (!timer8Expired)
-            {
-                timer8.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton8_Click(object sender, EventArgs e)
-        {
-            timer8Expired = false; // Reiniciar la bandera
-            timer8.Stop();
-            remainingSeconds8 = totalSeconds8;
-            UpdateTimerLabel(timerLabel8, remainingSeconds8);
-            imageMessage8.Visible = false;
-        }
-        private void Timer8_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds8--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds8 >= 0)
-            {
-                UpdateTimerLabel(timerLabel8, remainingSeconds8); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer8.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer8Expired = true;
-                imageMessage8.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 8
-
-        // TEMPORIZADOR 9
-        private void startButton9_Click(object sender, EventArgs e)
-        {
-            if (!timer9Expired)
-            {
-                timer9.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton9_Click(object sender, EventArgs e)
-        {
-            timer9Expired = false; // Reiniciar la bandera
-            timer9.Stop();
-            remainingSeconds9 = totalSeconds9;
-            UpdateTimerLabel(timerLabel9, remainingSeconds9);
-            imageMessage9.Visible = false;
-        }
-        private void Timer9_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds9--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds9 >= 0)
-            {
-                UpdateTimerLabel(timerLabel9, remainingSeconds9); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer9.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer9Expired = true;
-                imageMessage9.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 9
-
-        // TEMPORIZADOR 10
-        private void startButton10_Click(object sender, EventArgs e)
-        {
-            if (!timer10Expired)
-            {
-                timer10.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton10_Click(object sender, EventArgs e)
-        {
-            timer10Expired = false; // Reiniciar la bandera
-            timer10.Stop();
-            remainingSeconds10 = totalSeconds10;
-            UpdateTimerLabel(timerLabel10, remainingSeconds10);
-            imageMessage10.Visible = false;
-        }
-        private void Timer10_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds10--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds10 >= 0)
-            {
-                UpdateTimerLabel(timerLabel10, remainingSeconds10); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer10.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer10Expired = true;
-                imageMessage10.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 10
-
-        // TEMPORIZADOR 11
-
-        private void startButton11_Click(object sender, EventArgs e)
-        {
-            if (!timer11Expired)
-            {
-                timer11.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton11_Click(object sender, EventArgs e)
-        {
-            timer11Expired = false; // Reiniciar la bandera
-            timer11.Stop();
-            remainingSeconds11 = totalSeconds11;
-            UpdateTimerLabel(timerLabel11, remainingSeconds11);
-            imageMessage11.Visible = false;
-        }
-        private void Timer11_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds11--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds11 >= 0)
-            {
-                UpdateTimerLabel(timerLabel11, remainingSeconds11); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer11.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer11Expired = true;
-                imageMessage11.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 11
-
-        // TEMPORIZADOR 12
-        private void startButton12_Click(object sender, EventArgs e)
-        {
-            if (!timer12Expired)
-            {
-                timer12.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-        private void resetButton12_Click(object sender, EventArgs e)
-        {
-            timer12Expired = false; // Reiniciar la bandera
-            timer12.Stop();
-            remainingSeconds12 = totalSeconds12;
-            UpdateTimerLabel(timerLabel12, remainingSeconds12);
-            imageMessage12.Visible = false;
-        }
-        private void Timer12_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds12--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds12 >= 0)
-            {
-                UpdateTimerLabel(timerLabel12, remainingSeconds12); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer12.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer12Expired = true;
-                imageMessage12.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 12
-
-        // TEMPORIZADOR 13
-        private void startButton13_Click(object sender, EventArgs e)
-        {
-            if (!timer13Expired)
-            {
-                timer13.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton13_Click(object sender, EventArgs e)
-        {
-            timer13Expired = false; // Reiniciar la bandera
-            timer13.Stop();
-            remainingSeconds13 = totalSeconds13;
-            UpdateTimerLabel(timerLabel13, remainingSeconds13);
-            imageMessage13.Visible = false;
-        }
-        private void Timer13_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds13--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds13 >= 0)
-            {
-                UpdateTimerLabel(timerLabel13, remainingSeconds13); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer13.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer13Expired = true;
-                imageMessage13.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 13
-
-        // TEMPORIZADOR 14
-        private void startButton14_Click(object sender, EventArgs e)
-        {
-            if (!timer14Expired)
-            {
-                timer14.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton14_Click(object sender, EventArgs e)
-        {
-            timer14Expired = false; // Reiniciar la bandera
-            timer14.Stop();
-            remainingSeconds14 = totalSeconds14;
-            UpdateTimerLabel(timerLabel14, remainingSeconds14);
-            imageMessage14.Visible = false;
-        }
-        private void Timer14_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds14--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds14 >= 0)
-            {
-                UpdateTimerLabel(timerLabel14, remainingSeconds14); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer14.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer14Expired = true;
-                imageMessage14.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 14
-
-        // TEMPORIZADOR 15
-        private void startButton15_Click(object sender, EventArgs e)
-        {
-            if (!timer15Expired)
-            {
-                timer15.Start(); // Iniciar el temporizador solo si no ha expirado
-            }
-        }
-
-        private void resetButton15_Click(object sender, EventArgs e)
-        {
-            timer15Expired = false; // Reiniciar la bandera
-            timer15.Stop();
-            remainingSeconds15 = totalSeconds15;
-            UpdateTimerLabel(timerLabel15, remainingSeconds15);
-            imageMessage15.Visible = false;
-        }
-        private void Timer15_Tick(object sender, EventArgs e)
-        {
-            remainingSeconds15--; // Decrementar los segundos restantes del segundo temporizador
-            if (remainingSeconds15 >= 0)
-            {
-                UpdateTimerLabel(timerLabel15, remainingSeconds15); // Actualizar la etiqueta del segundo temporizador
-            }
-            else
-            {
-                timer15.Stop(); // Detener el segundo temporizador cuando llega a 0
-                timer15Expired = true;
-                imageMessage15.Visible = true; // Ocultar el control Label nuevamente
-                player.Play();
-            }
-        }
-        // TEMPORIZADOR 15
-
-        // IGNORAR
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-        // IGNORAR
-
-        // LINKS MAPAS----------------------------------------------------------------------------
-        private void UbicacionMVP_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        //LINKS MAPAS
+        private void FallenUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FallenUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=abbey02&s_block=mob_block&small=1");
@@ -732,31 +138,31 @@ namespace MVPTimer
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=moc_pryd06&s_block=mob_block&small=1");
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void ValkyUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ValkyUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=odin_tem03&s_block=mob_block&small=1");
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void GloomUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             GloomUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ra_san05&s_block=mob_block&small=1");
         }
 
-        private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void DrakeUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             DrakeUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=treasure02&s_block=mob_block&small=1");
         }
 
-        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void TaoUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             TaoUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=beach_dun&s_block=mob_block&small=1");
         }
 
-        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void MayaUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MayaUBI.LinkVisited = true;
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=anthell02&s_block=mob_block&small=1");
@@ -804,6 +210,9 @@ namespace MVPTimer
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=gef_dun03&s_block=mob_block&small=1");
         }
 
-        // LINKS MAPAS----------------------------------------------------------------------------
+        
+
+
+        //LINKS MAPAS
     }
 }
