@@ -15,6 +15,7 @@ namespace MVPTimer
 {
     public partial class Form1 : Form
     {
+        private System.Media.SoundPlayer player;
         private Timer timer1;
         private Timer timer2;
         private Timer timer3;
@@ -63,6 +64,7 @@ namespace MVPTimer
         public Form1()
         {
             InitializeComponent();
+            player = new System.Media.SoundPlayer(@"C:\Users\Kaiser\Downloads\LVL-UP.wav");
             // Configurar el primer temporizador
             timer1 = new Timer();
             timer1.Interval = 1000; // Actualiza el temporizador cada segundo
@@ -177,17 +179,37 @@ namespace MVPTimer
             label.Text = time.ToString(@"hh\:mm\:ss");
         }
 
+        private bool timer1Expired = false; // Bandera para indicar si el temporizador ha expirado
+        private bool timer2Expired = false;
+        private bool timer3Expired = false;
+        private bool timer4Expired = false;
+        private bool timer5Expired = false;
+        private bool timer6Expired = false;
+        private bool timer7Expired = false;
+        private bool timer8Expired = false;
+        private bool timer9Expired = false;
+        private bool timer10Expired = false;
+        private bool timer11Expired = false;
+        private bool timer12Expired = false;
+        private bool timer13Expired = false;
+        private bool timer14Expired = false;
+        private bool timer15Expired = false;
         // TEMPORIZADOR 1
         private void startButton1_Click(object sender, EventArgs e)
         {
-            timer1.Start(); // Iniciar el primer temporizador
+            if (!timer1Expired)
+            {
+                timer1.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton1_Click(object sender, EventArgs e)
         {
+            timer1Expired = false; // Reiniciar la bandera
             timer1.Stop(); // Detener el primer temporizador
             remainingSeconds1 = totalSeconds1; // Restablecer el tiempo restante del primer temporizador
             UpdateTimerLabel(timerLabel1, remainingSeconds1);
+            imageMessage1.Visible = false; // Ocultar el control Label nuevamente
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -200,6 +222,9 @@ namespace MVPTimer
             else
             {
                 timer1.Stop(); // Detener el primer temporizador cuando llega a 0
+                timer1Expired = true; // Establecer la bandera de expiración
+                imageMessage1.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 1
@@ -207,14 +232,19 @@ namespace MVPTimer
         // TEMPORIZADOR 2
         private void startButton2_Click(object sender, EventArgs e)
         {
-            timer2.Start(); // Iniciar el segundo temporizador
+            if (!timer2Expired)
+            {
+                timer2.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton2_Click(object sender, EventArgs e)
         {
+            timer2Expired = false; // Reiniciar la bandera
             timer2.Stop(); // Detener el segundo temporizador
             remainingSeconds2 = totalSeconds2; // Restablecer el tiempo restante del segundo temporizador
             UpdateTimerLabel(timerLabel2, remainingSeconds2);
+            imageMessage2.Visible = false;
         }
 
         private void Timer2_Tick(object sender, EventArgs e)
@@ -226,7 +256,10 @@ namespace MVPTimer
             }
             else
             {
-                timer2.Stop(); 
+                timer2.Stop();
+                timer2Expired = true;
+                imageMessage2.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 2
@@ -234,14 +267,19 @@ namespace MVPTimer
         // TEMPORIZADOR 3
         private void startButton3_Click(object sender, EventArgs e)
         {
-            timer3.Start(); 
+            if (!timer3Expired)
+            {
+                timer3.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton3_Click(object sender, EventArgs e)
         {
+            timer3Expired = false; // Reiniciar la bandera
             timer3.Stop(); 
             remainingSeconds3 = totalSeconds3; 
             UpdateTimerLabel(timerLabel3, remainingSeconds3);
+            imageMessage3.Visible = false;
         }
         private void Timer3_Tick(object sender, EventArgs e)
         {
@@ -252,7 +290,10 @@ namespace MVPTimer
             }
             else
             {
-                timer3.Stop(); 
+                timer3.Stop();
+                timer3Expired = true;
+                imageMessage3.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 3
@@ -260,14 +301,19 @@ namespace MVPTimer
         // TEMPORIZADOR 4
         private void startButton4_Click(object sender, EventArgs e)
         {
-            timer4.Start(); 
+            if (!timer4Expired)
+            {
+                timer4.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton4_Click(object sender, EventArgs e)
         {
+            timer4Expired = false; // Reiniciar la bandera
             timer4.Stop(); 
             remainingSeconds4 = totalSeconds4; 
             UpdateTimerLabel(timerLabel4, remainingSeconds4);
+            imageMessage4.Visible = false;
         }
 
         private void Timer4_Tick(object sender, EventArgs e)
@@ -279,7 +325,10 @@ namespace MVPTimer
             }
             else
             {
-                timer4.Stop(); 
+                timer4.Stop();
+                timer4Expired = true;
+                imageMessage4.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 4
@@ -287,14 +336,19 @@ namespace MVPTimer
         // TEMPORIZADOR 5
         private void startButton5_Click(object sender, EventArgs e)
         {
-            timer5.Start(); 
+            if (!timer5Expired)
+            {
+                timer5.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton5_Click(object sender, EventArgs e)
         {
+            timer5Expired = false; // Reiniciar la bandera
             timer5.Stop(); 
             remainingSeconds5 = totalSeconds5; 
             UpdateTimerLabel(timerLabel5, remainingSeconds5);
+            imageMessage5.Visible = false;
         }
         private void Timer5_Tick(object sender, EventArgs e)
         {
@@ -305,7 +359,10 @@ namespace MVPTimer
             }
             else
             {
-                timer5.Stop(); 
+                timer5.Stop();
+                timer5Expired = true;
+                imageMessage5.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 5
@@ -313,14 +370,19 @@ namespace MVPTimer
         // TEMPORIZADOR 6
         private void startButton6_Click(object sender, EventArgs e)
         {
-            timer6.Start();
+            if (!timer6Expired)
+            {
+                timer6.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton6_Click(object sender, EventArgs e)
         {
+            timer6Expired = false; // Reiniciar la bandera
             timer6.Stop();
             remainingSeconds6 = totalSeconds6;
             UpdateTimerLabel(timerLabel6, remainingSeconds6);
+            imageMessage6.Visible = false;
         }
         private void Timer6_Tick(object sender, EventArgs e)
         {
@@ -332,6 +394,9 @@ namespace MVPTimer
             else
             {
                 timer6.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer6Expired = true;
+                imageMessage6.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 6
@@ -339,14 +404,19 @@ namespace MVPTimer
         // TEMPORIZADOR 7
         private void startButton7_Click(object sender, EventArgs e)
         {
-            timer7.Start();
+            if (!timer7Expired)
+            {
+                timer7.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton7_Click(object sender, EventArgs e)
         {
+            timer7Expired = false; // Reiniciar la bandera
             timer7.Stop();
             remainingSeconds7 = totalSeconds7;
             UpdateTimerLabel(timerLabel7, remainingSeconds7);
+            imageMessage7.Visible = false;
         }
         private void Timer7_Tick(object sender, EventArgs e)
         {
@@ -358,6 +428,9 @@ namespace MVPTimer
             else
             {
                 timer7.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer7Expired = true;
+                imageMessage7.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 7
@@ -365,14 +438,19 @@ namespace MVPTimer
         // TEMPORIZADOR 8
         private void startButton8_Click(object sender, EventArgs e)
         {
-            timer8.Start();
+            if (!timer8Expired)
+            {
+                timer8.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton8_Click(object sender, EventArgs e)
         {
+            timer8Expired = false; // Reiniciar la bandera
             timer8.Stop();
             remainingSeconds8 = totalSeconds8;
             UpdateTimerLabel(timerLabel8, remainingSeconds8);
+            imageMessage8.Visible = false;
         }
         private void Timer8_Tick(object sender, EventArgs e)
         {
@@ -384,6 +462,9 @@ namespace MVPTimer
             else
             {
                 timer8.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer8Expired = true;
+                imageMessage8.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 8
@@ -391,14 +472,19 @@ namespace MVPTimer
         // TEMPORIZADOR 9
         private void startButton9_Click(object sender, EventArgs e)
         {
-            timer9.Start();
+            if (!timer9Expired)
+            {
+                timer9.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton9_Click(object sender, EventArgs e)
         {
+            timer9Expired = false; // Reiniciar la bandera
             timer9.Stop();
             remainingSeconds9 = totalSeconds9;
             UpdateTimerLabel(timerLabel9, remainingSeconds9);
+            imageMessage9.Visible = false;
         }
         private void Timer9_Tick(object sender, EventArgs e)
         {
@@ -410,6 +496,9 @@ namespace MVPTimer
             else
             {
                 timer9.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer9Expired = true;
+                imageMessage9.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 9
@@ -417,14 +506,19 @@ namespace MVPTimer
         // TEMPORIZADOR 10
         private void startButton10_Click(object sender, EventArgs e)
         {
-            timer10.Start();
+            if (!timer10Expired)
+            {
+                timer10.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton10_Click(object sender, EventArgs e)
         {
+            timer10Expired = false; // Reiniciar la bandera
             timer10.Stop();
             remainingSeconds10 = totalSeconds10;
             UpdateTimerLabel(timerLabel10, remainingSeconds10);
+            imageMessage10.Visible = false;
         }
         private void Timer10_Tick(object sender, EventArgs e)
         {
@@ -436,6 +530,9 @@ namespace MVPTimer
             else
             {
                 timer10.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer10Expired = true;
+                imageMessage10.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 10
@@ -444,14 +541,19 @@ namespace MVPTimer
 
         private void startButton11_Click(object sender, EventArgs e)
         {
-            timer11.Start();
+            if (!timer11Expired)
+            {
+                timer11.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton11_Click(object sender, EventArgs e)
         {
+            timer11Expired = false; // Reiniciar la bandera
             timer11.Stop();
             remainingSeconds11 = totalSeconds11;
             UpdateTimerLabel(timerLabel11, remainingSeconds11);
+            imageMessage11.Visible = false;
         }
         private void Timer11_Tick(object sender, EventArgs e)
         {
@@ -463,6 +565,9 @@ namespace MVPTimer
             else
             {
                 timer11.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer11Expired = true;
+                imageMessage11.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 11
@@ -470,13 +575,18 @@ namespace MVPTimer
         // TEMPORIZADOR 12
         private void startButton12_Click(object sender, EventArgs e)
         {
-            timer12.Start();
+            if (!timer12Expired)
+            {
+                timer12.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
         private void resetButton12_Click(object sender, EventArgs e)
         {
+            timer12Expired = false; // Reiniciar la bandera
             timer12.Stop();
             remainingSeconds12 = totalSeconds12;
             UpdateTimerLabel(timerLabel12, remainingSeconds12);
+            imageMessage12.Visible = false;
         }
         private void Timer12_Tick(object sender, EventArgs e)
         {
@@ -488,6 +598,9 @@ namespace MVPTimer
             else
             {
                 timer12.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer12Expired = true;
+                imageMessage12.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 12
@@ -495,14 +608,19 @@ namespace MVPTimer
         // TEMPORIZADOR 13
         private void startButton13_Click(object sender, EventArgs e)
         {
-            timer13.Start();
+            if (!timer13Expired)
+            {
+                timer13.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton13_Click(object sender, EventArgs e)
         {
+            timer13Expired = false; // Reiniciar la bandera
             timer13.Stop();
             remainingSeconds13 = totalSeconds13;
             UpdateTimerLabel(timerLabel13, remainingSeconds13);
+            imageMessage13.Visible = false;
         }
         private void Timer13_Tick(object sender, EventArgs e)
         {
@@ -514,6 +632,9 @@ namespace MVPTimer
             else
             {
                 timer13.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer13Expired = true;
+                imageMessage13.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 13
@@ -521,14 +642,19 @@ namespace MVPTimer
         // TEMPORIZADOR 14
         private void startButton14_Click(object sender, EventArgs e)
         {
-            timer14.Start();
+            if (!timer14Expired)
+            {
+                timer14.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton14_Click(object sender, EventArgs e)
         {
+            timer14Expired = false; // Reiniciar la bandera
             timer14.Stop();
             remainingSeconds14 = totalSeconds14;
             UpdateTimerLabel(timerLabel14, remainingSeconds14);
+            imageMessage14.Visible = false;
         }
         private void Timer14_Tick(object sender, EventArgs e)
         {
@@ -540,6 +666,9 @@ namespace MVPTimer
             else
             {
                 timer14.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer14Expired = true;
+                imageMessage14.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 14
@@ -547,14 +676,19 @@ namespace MVPTimer
         // TEMPORIZADOR 15
         private void startButton15_Click(object sender, EventArgs e)
         {
-            timer15.Start();
+            if (!timer15Expired)
+            {
+                timer15.Start(); // Iniciar el temporizador solo si no ha expirado
+            }
         }
 
         private void resetButton15_Click(object sender, EventArgs e)
         {
+            timer15Expired = false; // Reiniciar la bandera
             timer15.Stop();
             remainingSeconds15 = totalSeconds15;
             UpdateTimerLabel(timerLabel15, remainingSeconds15);
+            imageMessage15.Visible = false;
         }
         private void Timer15_Tick(object sender, EventArgs e)
         {
@@ -566,6 +700,9 @@ namespace MVPTimer
             else
             {
                 timer15.Stop(); // Detener el segundo temporizador cuando llega a 0
+                timer15Expired = true;
+                imageMessage15.Visible = true; // Ocultar el control Label nuevamente
+                player.Play();
             }
         }
         // TEMPORIZADOR 15

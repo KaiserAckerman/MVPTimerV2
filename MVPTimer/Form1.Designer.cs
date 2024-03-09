@@ -136,6 +136,21 @@ namespace MVPTimer
             this.timerLabel15 = new System.Windows.Forms.Label();
             this.resetButton15 = new System.Windows.Forms.Button();
             this.startButton15 = new System.Windows.Forms.Button();
+            this.imageMessage1 = new System.Windows.Forms.PictureBox();
+            this.imageMessage2 = new System.Windows.Forms.PictureBox();
+            this.imageMessage3 = new System.Windows.Forms.PictureBox();
+            this.imageMessage4 = new System.Windows.Forms.PictureBox();
+            this.imageMessage5 = new System.Windows.Forms.PictureBox();
+            this.imageMessage10 = new System.Windows.Forms.PictureBox();
+            this.imageMessage9 = new System.Windows.Forms.PictureBox();
+            this.imageMessage8 = new System.Windows.Forms.PictureBox();
+            this.imageMessage7 = new System.Windows.Forms.PictureBox();
+            this.imageMessage6 = new System.Windows.Forms.PictureBox();
+            this.imageMessage15 = new System.Windows.Forms.PictureBox();
+            this.imageMessage14 = new System.Windows.Forms.PictureBox();
+            this.imageMessage13 = new System.Windows.Forms.PictureBox();
+            this.imageMessage12 = new System.Windows.Forms.PictureBox();
+            this.imageMessage11 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -151,6 +166,21 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage11)).BeginInit();
             this.SuspendLayout();
             // 
             // startButton1
@@ -243,7 +273,7 @@ namespace MVPTimer
             this.timerLabel2.AutoSize = true;
             this.timerLabel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timerLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.timerLabel2.Location = new System.Drawing.Point(264, 96);
+            this.timerLabel2.Location = new System.Drawing.Point(258, 96);
             this.timerLabel2.Name = "timerLabel2";
             this.timerLabel2.Size = new System.Drawing.Size(122, 33);
             this.timerLabel2.TabIndex = 9;
@@ -1386,6 +1416,201 @@ namespace MVPTimer
             this.startButton15.UseVisualStyleBackColor = false;
             this.startButton15.Click += new System.EventHandler(this.startButton15_Click);
             // 
+            // imageMessage1
+            // 
+            this.imageMessage1.ErrorImage = null;
+            this.imageMessage1.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage1.Image")));
+            this.imageMessage1.InitialImage = null;
+            this.imageMessage1.Location = new System.Drawing.Point(159, 52);
+            this.imageMessage1.Name = "imageMessage1";
+            this.imageMessage1.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage1.TabIndex = 131;
+            this.imageMessage1.TabStop = false;
+            this.imageMessage1.Visible = false;
+            // 
+            // imageMessage2
+            // 
+            this.imageMessage2.ErrorImage = null;
+            this.imageMessage2.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage2.Image")));
+            this.imageMessage2.InitialImage = null;
+            this.imageMessage2.Location = new System.Drawing.Point(369, 52);
+            this.imageMessage2.Name = "imageMessage2";
+            this.imageMessage2.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage2.TabIndex = 132;
+            this.imageMessage2.TabStop = false;
+            this.imageMessage2.Visible = false;
+            // 
+            // imageMessage3
+            // 
+            this.imageMessage3.ErrorImage = null;
+            this.imageMessage3.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage3.Image")));
+            this.imageMessage3.InitialImage = null;
+            this.imageMessage3.Location = new System.Drawing.Point(574, 52);
+            this.imageMessage3.Name = "imageMessage3";
+            this.imageMessage3.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage3.TabIndex = 133;
+            this.imageMessage3.TabStop = false;
+            this.imageMessage3.Visible = false;
+            // 
+            // imageMessage4
+            // 
+            this.imageMessage4.ErrorImage = null;
+            this.imageMessage4.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage4.Image")));
+            this.imageMessage4.InitialImage = null;
+            this.imageMessage4.Location = new System.Drawing.Point(781, 52);
+            this.imageMessage4.Name = "imageMessage4";
+            this.imageMessage4.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage4.TabIndex = 134;
+            this.imageMessage4.TabStop = false;
+            this.imageMessage4.Visible = false;
+            // 
+            // imageMessage5
+            // 
+            this.imageMessage5.ErrorImage = null;
+            this.imageMessage5.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage5.Image")));
+            this.imageMessage5.InitialImage = null;
+            this.imageMessage5.Location = new System.Drawing.Point(986, 52);
+            this.imageMessage5.Name = "imageMessage5";
+            this.imageMessage5.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage5.TabIndex = 135;
+            this.imageMessage5.TabStop = false;
+            this.imageMessage5.Visible = false;
+            // 
+            // imageMessage10
+            // 
+            this.imageMessage10.ErrorImage = null;
+            this.imageMessage10.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage10.Image")));
+            this.imageMessage10.InitialImage = null;
+            this.imageMessage10.Location = new System.Drawing.Point(986, 252);
+            this.imageMessage10.Name = "imageMessage10";
+            this.imageMessage10.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage10.TabIndex = 140;
+            this.imageMessage10.TabStop = false;
+            this.imageMessage10.Visible = false;
+            // 
+            // imageMessage9
+            // 
+            this.imageMessage9.ErrorImage = null;
+            this.imageMessage9.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage9.Image")));
+            this.imageMessage9.InitialImage = null;
+            this.imageMessage9.Location = new System.Drawing.Point(781, 252);
+            this.imageMessage9.Name = "imageMessage9";
+            this.imageMessage9.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage9.TabIndex = 139;
+            this.imageMessage9.TabStop = false;
+            this.imageMessage9.Visible = false;
+            // 
+            // imageMessage8
+            // 
+            this.imageMessage8.ErrorImage = null;
+            this.imageMessage8.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage8.Image")));
+            this.imageMessage8.InitialImage = null;
+            this.imageMessage8.Location = new System.Drawing.Point(574, 252);
+            this.imageMessage8.Name = "imageMessage8";
+            this.imageMessage8.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage8.TabIndex = 138;
+            this.imageMessage8.TabStop = false;
+            this.imageMessage8.Visible = false;
+            // 
+            // imageMessage7
+            // 
+            this.imageMessage7.ErrorImage = null;
+            this.imageMessage7.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage7.Image")));
+            this.imageMessage7.InitialImage = null;
+            this.imageMessage7.Location = new System.Drawing.Point(369, 252);
+            this.imageMessage7.Name = "imageMessage7";
+            this.imageMessage7.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage7.TabIndex = 137;
+            this.imageMessage7.TabStop = false;
+            this.imageMessage7.Visible = false;
+            // 
+            // imageMessage6
+            // 
+            this.imageMessage6.ErrorImage = null;
+            this.imageMessage6.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage6.Image")));
+            this.imageMessage6.InitialImage = null;
+            this.imageMessage6.Location = new System.Drawing.Point(159, 252);
+            this.imageMessage6.Name = "imageMessage6";
+            this.imageMessage6.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage6.TabIndex = 136;
+            this.imageMessage6.TabStop = false;
+            this.imageMessage6.Visible = false;
+            // 
+            // imageMessage15
+            // 
+            this.imageMessage15.ErrorImage = null;
+            this.imageMessage15.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage15.Image")));
+            this.imageMessage15.InitialImage = null;
+            this.imageMessage15.Location = new System.Drawing.Point(986, 458);
+            this.imageMessage15.Name = "imageMessage15";
+            this.imageMessage15.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage15.TabIndex = 145;
+            this.imageMessage15.TabStop = false;
+            this.imageMessage15.Visible = false;
+            // 
+            // imageMessage14
+            // 
+            this.imageMessage14.ErrorImage = null;
+            this.imageMessage14.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage14.Image")));
+            this.imageMessage14.InitialImage = null;
+            this.imageMessage14.Location = new System.Drawing.Point(781, 458);
+            this.imageMessage14.Name = "imageMessage14";
+            this.imageMessage14.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage14.TabIndex = 144;
+            this.imageMessage14.TabStop = false;
+            this.imageMessage14.Visible = false;
+            // 
+            // imageMessage13
+            // 
+            this.imageMessage13.ErrorImage = null;
+            this.imageMessage13.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage13.Image")));
+            this.imageMessage13.InitialImage = null;
+            this.imageMessage13.Location = new System.Drawing.Point(574, 458);
+            this.imageMessage13.Name = "imageMessage13";
+            this.imageMessage13.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage13.TabIndex = 143;
+            this.imageMessage13.TabStop = false;
+            this.imageMessage13.Visible = false;
+            // 
+            // imageMessage12
+            // 
+            this.imageMessage12.ErrorImage = null;
+            this.imageMessage12.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage12.Image")));
+            this.imageMessage12.InitialImage = null;
+            this.imageMessage12.Location = new System.Drawing.Point(369, 458);
+            this.imageMessage12.Name = "imageMessage12";
+            this.imageMessage12.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage12.TabIndex = 142;
+            this.imageMessage12.TabStop = false;
+            this.imageMessage12.Visible = false;
+            // 
+            // imageMessage11
+            // 
+            this.imageMessage11.ErrorImage = null;
+            this.imageMessage11.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage11.Image")));
+            this.imageMessage11.InitialImage = null;
+            this.imageMessage11.Location = new System.Drawing.Point(159, 458);
+            this.imageMessage11.Name = "imageMessage11";
+            this.imageMessage11.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage11.TabIndex = 141;
+            this.imageMessage11.TabStop = false;
+            this.imageMessage11.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1393,6 +1618,21 @@ namespace MVPTimer
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1049, 636);
+            this.Controls.Add(this.imageMessage15);
+            this.Controls.Add(this.imageMessage14);
+            this.Controls.Add(this.imageMessage13);
+            this.Controls.Add(this.imageMessage12);
+            this.Controls.Add(this.imageMessage11);
+            this.Controls.Add(this.imageMessage10);
+            this.Controls.Add(this.imageMessage9);
+            this.Controls.Add(this.imageMessage8);
+            this.Controls.Add(this.imageMessage7);
+            this.Controls.Add(this.imageMessage6);
+            this.Controls.Add(this.imageMessage5);
+            this.Controls.Add(this.imageMessage4);
+            this.Controls.Add(this.imageMessage3);
+            this.Controls.Add(this.imageMessage2);
+            this.Controls.Add(this.imageMessage1);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.BaphoUBI);
@@ -1517,6 +1757,21 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1629,6 +1884,21 @@ namespace MVPTimer
         private Label timerLabel15;
         private Button resetButton15;
         private Button startButton15;
+        private PictureBox imageMessage1;
+        private PictureBox imageMessage2;
+        private PictureBox imageMessage3;
+        private PictureBox imageMessage4;
+        private PictureBox imageMessage5;
+        private PictureBox imageMessage10;
+        private PictureBox imageMessage9;
+        private PictureBox imageMessage8;
+        private PictureBox imageMessage7;
+        private PictureBox imageMessage6;
+        private PictureBox imageMessage15;
+        private PictureBox imageMessage14;
+        private PictureBox imageMessage13;
+        private PictureBox imageMessage12;
+        private PictureBox imageMessage11;
     }
 }
 
