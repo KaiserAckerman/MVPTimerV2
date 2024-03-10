@@ -22,8 +22,8 @@ namespace MVPTimer
             InitializeComponent();
             player = new System.Media.SoundPlayer(@"C:\Users\Kaiser\Downloads\LVL-UP.wav");
             InitializeTimers();
-            this.MinimumSize = new Size(250, 287);
-            this.MaximumSize = new Size(1069, 730);
+            this.MinimumSize = new Size(240, 287);
+            this.MaximumSize = new Size(1092, 744);
         }
         private void InitializeTimers()
         {
@@ -37,13 +37,54 @@ namespace MVPTimer
             imageMessages = new List<PictureBox>();
 
             // Agregar los controles a las listas
-            totalSeconds.AddRange(new int[] { 3600, 2400, 3600, 3600, 3600, 7200, 3600, 3600, 2400, 3600, 600, 600, 600, 600, 600 });
+            totalSeconds.AddRange(new int[] { 3600, 2400, 3600, 3600, 3600,
+                                              7200, 3600, 3600, 2400, 3600, 
+                                              600, 600, 600, 600, 600, 
+                                              3600, 2400, 3600, 3600, 3600,
+                                              7200, 3600, 3600, 2400, 3600,
+                                              600, 600, 600, 600, 600,
+                                              3600, 2400, 3600, 3600, 3600,
+                                              7200, 3600, 3600, 2400, 3600, 
+                                              600, 600, 600, 600, 600});
             remainingSeconds.AddRange(totalSeconds);
-            timerExpiredFlags.AddRange(new bool[15]);
-            timerLabels.AddRange(new Label[] { timerLabel1, timerLabel2, timerLabel3, timerLabel4, timerLabel5, timerLabel6, timerLabel7, timerLabel8, timerLabel9, timerLabel10, timerLabel11, timerLabel12, timerLabel13, timerLabel14, timerLabel15 });
-            startButtons.AddRange(new Button[] { startButton1, startButton2, startButton3, startButton4, startButton5, startButton6, startButton7, startButton8, startButton9, startButton10, startButton11, startButton12, startButton13, startButton14, startButton15 });
-            resetButtons.AddRange(new Button[] { resetButton1, resetButton2, resetButton3, resetButton4, resetButton5, resetButton6, resetButton7, resetButton8, resetButton9, resetButton10, resetButton11, resetButton12, resetButton13, resetButton14, resetButton15 });
-            imageMessages.AddRange(new PictureBox[] { imageMessage1, imageMessage2, imageMessage3, imageMessage4, imageMessage5, imageMessage6, imageMessage7, imageMessage8, imageMessage9, imageMessage10, imageMessage11, imageMessage12, imageMessage13, imageMessage14, imageMessage15 });
+            timerExpiredFlags.AddRange(new bool[45]);
+            timerLabels.AddRange(new Label[] { timerLabel1, timerLabel2, timerLabel3, timerLabel4, timerLabel5,
+                                               timerLabel6, timerLabel7, timerLabel8, timerLabel9, timerLabel10, 
+                                               timerLabel11, timerLabel12, timerLabel13, timerLabel14, timerLabel15, 
+                                               timerLabel16, timerLabel17, timerLabel18, timerLabel19, timerLabel20,
+                                               timerLabel21, timerLabel22, timerLabel23, timerLabel24, timerLabel25,
+                                               timerLabel26, timerLabel27, timerLabel28, timerLabel29, timerLabel30, 
+                                               timerLabel31, timerLabel32, timerLabel33, timerLabel34, timerLabel35,
+                                               timerLabel36, timerLabel37, timerLabel38, timerLabel39, timerLabel40,
+                                               timerLabel41, timerLabel42, timerLabel43, timerLabel44, timerLabel45 });
+            startButtons.AddRange(new Button[] { startButton1, startButton2, startButton3, startButton4, startButton5,
+                                                 startButton6, startButton7, startButton8, startButton9, startButton10,
+                                                 startButton11, startButton12, startButton13, startButton14, startButton15, 
+                                                 startButton16, startButton17, startButton18, startButton19, startButton20,
+                                                 startButton21, startButton22, startButton23, startButton24, startButton25,
+                                                 startButton26, startButton27, startButton28, startButton29, startButton30,
+                                                 startButton31, startButton32, startButton33, startButton34, startButton35,
+                                                 startButton36, startButton37, startButton38, startButton39, startButton40,
+                                                 startButton41, startButton42, startButton43, startButton44, startButton45});
+            resetButtons.AddRange(new Button[] { resetButton1, resetButton2, resetButton3, resetButton4, resetButton5,
+                                                 resetButton6, resetButton7, resetButton8, resetButton9, resetButton10,
+                                                 resetButton11, resetButton12, resetButton13, resetButton14, resetButton15, 
+                                                 resetButton16, resetButton17, resetButton18, resetButton19, resetButton20, 
+                                                 resetButton21, resetButton22, resetButton23, resetButton24, resetButton25, 
+                                                 resetButton26, resetButton27, resetButton28, resetButton29, resetButton30, 
+                                                 resetButton31, resetButton32, resetButton33, resetButton34, resetButton35, 
+                                                 resetButton36, resetButton37, resetButton38, resetButton39, resetButton40, 
+                                                 resetButton41, resetButton42, resetButton43, resetButton44, resetButton45 });
+
+            imageMessages.AddRange(new PictureBox[] { imageMessage1, imageMessage2, imageMessage3, imageMessage4, imageMessage5,
+                                                      imageMessage6, imageMessage7, imageMessage8, imageMessage9, imageMessage10, 
+                                                      imageMessage11, imageMessage12, imageMessage13, imageMessage14, imageMessage15,
+                                                      imageMessage16, imageMessage17, imageMessage18, imageMessage19, imageMessage20, 
+                                                      imageMessage21, imageMessage22, imageMessage23, imageMessage24, imageMessage25, 
+                                                      imageMessage26, imageMessage27, imageMessage28, imageMessage29, imageMessage30, 
+                                                      imageMessage31, imageMessage32, imageMessage33, imageMessage34, imageMessage35, 
+                                                      imageMessage36, imageMessage37, imageMessage38, imageMessage39, imageMessage40, 
+                                                      imageMessage41, imageMessage42, imageMessage43, imageMessage44, imageMessage45 });
 
             // Crear y configurar los temporizadores
             for (int i = 0; i < totalSeconds.Count; i++)
@@ -58,6 +99,7 @@ namespace MVPTimer
                 UpdateTimerLabel(timerLabels[i], remainingSeconds[i]);
             }
         }
+      
 
         private void StartTimer(int index)
         {
@@ -106,7 +148,7 @@ namespace MVPTimer
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             // Cambiar a la pestaña deseada en el TabControl
-            miTabControl.SelectedIndex = 1; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
+            miTabControl.SelectedIndex = 2;                               
         }
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
@@ -116,7 +158,12 @@ namespace MVPTimer
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             // Cambiar a la pestaña deseada en el TabControl
-            miTabControl.SelectedIndex = 2; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
+            miTabControl.SelectedIndex = 1; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
+        }
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            // Cambiar a la pestaña deseada en el TabControl
+            miTabControl.SelectedIndex = 3; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
         }
 
         //LINKS MAPAS
@@ -211,6 +258,8 @@ namespace MVPTimer
         }
 
         
+
+
 
 
         //LINKS MAPAS
