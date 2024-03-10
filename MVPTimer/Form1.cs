@@ -20,10 +20,11 @@ namespace MVPTimer
         public Form1()
         {
             InitializeComponent();
-            player = new System.Media.SoundPlayer(@"C:\Users\Kaiser\Downloads\LVL-UP.wav");
+            player = new System.Media.SoundPlayer(Properties.Resources.LVL_UP);
             InitializeTimers();
             this.MinimumSize = new Size(240, 287);
-            this.MaximumSize = new Size(1092, 744);
+            this.MaximumSize = new Size(1090, 683);
+            
         }
         private void InitializeTimers()
         {
@@ -37,17 +38,33 @@ namespace MVPTimer
             imageMessages = new List<PictureBox>();
 
             // Agregar los controles a las listas
+            //Temporizadores "MVP"
             totalSeconds.AddRange(new int[] { 3600, 2400, 3600, 3600, 3600,
                                               7200, 3600, 3600, 2400, 3600, 
-                                              600, 600, 600, 600, 600, 
-                                              3600, 2400, 3600, 3600, 3600,
-                                              7200, 3600, 3600, 2400, 3600,
                                               600, 600, 600, 600, 600,
-                                              3600, 2400, 3600, 3600, 3600,
-                                              7200, 3600, 3600, 2400, 3600, 
-                                              600, 600, 600, 600, 600});
+                                              22200, 11400, 18600, 11400, 15000,
+                                              1140, 1020, 1140, 6600, 900,
+                                              1020, 900, 1800, 3000, 1080,
+                                              3600, 7380, 3600, 900, 1020,
+                                              1140, 2400, 2400, 2400, 2400,
+                                              2400, 2400, 1200, 7800, 1200});
+            //Temporizadores "MVP"
+
+            //Temporizadores "MVP QUEST"
+            totalSeconds.AddRange(new int[] { 7200, 25200, 43200});
+            //Temporizadores "MVP QUEST"
+
+            //Temporizadores "MVP Escencia"
+            totalSeconds.AddRange(new int[] { 3600, 3600, 3600, 3600, 3600,
+                                              3600, 3600, 3600});
+            //Temporizadores "MVP Escencia"
+
+            //Temporizadores "Otros"
+            totalSeconds.AddRange(new int[] { 600, 3600, 1080, 3600, 3600});
+            //Temporizadores "Otros"
+
             remainingSeconds.AddRange(totalSeconds);
-            timerExpiredFlags.AddRange(new bool[45]);
+            timerExpiredFlags.AddRange(new bool[61]);
             timerLabels.AddRange(new Label[] { timerLabel1, timerLabel2, timerLabel3, timerLabel4, timerLabel5,
                                                timerLabel6, timerLabel7, timerLabel8, timerLabel9, timerLabel10, 
                                                timerLabel11, timerLabel12, timerLabel13, timerLabel14, timerLabel15, 
@@ -56,7 +73,11 @@ namespace MVPTimer
                                                timerLabel26, timerLabel27, timerLabel28, timerLabel29, timerLabel30, 
                                                timerLabel31, timerLabel32, timerLabel33, timerLabel34, timerLabel35,
                                                timerLabel36, timerLabel37, timerLabel38, timerLabel39, timerLabel40,
-                                               timerLabel41, timerLabel42, timerLabel43, timerLabel44, timerLabel45 });
+                                               timerLabel41, timerLabel42, timerLabel43, timerLabel44, timerLabel45,
+                                               timerLabel46, timerLabel47, timerLabel48, timerLabel49, timerLabel50,
+                                               timerLabel51, timerLabel52, timerLabel53, timerLabel54, timerLabel55,
+                                               timerLabel56, timerLabel57, timerLabel58,timerLabel59, timerLabel60,timerLabel61});
+
             startButtons.AddRange(new Button[] { startButton1, startButton2, startButton3, startButton4, startButton5,
                                                  startButton6, startButton7, startButton8, startButton9, startButton10,
                                                  startButton11, startButton12, startButton13, startButton14, startButton15, 
@@ -65,7 +86,11 @@ namespace MVPTimer
                                                  startButton26, startButton27, startButton28, startButton29, startButton30,
                                                  startButton31, startButton32, startButton33, startButton34, startButton35,
                                                  startButton36, startButton37, startButton38, startButton39, startButton40,
-                                                 startButton41, startButton42, startButton43, startButton44, startButton45});
+                                                 startButton41, startButton42, startButton43, startButton44, startButton45,
+                                                 startButton46, startButton47, startButton48, startButton49, startButton50,
+                                                 startButton51, startButton52, startButton53, startButton54, startButton55,
+                                                 startButton56, startButton57, startButton58,startButton59, startButton60,startButton61});
+
             resetButtons.AddRange(new Button[] { resetButton1, resetButton2, resetButton3, resetButton4, resetButton5,
                                                  resetButton6, resetButton7, resetButton8, resetButton9, resetButton10,
                                                  resetButton11, resetButton12, resetButton13, resetButton14, resetButton15, 
@@ -74,7 +99,10 @@ namespace MVPTimer
                                                  resetButton26, resetButton27, resetButton28, resetButton29, resetButton30, 
                                                  resetButton31, resetButton32, resetButton33, resetButton34, resetButton35, 
                                                  resetButton36, resetButton37, resetButton38, resetButton39, resetButton40, 
-                                                 resetButton41, resetButton42, resetButton43, resetButton44, resetButton45 });
+                                                 resetButton41, resetButton42, resetButton43, resetButton44, resetButton45,
+                                                 resetButton46, resetButton47, resetButton48, resetButton49, resetButton50, 
+                                                 resetButton51, resetButton52, resetButton53, resetButton54, resetButton55, 
+                                                 resetButton56, resetButton57, resetButton58, resetButton59, resetButton60, resetButton61});
 
             imageMessages.AddRange(new PictureBox[] { imageMessage1, imageMessage2, imageMessage3, imageMessage4, imageMessage5,
                                                       imageMessage6, imageMessage7, imageMessage8, imageMessage9, imageMessage10, 
@@ -84,7 +112,10 @@ namespace MVPTimer
                                                       imageMessage26, imageMessage27, imageMessage28, imageMessage29, imageMessage30, 
                                                       imageMessage31, imageMessage32, imageMessage33, imageMessage34, imageMessage35, 
                                                       imageMessage36, imageMessage37, imageMessage38, imageMessage39, imageMessage40, 
-                                                      imageMessage41, imageMessage42, imageMessage43, imageMessage44, imageMessage45 });
+                                                      imageMessage41, imageMessage42, imageMessage43, imageMessage44, imageMessage45,
+                                                      imageMessage46, imageMessage47, imageMessage47, imageMessage48, imageMessage50, 
+                                                      imageMessage51, imageMessage52, imageMessage53, imageMessage54, imageMessage55, 
+                                                      imageMessage56, imageMessage57, imageMessage58, imageMessage59, imageMessage60, imageMessage61});
 
             // Crear y configurar los temporizadores
             for (int i = 0; i < totalSeconds.Count; i++)

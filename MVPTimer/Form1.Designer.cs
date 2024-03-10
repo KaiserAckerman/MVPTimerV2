@@ -33,6 +33,7 @@ namespace MVPTimer
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.miTabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label28 = new System.Windows.Forms.Label();
             this.imageMessage45 = new System.Windows.Forms.PictureBox();
             this.label137 = new System.Windows.Forms.Label();
             this.label136 = new System.Windows.Forms.Label();
@@ -394,141 +395,135 @@ namespace MVPTimer
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.imageMessage48 = new System.Windows.Forms.PictureBox();
+            this.label113 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
+            this.linkLabel46 = new System.Windows.Forms.LinkLabel();
+            this.timerLabel48 = new System.Windows.Forms.Label();
+            this.resetButton48 = new System.Windows.Forms.Button();
+            this.startButton48 = new System.Windows.Forms.Button();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.label91 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.imageMessage47 = new System.Windows.Forms.PictureBox();
+            this.imageMessage46 = new System.Windows.Forms.PictureBox();
             this.label79 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.linkLabel44 = new System.Windows.Forms.LinkLabel();
-            this.label98 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.timerLabel47 = new System.Windows.Forms.Label();
+            this.resetButton47 = new System.Windows.Forms.Button();
+            this.startButton47 = new System.Windows.Forms.Button();
             this.label101 = new System.Windows.Forms.Label();
             this.linkLabel45 = new System.Windows.Forms.LinkLabel();
-            this.label103 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.timerLabel46 = new System.Windows.Forms.Label();
+            this.resetButton46 = new System.Windows.Forms.Button();
+            this.startButton46 = new System.Windows.Forms.Button();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label49 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.imageMessage56 = new System.Windows.Forms.PictureBox();
+            this.imageMessage55 = new System.Windows.Forms.PictureBox();
+            this.imageMessage54 = new System.Windows.Forms.PictureBox();
+            this.imageMessage53 = new System.Windows.Forms.PictureBox();
+            this.imageMessage52 = new System.Windows.Forms.PictureBox();
+            this.imageMessage51 = new System.Windows.Forms.PictureBox();
+            this.imageMessage50 = new System.Windows.Forms.PictureBox();
+            this.imageMessage49 = new System.Windows.Forms.PictureBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.linkLabel8 = new System.Windows.Forms.LinkLabel();
-            this.label51 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.timerLabel56 = new System.Windows.Forms.Label();
+            this.resetButton56 = new System.Windows.Forms.Button();
+            this.startButton56 = new System.Windows.Forms.Button();
             this.linkLabel9 = new System.Windows.Forms.LinkLabel();
-            this.label52 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.timerLabel55 = new System.Windows.Forms.Label();
+            this.resetButton55 = new System.Windows.Forms.Button();
+            this.startButton55 = new System.Windows.Forms.Button();
             this.linkLabel10 = new System.Windows.Forms.LinkLabel();
-            this.label54 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.timerLabel54 = new System.Windows.Forms.Label();
+            this.resetButton54 = new System.Windows.Forms.Button();
+            this.startButton54 = new System.Windows.Forms.Button();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.linkLabel11 = new System.Windows.Forms.LinkLabel();
-            this.label59 = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.timerLabel53 = new System.Windows.Forms.Label();
+            this.resetButton53 = new System.Windows.Forms.Button();
+            this.startButton53 = new System.Windows.Forms.Button();
             this.linkLabel12 = new System.Windows.Forms.LinkLabel();
-            this.label60 = new System.Windows.Forms.Label();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.timerLabel52 = new System.Windows.Forms.Label();
+            this.resetButton52 = new System.Windows.Forms.Button();
+            this.startButton52 = new System.Windows.Forms.Button();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.linkLabel13 = new System.Windows.Forms.LinkLabel();
-            this.label66 = new System.Windows.Forms.Label();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            this.timerLabel51 = new System.Windows.Forms.Label();
+            this.resetButton51 = new System.Windows.Forms.Button();
+            this.startButton51 = new System.Windows.Forms.Button();
             this.linkLabel14 = new System.Windows.Forms.LinkLabel();
-            this.label67 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.timerLabel50 = new System.Windows.Forms.Label();
+            this.resetButton50 = new System.Windows.Forms.Button();
+            this.startButton50 = new System.Windows.Forms.Button();
             this.linkLabel15 = new System.Windows.Forms.LinkLabel();
-            this.label69 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
+            this.timerLabel49 = new System.Windows.Forms.Label();
+            this.resetButton49 = new System.Windows.Forms.Button();
+            this.startButton49 = new System.Windows.Forms.Button();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.pictureBox38 = new System.Windows.Forms.PictureBox();
             this.pictureBox39 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.label49 = new System.Windows.Forms.Label();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.label28 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.imageMessage59 = new System.Windows.Forms.PictureBox();
+            this.imageMessage60 = new System.Windows.Forms.PictureBox();
+            this.label74 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
+            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
+            this.timerLabel60 = new System.Windows.Forms.Label();
+            this.resetButton60 = new System.Windows.Forms.Button();
+            this.startButton60 = new System.Windows.Forms.Button();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.imageMessage61 = new System.Windows.Forms.PictureBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.imageMessage58 = new System.Windows.Forms.PictureBox();
+            this.imageMessage57 = new System.Windows.Forms.PictureBox();
             this.label38 = new System.Windows.Forms.Label();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.label45 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.label53 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.timerLabel59 = new System.Windows.Forms.Label();
+            this.resetButton61 = new System.Windows.Forms.Button();
+            this.startButton61 = new System.Windows.Forms.Button();
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
             this.linkLabel41 = new System.Windows.Forms.LinkLabel();
-            this.label86 = new System.Windows.Forms.Label();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.timerLabel61 = new System.Windows.Forms.Label();
+            this.resetButton59 = new System.Windows.Forms.Button();
+            this.startButton59 = new System.Windows.Forms.Button();
             this.linkLabel42 = new System.Windows.Forms.LinkLabel();
-            this.label88 = new System.Windows.Forms.Label();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
+            this.timerLabel58 = new System.Windows.Forms.Label();
+            this.resetButton58 = new System.Windows.Forms.Button();
+            this.startButton58 = new System.Windows.Forms.Button();
             this.linkLabel43 = new System.Windows.Forms.LinkLabel();
-            this.label111 = new System.Windows.Forms.Label();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
+            this.timerLabel57 = new System.Windows.Forms.Label();
+            this.resetButton57 = new System.Windows.Forms.Button();
+            this.startButton57 = new System.Windows.Forms.Button();
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.label113 = new System.Windows.Forms.Label();
-            this.label116 = new System.Windows.Forms.Label();
-            this.linkLabel46 = new System.Windows.Forms.LinkLabel();
-            this.label118 = new System.Windows.Forms.Label();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.miTabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageMessage45)).BeginInit();
@@ -622,19 +617,21 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage55)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage49)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
@@ -644,38 +641,37 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             this.tabPage4.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage60)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage61)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage57)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
             this.SuspendLayout();
             // 
             // miTabControl
             // 
-            this.miTabControl.Appearance = System.Windows.Forms.TabAppearance.Buttons;
+            this.miTabControl.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.miTabControl.Controls.Add(this.tabPage1);
-            this.miTabControl.Controls.Add(this.tabPage3);
             this.miTabControl.Controls.Add(this.tabPage2);
+            this.miTabControl.Controls.Add(this.tabPage3);
             this.miTabControl.Controls.Add(this.tabPage4);
-            this.miTabControl.Location = new System.Drawing.Point(13, 29);
+            this.miTabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.miTabControl.Location = new System.Drawing.Point(16, 0);
             this.miTabControl.Name = "miTabControl";
             this.miTabControl.SelectedIndex = 0;
-            this.miTabControl.Size = new System.Drawing.Size(1032, 1887);
-            this.miTabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.miTabControl.Size = new System.Drawing.Size(1067, 640);
             this.miTabControl.TabIndex = 146;
             // 
             // tabPage1
             // 
+            this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.tabPage1.Controls.Add(this.label28);
             this.tabPage1.Controls.Add(this.imageMessage45);
             this.tabPage1.Controls.Add(this.label137);
@@ -1037,12 +1033,26 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox2);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.pictureBox3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 27);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1024, 1858);
+            this.tabPage1.Size = new System.Drawing.Size(1059, 609);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "MVPS";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label28.Location = new System.Drawing.Point(689, 1689);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(44, 15);
+            this.label28.TabIndex = 557;
+            this.label28.Text = "(Earth)";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // imageMessage45
             // 
@@ -2014,7 +2024,7 @@ namespace MVPTimer
             this.pictureBox77.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox77.Image")));
             this.pictureBox77.Location = new System.Drawing.Point(824, 1451);
             this.pictureBox77.Name = "pictureBox77";
-            this.pictureBox77.Size = new System.Drawing.Size(204, 200);
+            this.pictureBox77.Size = new System.Drawing.Size(200, 200);
             this.pictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox77.TabIndex = 465;
             this.pictureBox77.TabStop = false;
@@ -5481,36 +5491,135 @@ namespace MVPTimer
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tabPage3.Controls.Add(this.pictureBox46);
+            this.tabPage3.Controls.Add(this.imageMessage48);
             this.tabPage3.Controls.Add(this.label113);
             this.tabPage3.Controls.Add(this.label116);
             this.tabPage3.Controls.Add(this.linkLabel46);
-            this.tabPage3.Controls.Add(this.label118);
-            this.tabPage3.Controls.Add(this.button31);
-            this.tabPage3.Controls.Add(this.button32);
+            this.tabPage3.Controls.Add(this.timerLabel48);
+            this.tabPage3.Controls.Add(this.resetButton48);
+            this.tabPage3.Controls.Add(this.startButton48);
             this.tabPage3.Controls.Add(this.pictureBox47);
             this.tabPage3.Controls.Add(this.label91);
-            this.tabPage3.Controls.Add(this.pictureBox19);
-            this.tabPage3.Controls.Add(this.pictureBox20);
+            this.tabPage3.Controls.Add(this.imageMessage47);
+            this.tabPage3.Controls.Add(this.imageMessage46);
             this.tabPage3.Controls.Add(this.label79);
             this.tabPage3.Controls.Add(this.label85);
             this.tabPage3.Controls.Add(this.linkLabel44);
-            this.tabPage3.Controls.Add(this.label98);
-            this.tabPage3.Controls.Add(this.button7);
-            this.tabPage3.Controls.Add(this.button8);
+            this.tabPage3.Controls.Add(this.timerLabel47);
+            this.tabPage3.Controls.Add(this.resetButton47);
+            this.tabPage3.Controls.Add(this.startButton47);
             this.tabPage3.Controls.Add(this.label101);
             this.tabPage3.Controls.Add(this.linkLabel45);
-            this.tabPage3.Controls.Add(this.label103);
-            this.tabPage3.Controls.Add(this.button9);
-            this.tabPage3.Controls.Add(this.button10);
+            this.tabPage3.Controls.Add(this.timerLabel46);
+            this.tabPage3.Controls.Add(this.resetButton46);
+            this.tabPage3.Controls.Add(this.startButton46);
             this.tabPage3.Controls.Add(this.pictureBox33);
             this.tabPage3.Controls.Add(this.pictureBox34);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Location = new System.Drawing.Point(4, 27);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1024, 1858);
+            this.tabPage3.Size = new System.Drawing.Size(1059, 609);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "MVP QUEST";
+            // 
+            // imageMessage48
+            // 
+            this.imageMessage48.BackColor = System.Drawing.Color.White;
+            this.imageMessage48.ErrorImage = null;
+            this.imageMessage48.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage48.Image")));
+            this.imageMessage48.InitialImage = null;
+            this.imageMessage48.Location = new System.Drawing.Point(559, 31);
+            this.imageMessage48.Name = "imageMessage48";
+            this.imageMessage48.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage48.TabIndex = 512;
+            this.imageMessage48.TabStop = false;
+            this.imageMessage48.Visible = false;
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.BackColor = System.Drawing.Color.White;
+            this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label113.Location = new System.Drawing.Point(439, 9);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(147, 22);
+            this.label113.TabIndex = 508;
+            this.label113.Text = "Wounded Morroc";
+            this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.BackColor = System.Drawing.Color.White;
+            this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label116.ForeColor = System.Drawing.Color.Silver;
+            this.label116.Location = new System.Drawing.Point(491, 31);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(39, 15);
+            this.label116.TabIndex = 510;
+            this.label116.Text = "(Holy)";
+            this.label116.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // linkLabel46
+            // 
+            this.linkLabel46.AutoSize = true;
+            this.linkLabel46.BackColor = System.Drawing.Color.White;
+            this.linkLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.linkLabel46.Location = new System.Drawing.Point(475, 44);
+            this.linkLabel46.Name = "linkLabel46";
+            this.linkLabel46.Size = new System.Drawing.Size(76, 17);
+            this.linkLabel46.TabIndex = 509;
+            this.linkLabel46.TabStop = true;
+            this.linkLabel46.Text = "Moc_fild22";
+            this.linkLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel46.VisitedLinkColor = System.Drawing.Color.Blue;
+            // 
+            // timerLabel48
+            // 
+            this.timerLabel48.AutoSize = true;
+            this.timerLabel48.BackColor = System.Drawing.Color.White;
+            this.timerLabel48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel48.Location = new System.Drawing.Point(452, 84);
+            this.timerLabel48.Name = "timerLabel48";
+            this.timerLabel48.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel48.TabIndex = 507;
+            this.timerLabel48.Text = "00:00:00";
+            // 
+            // resetButton48
+            // 
+            this.resetButton48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton48.Location = new System.Drawing.Point(526, 135);
+            this.resetButton48.Name = "resetButton48";
+            this.resetButton48.Size = new System.Drawing.Size(75, 23);
+            this.resetButton48.TabIndex = 506;
+            this.resetButton48.Text = "Reset";
+            this.resetButton48.UseVisualStyleBackColor = false;
+            // 
+            // startButton48
+            // 
+            this.startButton48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton48.Location = new System.Drawing.Point(425, 135);
+            this.startButton48.Name = "startButton48";
+            this.startButton48.Size = new System.Drawing.Size(75, 23);
+            this.startButton48.TabIndex = 505;
+            this.startButton48.Text = "Start";
+            this.startButton48.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.BackColor = System.Drawing.Color.White;
+            this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
+            this.pictureBox47.ImageLocation = "";
+            this.pictureBox47.Location = new System.Drawing.Point(412, 0);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox47.TabIndex = 511;
+            this.pictureBox47.TabStop = false;
             // 
             // label91
             // 
@@ -5525,33 +5634,33 @@ namespace MVPTimer
             this.label91.Text = "(Earth)";
             this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox19
+            // imageMessage47
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.White;
-            this.pictureBox19.ErrorImage = null;
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.InitialImage = null;
-            this.pictureBox19.Location = new System.Drawing.Point(357, 40);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 292;
-            this.pictureBox19.TabStop = false;
-            this.pictureBox19.Visible = false;
+            this.imageMessage47.BackColor = System.Drawing.Color.White;
+            this.imageMessage47.ErrorImage = null;
+            this.imageMessage47.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage47.Image")));
+            this.imageMessage47.InitialImage = null;
+            this.imageMessage47.Location = new System.Drawing.Point(357, 40);
+            this.imageMessage47.Name = "imageMessage47";
+            this.imageMessage47.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage47.TabIndex = 292;
+            this.imageMessage47.TabStop = false;
+            this.imageMessage47.Visible = false;
             // 
-            // pictureBox20
+            // imageMessage46
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.White;
-            this.pictureBox20.ErrorImage = null;
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.InitialImage = null;
-            this.pictureBox20.Location = new System.Drawing.Point(147, 40);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 291;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.Visible = false;
+            this.imageMessage46.BackColor = System.Drawing.Color.White;
+            this.imageMessage46.ErrorImage = null;
+            this.imageMessage46.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage46.Image")));
+            this.imageMessage46.InitialImage = null;
+            this.imageMessage46.Location = new System.Drawing.Point(147, 40);
+            this.imageMessage46.Name = "imageMessage46";
+            this.imageMessage46.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage46.TabIndex = 291;
+            this.imageMessage46.TabStop = false;
+            this.imageMessage46.Visible = false;
             // 
             // label79
             // 
@@ -5593,37 +5702,37 @@ namespace MVPTimer
             this.linkLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel44.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label98
+            // timerLabel47
             // 
-            this.label98.AutoSize = true;
-            this.label98.BackColor = System.Drawing.Color.White;
-            this.label98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label98.Location = new System.Drawing.Point(246, 84);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(122, 33);
-            this.label98.TabIndex = 264;
-            this.label98.Text = "00:00:00";
+            this.timerLabel47.AutoSize = true;
+            this.timerLabel47.BackColor = System.Drawing.Color.White;
+            this.timerLabel47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel47.Location = new System.Drawing.Point(246, 84);
+            this.timerLabel47.Name = "timerLabel47";
+            this.timerLabel47.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel47.TabIndex = 264;
+            this.timerLabel47.Text = "00:00:00";
             // 
-            // button7
+            // resetButton47
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button7.Location = new System.Drawing.Point(322, 135);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 263;
-            this.button7.Text = "Reset";
-            this.button7.UseVisualStyleBackColor = false;
+            this.resetButton47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton47.Location = new System.Drawing.Point(322, 135);
+            this.resetButton47.Name = "resetButton47";
+            this.resetButton47.Size = new System.Drawing.Size(75, 23);
+            this.resetButton47.TabIndex = 263;
+            this.resetButton47.Text = "Reset";
+            this.resetButton47.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // startButton47
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.Location = new System.Drawing.Point(221, 135);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 262;
-            this.button8.Text = "Start";
-            this.button8.UseVisualStyleBackColor = false;
+            this.startButton47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton47.Location = new System.Drawing.Point(221, 135);
+            this.startButton47.Name = "startButton47";
+            this.startButton47.Size = new System.Drawing.Size(75, 23);
+            this.startButton47.TabIndex = 262;
+            this.startButton47.Text = "Start";
+            this.startButton47.UseVisualStyleBackColor = false;
             // 
             // label101
             // 
@@ -5652,37 +5761,37 @@ namespace MVPTimer
             this.linkLabel45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel45.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label103
+            // timerLabel46
             // 
-            this.label103.AutoSize = true;
-            this.label103.BackColor = System.Drawing.Color.White;
-            this.label103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label103.Location = new System.Drawing.Point(40, 84);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(122, 33);
-            this.label103.TabIndex = 258;
-            this.label103.Text = "00:00:00";
+            this.timerLabel46.AutoSize = true;
+            this.timerLabel46.BackColor = System.Drawing.Color.White;
+            this.timerLabel46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel46.Location = new System.Drawing.Point(40, 84);
+            this.timerLabel46.Name = "timerLabel46";
+            this.timerLabel46.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel46.TabIndex = 258;
+            this.timerLabel46.Text = "00:00:00";
             // 
-            // button9
+            // resetButton46
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button9.Location = new System.Drawing.Point(114, 135);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 257;
-            this.button9.Text = "Reset";
-            this.button9.UseVisualStyleBackColor = false;
+            this.resetButton46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton46.Location = new System.Drawing.Point(114, 135);
+            this.resetButton46.Name = "resetButton46";
+            this.resetButton46.Size = new System.Drawing.Size(75, 23);
+            this.resetButton46.TabIndex = 257;
+            this.resetButton46.Text = "Reset";
+            this.resetButton46.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // startButton46
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button10.Location = new System.Drawing.Point(13, 135);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 256;
-            this.button10.Text = "Start";
-            this.button10.UseVisualStyleBackColor = false;
+            this.startButton46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton46.Location = new System.Drawing.Point(13, 135);
+            this.startButton46.Name = "startButton46";
+            this.startButton46.Size = new System.Drawing.Size(75, 23);
+            this.startButton46.TabIndex = 256;
+            this.startButton46.Text = "Start";
+            this.startButton46.UseVisualStyleBackColor = false;
             // 
             // pictureBox33
             // 
@@ -5719,69 +5828,83 @@ namespace MVPTimer
             this.tabPage2.Controls.Add(this.label64);
             this.tabPage2.Controls.Add(this.label68);
             this.tabPage2.Controls.Add(this.label70);
-            this.tabPage2.Controls.Add(this.pictureBox18);
-            this.tabPage2.Controls.Add(this.pictureBox21);
-            this.tabPage2.Controls.Add(this.pictureBox22);
-            this.tabPage2.Controls.Add(this.pictureBox23);
-            this.tabPage2.Controls.Add(this.pictureBox24);
-            this.tabPage2.Controls.Add(this.pictureBox25);
-            this.tabPage2.Controls.Add(this.pictureBox26);
-            this.tabPage2.Controls.Add(this.pictureBox27);
+            this.tabPage2.Controls.Add(this.imageMessage56);
+            this.tabPage2.Controls.Add(this.imageMessage55);
+            this.tabPage2.Controls.Add(this.imageMessage54);
+            this.tabPage2.Controls.Add(this.imageMessage53);
+            this.tabPage2.Controls.Add(this.imageMessage52);
+            this.tabPage2.Controls.Add(this.imageMessage51);
+            this.tabPage2.Controls.Add(this.imageMessage50);
+            this.tabPage2.Controls.Add(this.imageMessage49);
             this.tabPage2.Controls.Add(this.label46);
             this.tabPage2.Controls.Add(this.label47);
             this.tabPage2.Controls.Add(this.label48);
             this.tabPage2.Controls.Add(this.label50);
             this.tabPage2.Controls.Add(this.linkLabel8);
-            this.tabPage2.Controls.Add(this.label51);
-            this.tabPage2.Controls.Add(this.button5);
-            this.tabPage2.Controls.Add(this.button6);
+            this.tabPage2.Controls.Add(this.timerLabel56);
+            this.tabPage2.Controls.Add(this.resetButton56);
+            this.tabPage2.Controls.Add(this.startButton56);
             this.tabPage2.Controls.Add(this.linkLabel9);
-            this.tabPage2.Controls.Add(this.label52);
-            this.tabPage2.Controls.Add(this.button11);
-            this.tabPage2.Controls.Add(this.button12);
+            this.tabPage2.Controls.Add(this.timerLabel55);
+            this.tabPage2.Controls.Add(this.resetButton55);
+            this.tabPage2.Controls.Add(this.startButton55);
             this.tabPage2.Controls.Add(this.linkLabel10);
-            this.tabPage2.Controls.Add(this.label54);
-            this.tabPage2.Controls.Add(this.button13);
-            this.tabPage2.Controls.Add(this.button14);
+            this.tabPage2.Controls.Add(this.timerLabel54);
+            this.tabPage2.Controls.Add(this.resetButton54);
+            this.tabPage2.Controls.Add(this.startButton54);
             this.tabPage2.Controls.Add(this.pictureBox30);
             this.tabPage2.Controls.Add(this.pictureBox31);
             this.tabPage2.Controls.Add(this.pictureBox32);
             this.tabPage2.Controls.Add(this.label55);
             this.tabPage2.Controls.Add(this.label56);
             this.tabPage2.Controls.Add(this.linkLabel11);
-            this.tabPage2.Controls.Add(this.label59);
-            this.tabPage2.Controls.Add(this.button15);
-            this.tabPage2.Controls.Add(this.button16);
+            this.tabPage2.Controls.Add(this.timerLabel53);
+            this.tabPage2.Controls.Add(this.resetButton53);
+            this.tabPage2.Controls.Add(this.startButton53);
             this.tabPage2.Controls.Add(this.linkLabel12);
-            this.tabPage2.Controls.Add(this.label60);
-            this.tabPage2.Controls.Add(this.button17);
-            this.tabPage2.Controls.Add(this.button18);
+            this.tabPage2.Controls.Add(this.timerLabel52);
+            this.tabPage2.Controls.Add(this.resetButton52);
+            this.tabPage2.Controls.Add(this.startButton52);
             this.tabPage2.Controls.Add(this.pictureBox35);
             this.tabPage2.Controls.Add(this.pictureBox36);
             this.tabPage2.Controls.Add(this.label61);
             this.tabPage2.Controls.Add(this.label62);
             this.tabPage2.Controls.Add(this.label63);
             this.tabPage2.Controls.Add(this.linkLabel13);
-            this.tabPage2.Controls.Add(this.label66);
-            this.tabPage2.Controls.Add(this.button19);
-            this.tabPage2.Controls.Add(this.button20);
+            this.tabPage2.Controls.Add(this.timerLabel51);
+            this.tabPage2.Controls.Add(this.resetButton51);
+            this.tabPage2.Controls.Add(this.startButton51);
             this.tabPage2.Controls.Add(this.linkLabel14);
-            this.tabPage2.Controls.Add(this.label67);
-            this.tabPage2.Controls.Add(this.button21);
-            this.tabPage2.Controls.Add(this.button22);
+            this.tabPage2.Controls.Add(this.timerLabel50);
+            this.tabPage2.Controls.Add(this.resetButton50);
+            this.tabPage2.Controls.Add(this.startButton50);
             this.tabPage2.Controls.Add(this.linkLabel15);
-            this.tabPage2.Controls.Add(this.label69);
-            this.tabPage2.Controls.Add(this.button23);
-            this.tabPage2.Controls.Add(this.button24);
+            this.tabPage2.Controls.Add(this.timerLabel49);
+            this.tabPage2.Controls.Add(this.resetButton49);
+            this.tabPage2.Controls.Add(this.startButton49);
             this.tabPage2.Controls.Add(this.pictureBox37);
             this.tabPage2.Controls.Add(this.pictureBox38);
             this.tabPage2.Controls.Add(this.pictureBox39);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.ImageKey = "(ninguno)";
+            this.tabPage2.Location = new System.Drawing.Point(4, 27);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1024, 1858);
+            this.tabPage2.Size = new System.Drawing.Size(1063, 602);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "MVP ESCENCIAS";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.White;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label49.Location = new System.Drawing.Point(900, 31);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(44, 15);
+            this.label49.TabIndex = 504;
+            this.label49.Text = "(Earth)";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label57
             // 
@@ -5861,117 +5984,117 @@ namespace MVPTimer
             this.label70.Text = "(Ghost)";
             this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox18
+            // imageMessage56
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.White;
-            this.pictureBox18.ErrorImage = null;
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.InitialImage = null;
-            this.pictureBox18.Location = new System.Drawing.Point(562, 240);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 338;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Visible = false;
+            this.imageMessage56.BackColor = System.Drawing.Color.White;
+            this.imageMessage56.ErrorImage = null;
+            this.imageMessage56.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage56.Image")));
+            this.imageMessage56.InitialImage = null;
+            this.imageMessage56.Location = new System.Drawing.Point(562, 240);
+            this.imageMessage56.Name = "imageMessage56";
+            this.imageMessage56.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage56.TabIndex = 338;
+            this.imageMessage56.TabStop = false;
+            this.imageMessage56.Visible = false;
             // 
-            // pictureBox21
+            // imageMessage55
             // 
-            this.pictureBox21.BackColor = System.Drawing.Color.White;
-            this.pictureBox21.ErrorImage = null;
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.InitialImage = null;
-            this.pictureBox21.Location = new System.Drawing.Point(357, 240);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 337;
-            this.pictureBox21.TabStop = false;
-            this.pictureBox21.Visible = false;
+            this.imageMessage55.BackColor = System.Drawing.Color.White;
+            this.imageMessage55.ErrorImage = null;
+            this.imageMessage55.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage55.Image")));
+            this.imageMessage55.InitialImage = null;
+            this.imageMessage55.Location = new System.Drawing.Point(357, 240);
+            this.imageMessage55.Name = "imageMessage55";
+            this.imageMessage55.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage55.TabIndex = 337;
+            this.imageMessage55.TabStop = false;
+            this.imageMessage55.Visible = false;
             // 
-            // pictureBox22
+            // imageMessage54
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.White;
-            this.pictureBox22.ErrorImage = null;
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.InitialImage = null;
-            this.pictureBox22.Location = new System.Drawing.Point(147, 240);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 336;
-            this.pictureBox22.TabStop = false;
-            this.pictureBox22.Visible = false;
+            this.imageMessage54.BackColor = System.Drawing.Color.White;
+            this.imageMessage54.ErrorImage = null;
+            this.imageMessage54.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage54.Image")));
+            this.imageMessage54.InitialImage = null;
+            this.imageMessage54.Location = new System.Drawing.Point(147, 240);
+            this.imageMessage54.Name = "imageMessage54";
+            this.imageMessage54.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage54.TabIndex = 336;
+            this.imageMessage54.TabStop = false;
+            this.imageMessage54.Visible = false;
             // 
-            // pictureBox23
+            // imageMessage53
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.White;
-            this.pictureBox23.ErrorImage = null;
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.InitialImage = null;
-            this.pictureBox23.Location = new System.Drawing.Point(974, 40);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 335;
-            this.pictureBox23.TabStop = false;
-            this.pictureBox23.Visible = false;
+            this.imageMessage53.BackColor = System.Drawing.Color.White;
+            this.imageMessage53.ErrorImage = null;
+            this.imageMessage53.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage53.Image")));
+            this.imageMessage53.InitialImage = null;
+            this.imageMessage53.Location = new System.Drawing.Point(974, 40);
+            this.imageMessage53.Name = "imageMessage53";
+            this.imageMessage53.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage53.TabIndex = 335;
+            this.imageMessage53.TabStop = false;
+            this.imageMessage53.Visible = false;
             // 
-            // pictureBox24
+            // imageMessage52
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.White;
-            this.pictureBox24.ErrorImage = null;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.InitialImage = null;
-            this.pictureBox24.Location = new System.Drawing.Point(769, 40);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 334;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Visible = false;
+            this.imageMessage52.BackColor = System.Drawing.Color.White;
+            this.imageMessage52.ErrorImage = null;
+            this.imageMessage52.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage52.Image")));
+            this.imageMessage52.InitialImage = null;
+            this.imageMessage52.Location = new System.Drawing.Point(769, 40);
+            this.imageMessage52.Name = "imageMessage52";
+            this.imageMessage52.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage52.TabIndex = 334;
+            this.imageMessage52.TabStop = false;
+            this.imageMessage52.Visible = false;
             // 
-            // pictureBox25
+            // imageMessage51
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.White;
-            this.pictureBox25.ErrorImage = null;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.InitialImage = null;
-            this.pictureBox25.Location = new System.Drawing.Point(562, 40);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 333;
-            this.pictureBox25.TabStop = false;
-            this.pictureBox25.Visible = false;
+            this.imageMessage51.BackColor = System.Drawing.Color.White;
+            this.imageMessage51.ErrorImage = null;
+            this.imageMessage51.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage51.Image")));
+            this.imageMessage51.InitialImage = null;
+            this.imageMessage51.Location = new System.Drawing.Point(562, 40);
+            this.imageMessage51.Name = "imageMessage51";
+            this.imageMessage51.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage51.TabIndex = 333;
+            this.imageMessage51.TabStop = false;
+            this.imageMessage51.Visible = false;
             // 
-            // pictureBox26
+            // imageMessage50
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.White;
-            this.pictureBox26.ErrorImage = null;
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.InitialImage = null;
-            this.pictureBox26.Location = new System.Drawing.Point(357, 40);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 332;
-            this.pictureBox26.TabStop = false;
-            this.pictureBox26.Visible = false;
+            this.imageMessage50.BackColor = System.Drawing.Color.White;
+            this.imageMessage50.ErrorImage = null;
+            this.imageMessage50.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage50.Image")));
+            this.imageMessage50.InitialImage = null;
+            this.imageMessage50.Location = new System.Drawing.Point(357, 40);
+            this.imageMessage50.Name = "imageMessage50";
+            this.imageMessage50.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage50.TabIndex = 332;
+            this.imageMessage50.TabStop = false;
+            this.imageMessage50.Visible = false;
             // 
-            // pictureBox27
+            // imageMessage49
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.White;
-            this.pictureBox27.ErrorImage = null;
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.InitialImage = null;
-            this.pictureBox27.Location = new System.Drawing.Point(147, 40);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 331;
-            this.pictureBox27.TabStop = false;
-            this.pictureBox27.Visible = false;
+            this.imageMessage49.BackColor = System.Drawing.Color.White;
+            this.imageMessage49.ErrorImage = null;
+            this.imageMessage49.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage49.Image")));
+            this.imageMessage49.InitialImage = null;
+            this.imageMessage49.Location = new System.Drawing.Point(147, 40);
+            this.imageMessage49.Name = "imageMessage49";
+            this.imageMessage49.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage49.TabIndex = 331;
+            this.imageMessage49.TabStop = false;
+            this.imageMessage49.Visible = false;
             // 
             // label46
             // 
@@ -6039,37 +6162,37 @@ namespace MVPTimer
             this.linkLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel8.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label51
+            // timerLabel56
             // 
-            this.label51.AutoSize = true;
-            this.label51.BackColor = System.Drawing.Color.White;
-            this.label51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label51.Location = new System.Drawing.Point(451, 293);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(122, 33);
-            this.label51.TabIndex = 308;
-            this.label51.Text = "00:00:00";
+            this.timerLabel56.AutoSize = true;
+            this.timerLabel56.BackColor = System.Drawing.Color.White;
+            this.timerLabel56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel56.Location = new System.Drawing.Point(451, 293);
+            this.timerLabel56.Name = "timerLabel56";
+            this.timerLabel56.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel56.TabIndex = 308;
+            this.timerLabel56.Text = "00:00:00";
             // 
-            // button5
+            // resetButton56
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.Location = new System.Drawing.Point(527, 344);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 307;
-            this.button5.Text = "Reset";
-            this.button5.UseVisualStyleBackColor = false;
+            this.resetButton56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton56.Location = new System.Drawing.Point(527, 344);
+            this.resetButton56.Name = "resetButton56";
+            this.resetButton56.Size = new System.Drawing.Size(75, 23);
+            this.resetButton56.TabIndex = 307;
+            this.resetButton56.Text = "Reset";
+            this.resetButton56.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // startButton56
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.Location = new System.Drawing.Point(426, 344);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 306;
-            this.button6.Text = "Start";
-            this.button6.UseVisualStyleBackColor = false;
+            this.startButton56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton56.Location = new System.Drawing.Point(426, 344);
+            this.startButton56.Name = "startButton56";
+            this.startButton56.Size = new System.Drawing.Size(75, 23);
+            this.startButton56.TabIndex = 306;
+            this.startButton56.Text = "Start";
+            this.startButton56.UseVisualStyleBackColor = false;
             // 
             // linkLabel9
             // 
@@ -6085,37 +6208,37 @@ namespace MVPTimer
             this.linkLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel9.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label52
+            // timerLabel55
             // 
-            this.label52.AutoSize = true;
-            this.label52.BackColor = System.Drawing.Color.White;
-            this.label52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label52.Location = new System.Drawing.Point(252, 293);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(122, 33);
-            this.label52.TabIndex = 304;
-            this.label52.Text = "00:00:00";
+            this.timerLabel55.AutoSize = true;
+            this.timerLabel55.BackColor = System.Drawing.Color.White;
+            this.timerLabel55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel55.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel55.Location = new System.Drawing.Point(252, 293);
+            this.timerLabel55.Name = "timerLabel55";
+            this.timerLabel55.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel55.TabIndex = 304;
+            this.timerLabel55.Text = "00:00:00";
             // 
-            // button11
+            // resetButton55
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button11.Location = new System.Drawing.Point(322, 344);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 303;
-            this.button11.Text = "Reset";
-            this.button11.UseVisualStyleBackColor = false;
+            this.resetButton55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton55.Location = new System.Drawing.Point(322, 344);
+            this.resetButton55.Name = "resetButton55";
+            this.resetButton55.Size = new System.Drawing.Size(75, 23);
+            this.resetButton55.TabIndex = 303;
+            this.resetButton55.Text = "Reset";
+            this.resetButton55.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // startButton55
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.Location = new System.Drawing.Point(221, 344);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 302;
-            this.button12.Text = "Start";
-            this.button12.UseVisualStyleBackColor = false;
+            this.startButton55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton55.Location = new System.Drawing.Point(221, 344);
+            this.startButton55.Name = "startButton55";
+            this.startButton55.Size = new System.Drawing.Size(75, 23);
+            this.startButton55.TabIndex = 302;
+            this.startButton55.Text = "Start";
+            this.startButton55.UseVisualStyleBackColor = false;
             // 
             // linkLabel10
             // 
@@ -6131,37 +6254,37 @@ namespace MVPTimer
             this.linkLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel10.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label54
+            // timerLabel54
             // 
-            this.label54.AutoSize = true;
-            this.label54.BackColor = System.Drawing.Color.White;
-            this.label54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label54.Location = new System.Drawing.Point(40, 293);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(122, 33);
-            this.label54.TabIndex = 298;
-            this.label54.Text = "00:00:00";
+            this.timerLabel54.AutoSize = true;
+            this.timerLabel54.BackColor = System.Drawing.Color.White;
+            this.timerLabel54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel54.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel54.Location = new System.Drawing.Point(40, 293);
+            this.timerLabel54.Name = "timerLabel54";
+            this.timerLabel54.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel54.TabIndex = 298;
+            this.timerLabel54.Text = "00:00:00";
             // 
-            // button13
+            // resetButton54
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button13.Location = new System.Drawing.Point(114, 344);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 297;
-            this.button13.Text = "Reset";
-            this.button13.UseVisualStyleBackColor = false;
+            this.resetButton54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton54.Location = new System.Drawing.Point(114, 344);
+            this.resetButton54.Name = "resetButton54";
+            this.resetButton54.Size = new System.Drawing.Size(75, 23);
+            this.resetButton54.TabIndex = 297;
+            this.resetButton54.Text = "Reset";
+            this.resetButton54.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // startButton54
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button14.Location = new System.Drawing.Point(13, 344);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 296;
-            this.button14.Text = "Start";
-            this.button14.UseVisualStyleBackColor = false;
+            this.startButton54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton54.Location = new System.Drawing.Point(13, 344);
+            this.startButton54.Name = "startButton54";
+            this.startButton54.Size = new System.Drawing.Size(75, 23);
+            this.startButton54.TabIndex = 296;
+            this.startButton54.Text = "Start";
+            this.startButton54.UseVisualStyleBackColor = false;
             // 
             // pictureBox30
             // 
@@ -6240,37 +6363,37 @@ namespace MVPTimer
             this.linkLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel11.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label59
+            // timerLabel53
             // 
-            this.label59.AutoSize = true;
-            this.label59.BackColor = System.Drawing.Color.White;
-            this.label59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label59.Location = new System.Drawing.Point(863, 84);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(122, 33);
-            this.label59.TabIndex = 288;
-            this.label59.Text = "00:00:00";
+            this.timerLabel53.AutoSize = true;
+            this.timerLabel53.BackColor = System.Drawing.Color.White;
+            this.timerLabel53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel53.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel53.Location = new System.Drawing.Point(863, 84);
+            this.timerLabel53.Name = "timerLabel53";
+            this.timerLabel53.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel53.TabIndex = 288;
+            this.timerLabel53.Text = "00:00:00";
             // 
-            // button15
+            // resetButton53
             // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button15.Location = new System.Drawing.Point(939, 135);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 287;
-            this.button15.Text = "Reset";
-            this.button15.UseVisualStyleBackColor = false;
+            this.resetButton53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton53.Location = new System.Drawing.Point(939, 135);
+            this.resetButton53.Name = "resetButton53";
+            this.resetButton53.Size = new System.Drawing.Size(75, 23);
+            this.resetButton53.TabIndex = 287;
+            this.resetButton53.Text = "Reset";
+            this.resetButton53.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // startButton53
             // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button16.Location = new System.Drawing.Point(838, 135);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 286;
-            this.button16.Text = "Start";
-            this.button16.UseVisualStyleBackColor = false;
+            this.startButton53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton53.Location = new System.Drawing.Point(838, 135);
+            this.startButton53.Name = "startButton53";
+            this.startButton53.Size = new System.Drawing.Size(75, 23);
+            this.startButton53.TabIndex = 286;
+            this.startButton53.Text = "Start";
+            this.startButton53.UseVisualStyleBackColor = false;
             // 
             // linkLabel12
             // 
@@ -6286,37 +6409,37 @@ namespace MVPTimer
             this.linkLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel12.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label60
+            // timerLabel52
             // 
-            this.label60.AutoSize = true;
-            this.label60.BackColor = System.Drawing.Color.White;
-            this.label60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label60.Location = new System.Drawing.Point(664, 84);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(122, 33);
-            this.label60.TabIndex = 284;
-            this.label60.Text = "00:00:00";
+            this.timerLabel52.AutoSize = true;
+            this.timerLabel52.BackColor = System.Drawing.Color.White;
+            this.timerLabel52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel52.Location = new System.Drawing.Point(664, 84);
+            this.timerLabel52.Name = "timerLabel52";
+            this.timerLabel52.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel52.TabIndex = 284;
+            this.timerLabel52.Text = "00:00:00";
             // 
-            // button17
+            // resetButton52
             // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button17.Location = new System.Drawing.Point(734, 135);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 283;
-            this.button17.Text = "Reset";
-            this.button17.UseVisualStyleBackColor = false;
+            this.resetButton52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton52.Location = new System.Drawing.Point(734, 135);
+            this.resetButton52.Name = "resetButton52";
+            this.resetButton52.Size = new System.Drawing.Size(75, 23);
+            this.resetButton52.TabIndex = 283;
+            this.resetButton52.Text = "Reset";
+            this.resetButton52.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // startButton52
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button18.Location = new System.Drawing.Point(633, 135);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 282;
-            this.button18.Text = "Start";
-            this.button18.UseVisualStyleBackColor = false;
+            this.startButton52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton52.Location = new System.Drawing.Point(633, 135);
+            this.startButton52.Name = "startButton52";
+            this.startButton52.Size = new System.Drawing.Size(75, 23);
+            this.startButton52.TabIndex = 282;
+            this.startButton52.Text = "Start";
+            this.startButton52.UseVisualStyleBackColor = false;
             // 
             // pictureBox35
             // 
@@ -6395,37 +6518,37 @@ namespace MVPTimer
             this.linkLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel13.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label66
+            // timerLabel51
             // 
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.White;
-            this.label66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label66.Location = new System.Drawing.Point(451, 84);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(122, 33);
-            this.label66.TabIndex = 273;
-            this.label66.Text = "00:00:00";
+            this.timerLabel51.AutoSize = true;
+            this.timerLabel51.BackColor = System.Drawing.Color.White;
+            this.timerLabel51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel51.Location = new System.Drawing.Point(451, 84);
+            this.timerLabel51.Name = "timerLabel51";
+            this.timerLabel51.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel51.TabIndex = 273;
+            this.timerLabel51.Text = "00:00:00";
             // 
-            // button19
+            // resetButton51
             // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button19.Location = new System.Drawing.Point(527, 135);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 272;
-            this.button19.Text = "Reset";
-            this.button19.UseVisualStyleBackColor = false;
+            this.resetButton51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton51.Location = new System.Drawing.Point(527, 135);
+            this.resetButton51.Name = "resetButton51";
+            this.resetButton51.Size = new System.Drawing.Size(75, 23);
+            this.resetButton51.TabIndex = 272;
+            this.resetButton51.Text = "Reset";
+            this.resetButton51.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // startButton51
             // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button20.Location = new System.Drawing.Point(426, 135);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 271;
-            this.button20.Text = "Start";
-            this.button20.UseVisualStyleBackColor = false;
+            this.startButton51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton51.Location = new System.Drawing.Point(426, 135);
+            this.startButton51.Name = "startButton51";
+            this.startButton51.Size = new System.Drawing.Size(75, 23);
+            this.startButton51.TabIndex = 271;
+            this.startButton51.Text = "Start";
+            this.startButton51.UseVisualStyleBackColor = false;
             // 
             // linkLabel14
             // 
@@ -6441,37 +6564,37 @@ namespace MVPTimer
             this.linkLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel14.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label67
+            // timerLabel50
             // 
-            this.label67.AutoSize = true;
-            this.label67.BackColor = System.Drawing.Color.White;
-            this.label67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label67.Location = new System.Drawing.Point(246, 84);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(122, 33);
-            this.label67.TabIndex = 269;
-            this.label67.Text = "00:00:00";
+            this.timerLabel50.AutoSize = true;
+            this.timerLabel50.BackColor = System.Drawing.Color.White;
+            this.timerLabel50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel50.Location = new System.Drawing.Point(246, 84);
+            this.timerLabel50.Name = "timerLabel50";
+            this.timerLabel50.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel50.TabIndex = 269;
+            this.timerLabel50.Text = "00:00:00";
             // 
-            // button21
+            // resetButton50
             // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button21.Location = new System.Drawing.Point(322, 135);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 268;
-            this.button21.Text = "Reset";
-            this.button21.UseVisualStyleBackColor = false;
+            this.resetButton50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton50.Location = new System.Drawing.Point(322, 135);
+            this.resetButton50.Name = "resetButton50";
+            this.resetButton50.Size = new System.Drawing.Size(75, 23);
+            this.resetButton50.TabIndex = 268;
+            this.resetButton50.Text = "Reset";
+            this.resetButton50.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // startButton50
             // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button22.Location = new System.Drawing.Point(221, 135);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 267;
-            this.button22.Text = "Start";
-            this.button22.UseVisualStyleBackColor = false;
+            this.startButton50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton50.Location = new System.Drawing.Point(221, 135);
+            this.startButton50.Name = "startButton50";
+            this.startButton50.Size = new System.Drawing.Size(75, 23);
+            this.startButton50.TabIndex = 267;
+            this.startButton50.Text = "Start";
+            this.startButton50.UseVisualStyleBackColor = false;
             // 
             // linkLabel15
             // 
@@ -6487,37 +6610,37 @@ namespace MVPTimer
             this.linkLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel15.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label69
+            // timerLabel49
             // 
-            this.label69.AutoSize = true;
-            this.label69.BackColor = System.Drawing.Color.White;
-            this.label69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label69.Location = new System.Drawing.Point(40, 84);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(122, 33);
-            this.label69.TabIndex = 263;
-            this.label69.Text = "00:00:00";
+            this.timerLabel49.AutoSize = true;
+            this.timerLabel49.BackColor = System.Drawing.Color.White;
+            this.timerLabel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel49.Location = new System.Drawing.Point(40, 84);
+            this.timerLabel49.Name = "timerLabel49";
+            this.timerLabel49.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel49.TabIndex = 263;
+            this.timerLabel49.Text = "00:00:00";
             // 
-            // button23
+            // resetButton49
             // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button23.Location = new System.Drawing.Point(114, 135);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 262;
-            this.button23.Text = "Reset";
-            this.button23.UseVisualStyleBackColor = false;
+            this.resetButton49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton49.Location = new System.Drawing.Point(114, 135);
+            this.resetButton49.Name = "resetButton49";
+            this.resetButton49.Size = new System.Drawing.Size(75, 23);
+            this.resetButton49.TabIndex = 262;
+            this.resetButton49.Text = "Reset";
+            this.resetButton49.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // startButton49
             // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button24.Location = new System.Drawing.Point(13, 135);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 261;
-            this.button24.Text = "Start";
-            this.button24.UseVisualStyleBackColor = false;
+            this.startButton49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton49.Location = new System.Drawing.Point(13, 135);
+            this.startButton49.Name = "startButton49";
+            this.startButton49.Size = new System.Drawing.Size(75, 23);
+            this.startButton49.TabIndex = 261;
+            this.startButton49.Text = "Start";
+            this.startButton49.UseVisualStyleBackColor = false;
             // 
             // pictureBox37
             // 
@@ -6558,206 +6681,93 @@ namespace MVPTimer
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.label31);
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabPage4.Controls.Add(this.imageMessage59);
+            this.tabPage4.Controls.Add(this.imageMessage60);
             this.tabPage4.Controls.Add(this.label74);
+            this.tabPage4.Controls.Add(this.label36);
+            this.tabPage4.Controls.Add(this.linkLabel7);
+            this.tabPage4.Controls.Add(this.timerLabel60);
+            this.tabPage4.Controls.Add(this.resetButton60);
+            this.tabPage4.Controls.Add(this.startButton60);
+            this.tabPage4.Controls.Add(this.pictureBox41);
+            this.tabPage4.Controls.Add(this.imageMessage61);
+            this.tabPage4.Controls.Add(this.label31);
             this.tabPage4.Controls.Add(this.label94);
             this.tabPage4.Controls.Add(this.label122);
-            this.tabPage4.Controls.Add(this.pictureBox16);
-            this.tabPage4.Controls.Add(this.pictureBox17);
-            this.tabPage4.Controls.Add(this.pictureBox28);
-            this.tabPage4.Controls.Add(this.pictureBox29);
-            this.tabPage4.Controls.Add(this.pictureBox40);
-            this.tabPage4.Controls.Add(this.label36);
+            this.tabPage4.Controls.Add(this.imageMessage58);
+            this.tabPage4.Controls.Add(this.imageMessage57);
             this.tabPage4.Controls.Add(this.label38);
             this.tabPage4.Controls.Add(this.linkLabel6);
-            this.tabPage4.Controls.Add(this.label45);
-            this.tabPage4.Controls.Add(this.button1);
-            this.tabPage4.Controls.Add(this.button2);
-            this.tabPage4.Controls.Add(this.linkLabel7);
-            this.tabPage4.Controls.Add(this.label53);
-            this.tabPage4.Controls.Add(this.button3);
-            this.tabPage4.Controls.Add(this.button4);
-            this.tabPage4.Controls.Add(this.pictureBox41);
-            this.tabPage4.Controls.Add(this.pictureBox42);
+            this.tabPage4.Controls.Add(this.timerLabel59);
+            this.tabPage4.Controls.Add(this.resetButton61);
+            this.tabPage4.Controls.Add(this.startButton61);
             this.tabPage4.Controls.Add(this.label71);
             this.tabPage4.Controls.Add(this.label72);
             this.tabPage4.Controls.Add(this.label73);
             this.tabPage4.Controls.Add(this.linkLabel41);
-            this.tabPage4.Controls.Add(this.label86);
-            this.tabPage4.Controls.Add(this.button25);
-            this.tabPage4.Controls.Add(this.button26);
+            this.tabPage4.Controls.Add(this.timerLabel61);
+            this.tabPage4.Controls.Add(this.resetButton59);
+            this.tabPage4.Controls.Add(this.startButton59);
             this.tabPage4.Controls.Add(this.linkLabel42);
-            this.tabPage4.Controls.Add(this.label88);
-            this.tabPage4.Controls.Add(this.button27);
-            this.tabPage4.Controls.Add(this.button28);
+            this.tabPage4.Controls.Add(this.timerLabel58);
+            this.tabPage4.Controls.Add(this.resetButton58);
+            this.tabPage4.Controls.Add(this.startButton58);
             this.tabPage4.Controls.Add(this.linkLabel43);
-            this.tabPage4.Controls.Add(this.label111);
-            this.tabPage4.Controls.Add(this.button29);
-            this.tabPage4.Controls.Add(this.button30);
+            this.tabPage4.Controls.Add(this.timerLabel57);
+            this.tabPage4.Controls.Add(this.resetButton57);
+            this.tabPage4.Controls.Add(this.startButton57);
             this.tabPage4.Controls.Add(this.pictureBox43);
             this.tabPage4.Controls.Add(this.pictureBox44);
             this.tabPage4.Controls.Add(this.pictureBox45);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Controls.Add(this.pictureBox42);
+            this.tabPage4.Location = new System.Drawing.Point(4, 27);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1024, 1858);
+            this.tabPage4.Size = new System.Drawing.Size(1059, 609);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Otros";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // toolStrip1
+            // imageMessage59
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton2,
-            this.toolStripButton1,
-            this.toolStripButton4,
-            this.toolStripButton3});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1076, 25);
-            this.toolStrip1.TabIndex = 148;
-            this.toolStrip1.Text = "toolStrip1";
+            this.imageMessage59.BackColor = System.Drawing.Color.White;
+            this.imageMessage59.ErrorImage = null;
+            this.imageMessage59.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage59.Image")));
+            this.imageMessage59.InitialImage = null;
+            this.imageMessage59.Location = new System.Drawing.Point(561, 31);
+            this.imageMessage59.Name = "imageMessage59";
+            this.imageMessage59.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage59.TabIndex = 514;
+            this.imageMessage59.TabStop = false;
+            this.imageMessage59.Visible = false;
             // 
-            // toolStripButton2
+            // imageMessage60
             // 
-            this.toolStripButton2.BackColor = System.Drawing.Color.Yellow;
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(42, 22);
-            this.toolStripButton2.Text = "MVPS";
-            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            this.imageMessage60.BackColor = System.Drawing.Color.White;
+            this.imageMessage60.ErrorImage = null;
+            this.imageMessage60.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage60.Image")));
+            this.imageMessage60.InitialImage = null;
+            this.imageMessage60.Location = new System.Drawing.Point(769, 31);
+            this.imageMessage60.Name = "imageMessage60";
+            this.imageMessage60.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage60.TabIndex = 299;
+            this.imageMessage60.TabStop = false;
+            this.imageMessage60.Visible = false;
             // 
-            // toolStripButton1
+            // label74
             // 
-            this.toolStripButton1.BackColor = System.Drawing.Color.Red;
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(99, 22);
-            this.toolStripButton1.Text = "MVP ESCENCIAS";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(74, 22);
-            this.toolStripButton4.Text = "MVP QUEST";
-            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.BackColor = System.Drawing.Color.White;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label49.Location = new System.Drawing.Point(900, 31);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(44, 15);
-            this.label49.TabIndex = 504;
-            this.label49.Text = "(Earth)";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(40, 22);
-            this.toolStripButton3.Text = "Otros";
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.White;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label28.Location = new System.Drawing.Point(689, 1689);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 15);
-            this.label28.TabIndex = 557;
-            this.label28.Text = "(Earth)";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.Color.White;
-            this.pictureBox16.ErrorImage = null;
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.InitialImage = null;
-            this.pictureBox16.Location = new System.Drawing.Point(974, 31);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 300;
-            this.pictureBox16.TabStop = false;
-            this.pictureBox16.Visible = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.Color.White;
-            this.pictureBox17.ErrorImage = null;
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.InitialImage = null;
-            this.pictureBox17.Location = new System.Drawing.Point(769, 31);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 299;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Visible = false;
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.BackColor = System.Drawing.Color.White;
-            this.pictureBox28.ErrorImage = null;
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.InitialImage = null;
-            this.pictureBox28.Location = new System.Drawing.Point(562, 31);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 298;
-            this.pictureBox28.TabStop = false;
-            this.pictureBox28.Visible = false;
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.BackColor = System.Drawing.Color.White;
-            this.pictureBox29.ErrorImage = null;
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.InitialImage = null;
-            this.pictureBox29.Location = new System.Drawing.Point(357, 31);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox29.TabIndex = 297;
-            this.pictureBox29.TabStop = false;
-            this.pictureBox29.Visible = false;
-            // 
-            // pictureBox40
-            // 
-            this.pictureBox40.BackColor = System.Drawing.Color.White;
-            this.pictureBox40.ErrorImage = null;
-            this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
-            this.pictureBox40.InitialImage = null;
-            this.pictureBox40.Location = new System.Drawing.Point(147, 31);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox40.TabIndex = 296;
-            this.pictureBox40.TabStop = false;
-            this.pictureBox40.Visible = false;
+            this.label74.AutoSize = true;
+            this.label74.BackColor = System.Drawing.Color.White;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label74.Location = new System.Drawing.Point(695, 31);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(47, 15);
+            this.label74.TabIndex = 512;
+            this.label74.Text = "(Water)";
+            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label36
             // 
@@ -6771,65 +6781,6 @@ namespace MVPTimer
             this.label36.TabIndex = 291;
             this.label36.Text = "Boitata";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.White;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(881, 9);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(82, 22);
-            this.label38.TabIndex = 292;
-            this.label38.Text = "Phreeoni";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // linkLabel6
-            // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.BackColor = System.Drawing.Color.White;
-            this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel6.Location = new System.Drawing.Point(885, 44);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(76, 17);
-            this.linkLabel6.TabIndex = 289;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "Moc_fild17";
-            this.linkLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel6.VisitedLinkColor = System.Drawing.Color.Blue;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.BackColor = System.Drawing.Color.White;
-            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label45.Location = new System.Drawing.Point(863, 84);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(122, 33);
-            this.label45.TabIndex = 288;
-            this.label45.Text = "00:00:00";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(939, 135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 287;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(838, 135);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 286;
-            this.button2.Text = "Start";
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // linkLabel7
             // 
@@ -6845,37 +6796,37 @@ namespace MVPTimer
             this.linkLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel7.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label53
+            // timerLabel60
             // 
-            this.label53.AutoSize = true;
-            this.label53.BackColor = System.Drawing.Color.White;
-            this.label53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label53.Location = new System.Drawing.Point(664, 84);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(122, 33);
-            this.label53.TabIndex = 284;
-            this.label53.Text = "00:00:00";
+            this.timerLabel60.AutoSize = true;
+            this.timerLabel60.BackColor = System.Drawing.Color.White;
+            this.timerLabel60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel60.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel60.Location = new System.Drawing.Point(664, 84);
+            this.timerLabel60.Name = "timerLabel60";
+            this.timerLabel60.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel60.TabIndex = 284;
+            this.timerLabel60.Text = "00:00:00";
             // 
-            // button3
+            // resetButton60
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(734, 135);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 283;
-            this.button3.Text = "Reset";
-            this.button3.UseVisualStyleBackColor = false;
+            this.resetButton60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton60.Location = new System.Drawing.Point(734, 135);
+            this.resetButton60.Name = "resetButton60";
+            this.resetButton60.Size = new System.Drawing.Size(75, 23);
+            this.resetButton60.TabIndex = 283;
+            this.resetButton60.Text = "Reset";
+            this.resetButton60.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // startButton60
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(633, 135);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 282;
-            this.button4.Text = "Start";
-            this.button4.UseVisualStyleBackColor = false;
+            this.startButton60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton60.Location = new System.Drawing.Point(633, 135);
+            this.startButton60.Name = "startButton60";
+            this.startButton60.Size = new System.Drawing.Size(75, 23);
+            this.startButton60.TabIndex = 282;
+            this.startButton60.Text = "Start";
+            this.startButton60.UseVisualStyleBackColor = false;
             // 
             // pictureBox41
             // 
@@ -6889,17 +6840,145 @@ namespace MVPTimer
             this.pictureBox41.TabIndex = 290;
             this.pictureBox41.TabStop = false;
             // 
-            // pictureBox42
+            // imageMessage61
             // 
-            this.pictureBox42.BackColor = System.Drawing.Color.White;
-            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
-            this.pictureBox42.Location = new System.Drawing.Point(824, 0);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(200, 200);
-            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox42.TabIndex = 293;
-            this.pictureBox42.TabStop = false;
+            this.imageMessage61.BackColor = System.Drawing.Color.White;
+            this.imageMessage61.ErrorImage = null;
+            this.imageMessage61.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage61.Image")));
+            this.imageMessage61.InitialImage = null;
+            this.imageMessage61.Location = new System.Drawing.Point(972, 31);
+            this.imageMessage61.Name = "imageMessage61";
+            this.imageMessage61.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage61.TabIndex = 300;
+            this.imageMessage61.TabStop = false;
+            this.imageMessage61.Visible = false;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.White;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(495, 31);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(28, 15);
+            this.label31.TabIndex = 513;
+            this.label31.Text = "(All)";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.BackColor = System.Drawing.Color.White;
+            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label94.ForeColor = System.Drawing.Color.Silver;
+            this.label94.Location = new System.Drawing.Point(283, 31);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(39, 15);
+            this.label94.TabIndex = 511;
+            this.label94.Text = "(Holy)";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.BackColor = System.Drawing.Color.White;
+            this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label122.ForeColor = System.Drawing.Color.Red;
+            this.label122.Location = new System.Drawing.Point(78, 30);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(36, 15);
+            this.label122.TabIndex = 301;
+            this.label122.Text = "(Fire)";
+            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // imageMessage58
+            // 
+            this.imageMessage58.BackColor = System.Drawing.Color.White;
+            this.imageMessage58.ErrorImage = null;
+            this.imageMessage58.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage58.Image")));
+            this.imageMessage58.InitialImage = null;
+            this.imageMessage58.Location = new System.Drawing.Point(357, 31);
+            this.imageMessage58.Name = "imageMessage58";
+            this.imageMessage58.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage58.TabIndex = 297;
+            this.imageMessage58.TabStop = false;
+            this.imageMessage58.Visible = false;
+            // 
+            // imageMessage57
+            // 
+            this.imageMessage57.BackColor = System.Drawing.Color.White;
+            this.imageMessage57.ErrorImage = null;
+            this.imageMessage57.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage57.Image")));
+            this.imageMessage57.InitialImage = null;
+            this.imageMessage57.Location = new System.Drawing.Point(147, 31);
+            this.imageMessage57.Name = "imageMessage57";
+            this.imageMessage57.Size = new System.Drawing.Size(40, 40);
+            this.imageMessage57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageMessage57.TabIndex = 296;
+            this.imageMessage57.TabStop = false;
+            this.imageMessage57.Visible = false;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.White;
+            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(469, 9);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(82, 22);
+            this.label38.TabIndex = 292;
+            this.label38.Text = "Phreeoni";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // linkLabel6
+            // 
+            this.linkLabel6.AutoSize = true;
+            this.linkLabel6.BackColor = System.Drawing.Color.White;
+            this.linkLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.linkLabel6.Location = new System.Drawing.Point(473, 44);
+            this.linkLabel6.Name = "linkLabel6";
+            this.linkLabel6.Size = new System.Drawing.Size(76, 17);
+            this.linkLabel6.TabIndex = 289;
+            this.linkLabel6.TabStop = true;
+            this.linkLabel6.Text = "Moc_fild17";
+            this.linkLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel6.VisitedLinkColor = System.Drawing.Color.Blue;
+            // 
+            // timerLabel59
+            // 
+            this.timerLabel59.AutoSize = true;
+            this.timerLabel59.BackColor = System.Drawing.Color.White;
+            this.timerLabel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel59.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel59.Location = new System.Drawing.Point(451, 84);
+            this.timerLabel59.Name = "timerLabel59";
+            this.timerLabel59.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel59.TabIndex = 288;
+            this.timerLabel59.Text = "00:00:00";
+            // 
+            // resetButton61
+            // 
+            this.resetButton61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton61.Location = new System.Drawing.Point(936, 135);
+            this.resetButton61.Name = "resetButton61";
+            this.resetButton61.Size = new System.Drawing.Size(75, 23);
+            this.resetButton61.TabIndex = 287;
+            this.resetButton61.Text = "Reset";
+            this.resetButton61.UseVisualStyleBackColor = false;
+            // 
+            // startButton61
+            // 
+            this.startButton61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton61.Location = new System.Drawing.Point(844, 135);
+            this.startButton61.Name = "startButton61";
+            this.startButton61.Size = new System.Drawing.Size(75, 23);
+            this.startButton61.TabIndex = 286;
+            this.startButton61.Text = "Start";
+            this.startButton61.UseVisualStyleBackColor = false;
             // 
             // label71
             // 
@@ -6933,7 +7012,7 @@ namespace MVPTimer
             this.label73.BackColor = System.Drawing.Color.White;
             this.label73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(469, 9);
+            this.label73.Location = new System.Drawing.Point(881, 9);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(78, 22);
             this.label73.TabIndex = 279;
@@ -6945,7 +7024,7 @@ namespace MVPTimer
             this.linkLabel41.AutoSize = true;
             this.linkLabel41.BackColor = System.Drawing.Color.White;
             this.linkLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel41.Location = new System.Drawing.Point(467, 44);
+            this.linkLabel41.Location = new System.Drawing.Point(879, 44);
             this.linkLabel41.Name = "linkLabel41";
             this.linkLabel41.Size = new System.Drawing.Size(88, 17);
             this.linkLabel41.TabIndex = 274;
@@ -6954,37 +7033,37 @@ namespace MVPTimer
             this.linkLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel41.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label86
+            // timerLabel61
             // 
-            this.label86.AutoSize = true;
-            this.label86.BackColor = System.Drawing.Color.White;
-            this.label86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label86.Location = new System.Drawing.Point(451, 84);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(122, 33);
-            this.label86.TabIndex = 273;
-            this.label86.Text = "00:00:00";
+            this.timerLabel61.AutoSize = true;
+            this.timerLabel61.BackColor = System.Drawing.Color.White;
+            this.timerLabel61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel61.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel61.Location = new System.Drawing.Point(863, 84);
+            this.timerLabel61.Name = "timerLabel61";
+            this.timerLabel61.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel61.TabIndex = 273;
+            this.timerLabel61.Text = "00:00:00";
             // 
-            // button25
+            // resetButton59
             // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button25.Location = new System.Drawing.Point(527, 135);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(75, 23);
-            this.button25.TabIndex = 272;
-            this.button25.Text = "Reset";
-            this.button25.UseVisualStyleBackColor = false;
+            this.resetButton59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton59.Location = new System.Drawing.Point(525, 135);
+            this.resetButton59.Name = "resetButton59";
+            this.resetButton59.Size = new System.Drawing.Size(75, 23);
+            this.resetButton59.TabIndex = 272;
+            this.resetButton59.Text = "Reset";
+            this.resetButton59.UseVisualStyleBackColor = false;
             // 
-            // button26
+            // startButton59
             // 
-            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button26.Location = new System.Drawing.Point(426, 135);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 271;
-            this.button26.Text = "Start";
-            this.button26.UseVisualStyleBackColor = false;
+            this.startButton59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton59.Location = new System.Drawing.Point(427, 135);
+            this.startButton59.Name = "startButton59";
+            this.startButton59.Size = new System.Drawing.Size(75, 23);
+            this.startButton59.TabIndex = 271;
+            this.startButton59.Text = "Start";
+            this.startButton59.UseVisualStyleBackColor = false;
             // 
             // linkLabel42
             // 
@@ -7000,37 +7079,37 @@ namespace MVPTimer
             this.linkLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel42.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label88
+            // timerLabel58
             // 
-            this.label88.AutoSize = true;
-            this.label88.BackColor = System.Drawing.Color.White;
-            this.label88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label88.Location = new System.Drawing.Point(252, 84);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(122, 33);
-            this.label88.TabIndex = 269;
-            this.label88.Text = "00:00:00";
+            this.timerLabel58.AutoSize = true;
+            this.timerLabel58.BackColor = System.Drawing.Color.White;
+            this.timerLabel58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel58.Location = new System.Drawing.Point(252, 84);
+            this.timerLabel58.Name = "timerLabel58";
+            this.timerLabel58.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel58.TabIndex = 269;
+            this.timerLabel58.Text = "00:00:00";
             // 
-            // button27
+            // resetButton58
             // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button27.Location = new System.Drawing.Point(322, 135);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(75, 23);
-            this.button27.TabIndex = 268;
-            this.button27.Text = "Reset";
-            this.button27.UseVisualStyleBackColor = false;
+            this.resetButton58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton58.Location = new System.Drawing.Point(322, 135);
+            this.resetButton58.Name = "resetButton58";
+            this.resetButton58.Size = new System.Drawing.Size(75, 23);
+            this.resetButton58.TabIndex = 268;
+            this.resetButton58.Text = "Reset";
+            this.resetButton58.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // startButton58
             // 
-            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button28.Location = new System.Drawing.Point(221, 135);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 23);
-            this.button28.TabIndex = 267;
-            this.button28.Text = "Start";
-            this.button28.UseVisualStyleBackColor = false;
+            this.startButton58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton58.Location = new System.Drawing.Point(221, 135);
+            this.startButton58.Name = "startButton58";
+            this.startButton58.Size = new System.Drawing.Size(75, 23);
+            this.startButton58.TabIndex = 267;
+            this.startButton58.Text = "Start";
+            this.startButton58.UseVisualStyleBackColor = false;
             // 
             // linkLabel43
             // 
@@ -7046,37 +7125,37 @@ namespace MVPTimer
             this.linkLabel43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel43.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
-            // label111
+            // timerLabel57
             // 
-            this.label111.AutoSize = true;
-            this.label111.BackColor = System.Drawing.Color.White;
-            this.label111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label111.Location = new System.Drawing.Point(40, 84);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(122, 33);
-            this.label111.TabIndex = 263;
-            this.label111.Text = "00:00:00";
+            this.timerLabel57.AutoSize = true;
+            this.timerLabel57.BackColor = System.Drawing.Color.White;
+            this.timerLabel57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel57.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.timerLabel57.Location = new System.Drawing.Point(40, 84);
+            this.timerLabel57.Name = "timerLabel57";
+            this.timerLabel57.Size = new System.Drawing.Size(122, 33);
+            this.timerLabel57.TabIndex = 263;
+            this.timerLabel57.Text = "00:00:00";
             // 
-            // button29
+            // resetButton57
             // 
-            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button29.Location = new System.Drawing.Point(114, 135);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 23);
-            this.button29.TabIndex = 262;
-            this.button29.Text = "Reset";
-            this.button29.UseVisualStyleBackColor = false;
+            this.resetButton57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.resetButton57.Location = new System.Drawing.Point(114, 135);
+            this.resetButton57.Name = "resetButton57";
+            this.resetButton57.Size = new System.Drawing.Size(75, 23);
+            this.resetButton57.TabIndex = 262;
+            this.resetButton57.Text = "Reset";
+            this.resetButton57.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // startButton57
             // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button30.Location = new System.Drawing.Point(13, 135);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 23);
-            this.button30.TabIndex = 261;
-            this.button30.Text = "Start";
-            this.button30.UseVisualStyleBackColor = false;
+            this.startButton57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.startButton57.Location = new System.Drawing.Point(13, 135);
+            this.startButton57.Name = "startButton57";
+            this.startButton57.Size = new System.Drawing.Size(75, 23);
+            this.startButton57.TabIndex = 261;
+            this.startButton57.Text = "Start";
+            this.startButton57.UseVisualStyleBackColor = false;
             // 
             // pictureBox43
             // 
@@ -7108,177 +7187,35 @@ namespace MVPTimer
             this.pictureBox45.BackColor = System.Drawing.Color.White;
             this.pictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
-            this.pictureBox45.Location = new System.Drawing.Point(412, 0);
+            this.pictureBox45.Location = new System.Drawing.Point(824, 0);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(200, 200);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox45.TabIndex = 280;
             this.pictureBox45.TabStop = false;
             // 
-            // pictureBox46
+            // pictureBox42
             // 
-            this.pictureBox46.BackColor = System.Drawing.Color.White;
-            this.pictureBox46.ErrorImage = null;
-            this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
-            this.pictureBox46.InitialImage = null;
-            this.pictureBox46.Location = new System.Drawing.Point(559, 31);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox46.TabIndex = 512;
-            this.pictureBox46.TabStop = false;
-            this.pictureBox46.Visible = false;
-            // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.BackColor = System.Drawing.Color.White;
-            this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label113.Location = new System.Drawing.Point(439, 9);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(147, 22);
-            this.label113.TabIndex = 508;
-            this.label113.Text = "Wounded Morroc";
-            this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.BackColor = System.Drawing.Color.White;
-            this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label116.ForeColor = System.Drawing.Color.Silver;
-            this.label116.Location = new System.Drawing.Point(491, 31);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(39, 15);
-            this.label116.TabIndex = 510;
-            this.label116.Text = "(Holy)";
-            this.label116.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // linkLabel46
-            // 
-            this.linkLabel46.AutoSize = true;
-            this.linkLabel46.BackColor = System.Drawing.Color.White;
-            this.linkLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel46.Location = new System.Drawing.Point(475, 44);
-            this.linkLabel46.Name = "linkLabel46";
-            this.linkLabel46.Size = new System.Drawing.Size(76, 17);
-            this.linkLabel46.TabIndex = 509;
-            this.linkLabel46.TabStop = true;
-            this.linkLabel46.Text = "Moc_fild22";
-            this.linkLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel46.VisitedLinkColor = System.Drawing.Color.Blue;
-            // 
-            // label118
-            // 
-            this.label118.AutoSize = true;
-            this.label118.BackColor = System.Drawing.Color.White;
-            this.label118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label118.Location = new System.Drawing.Point(452, 84);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(122, 33);
-            this.label118.TabIndex = 507;
-            this.label118.Text = "00:00:00";
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button31.Location = new System.Drawing.Point(526, 135);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 506;
-            this.button31.Text = "Reset";
-            this.button31.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button32.Location = new System.Drawing.Point(425, 135);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 505;
-            this.button32.Text = "Start";
-            this.button32.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.BackColor = System.Drawing.Color.White;
-            this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
-            this.pictureBox47.ImageLocation = "";
-            this.pictureBox47.Location = new System.Drawing.Point(412, 0);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(200, 200);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox47.TabIndex = 511;
-            this.pictureBox47.TabStop = false;
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.label122.BackColor = System.Drawing.Color.White;
-            this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label122.ForeColor = System.Drawing.Color.Red;
-            this.label122.Location = new System.Drawing.Point(78, 30);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(36, 15);
-            this.label122.TabIndex = 301;
-            this.label122.Text = "(Fire)";
-            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.BackColor = System.Drawing.Color.White;
-            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label94.ForeColor = System.Drawing.Color.Silver;
-            this.label94.Location = new System.Drawing.Point(283, 31);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(39, 15);
-            this.label94.TabIndex = 511;
-            this.label94.Text = "(Holy)";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.BackColor = System.Drawing.Color.White;
-            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label74.Location = new System.Drawing.Point(695, 31);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(47, 15);
-            this.label74.TabIndex = 512;
-            this.label74.Text = "(Water)";
-            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.White;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(907, 31);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(28, 15);
-            this.label31.TabIndex = 513;
-            this.label31.Text = "(All)";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBox42.BackColor = System.Drawing.Color.White;
+            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
+            this.pictureBox42.Location = new System.Drawing.Point(412, 0);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox42.TabIndex = 293;
+            this.pictureBox42.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1093, 711);
-            this.Controls.Add(this.toolStrip1);
+            this.ClientSize = new System.Drawing.Size(1081, 641);
             this.Controls.Add(this.miTabControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MVP Timer";
             this.miTabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -7375,20 +7312,22 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage46)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage55)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage49)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
@@ -7399,22 +7338,17 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage60)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageMessage57)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -7422,8 +7356,6 @@ namespace MVPTimer
         private TabControl miTabControl;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private ToolStrip toolStrip1;
-        private ToolStripButton toolStripButton1;
         private PictureBox imageMessage15;
         private PictureBox imageMessage14;
         private PictureBox imageMessage13;
@@ -7544,9 +7476,7 @@ namespace MVPTimer
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox3;
-        private ToolStripButton toolStripButton2;
         private TabPage tabPage3;
-        private ToolStripButton toolStripButton4;
         private PictureBox imageMessage30;
         private PictureBox imageMessage29;
         private PictureBox imageMessage28;
@@ -7787,77 +7717,77 @@ namespace MVPTimer
         private Label label137;
         private Label label136;
         private PictureBox imageMessage45;
-        private PictureBox pictureBox19;
-        private PictureBox pictureBox20;
+        private PictureBox imageMessage47;
+        private PictureBox imageMessage46;
         private Label label79;
         private Label label85;
         private LinkLabel linkLabel44;
-        private Label label98;
-        private Button button7;
-        private Button button8;
+        private Label timerLabel47;
+        private Button resetButton47;
+        private Button startButton47;
         private Label label101;
         private LinkLabel linkLabel45;
-        private Label label103;
-        private Button button9;
-        private Button button10;
+        private Label timerLabel46;
+        private Button resetButton46;
+        private Button startButton46;
         private PictureBox pictureBox33;
         private PictureBox pictureBox34;
         private Label label91;
         private TabPage tabPage4;
-        private PictureBox pictureBox18;
-        private PictureBox pictureBox21;
-        private PictureBox pictureBox22;
-        private PictureBox pictureBox23;
-        private PictureBox pictureBox24;
-        private PictureBox pictureBox25;
-        private PictureBox pictureBox26;
-        private PictureBox pictureBox27;
+        private PictureBox imageMessage56;
+        private PictureBox imageMessage55;
+        private PictureBox imageMessage54;
+        private PictureBox imageMessage53;
+        private PictureBox imageMessage52;
+        private PictureBox imageMessage51;
+        private PictureBox imageMessage50;
+        private PictureBox imageMessage49;
         private Label label46;
         private Label label47;
         private Label label48;
         private Label label50;
         private LinkLabel linkLabel8;
-        private Label label51;
-        private Button button5;
-        private Button button6;
+        private Label timerLabel56;
+        private Button resetButton56;
+        private Button startButton56;
         private LinkLabel linkLabel9;
-        private Label label52;
-        private Button button11;
-        private Button button12;
+        private Label timerLabel55;
+        private Button resetButton55;
+        private Button startButton55;
         private LinkLabel linkLabel10;
-        private Label label54;
-        private Button button13;
-        private Button button14;
+        private Label timerLabel54;
+        private Button resetButton54;
+        private Button startButton54;
         private PictureBox pictureBox30;
         private PictureBox pictureBox31;
         private PictureBox pictureBox32;
         private Label label55;
         private Label label56;
         private LinkLabel linkLabel11;
-        private Label label59;
-        private Button button15;
-        private Button button16;
+        private Label timerLabel53;
+        private Button resetButton53;
+        private Button startButton53;
         private LinkLabel linkLabel12;
-        private Label label60;
-        private Button button17;
-        private Button button18;
+        private Label timerLabel52;
+        private Button resetButton52;
+        private Button startButton52;
         private PictureBox pictureBox35;
         private PictureBox pictureBox36;
         private Label label61;
         private Label label62;
         private Label label63;
         private LinkLabel linkLabel13;
-        private Label label66;
-        private Button button19;
-        private Button button20;
+        private Label timerLabel51;
+        private Button resetButton51;
+        private Button startButton51;
         private LinkLabel linkLabel14;
-        private Label label67;
-        private Button button21;
-        private Button button22;
+        private Label timerLabel50;
+        private Button resetButton50;
+        private Button startButton50;
         private LinkLabel linkLabel15;
-        private Label label69;
-        private Button button23;
-        private Button button24;
+        private Label timerLabel49;
+        private Button resetButton49;
+        private Button startButton49;
         private PictureBox pictureBox37;
         private PictureBox pictureBox38;
         private PictureBox pictureBox39;
@@ -7868,48 +7798,45 @@ namespace MVPTimer
         private Label label57;
         private Label label58;
         private Label label49;
-        private ToolStripButton toolStripButton3;
         private Label label28;
-        private PictureBox pictureBox46;
+        private PictureBox imageMessage48;
         private Label label113;
         private Label label116;
         private LinkLabel linkLabel46;
-        private Label label118;
-        private Button button31;
-        private Button button32;
+        private Label timerLabel48;
+        private Button resetButton48;
+        private Button startButton48;
         private PictureBox pictureBox47;
-        private PictureBox pictureBox16;
-        private PictureBox pictureBox17;
-        private PictureBox pictureBox28;
-        private PictureBox pictureBox29;
-        private PictureBox pictureBox40;
+        private PictureBox imageMessage60;
+        private PictureBox imageMessage58;
+        private PictureBox imageMessage57;
         private Label label36;
         private Label label38;
         private LinkLabel linkLabel6;
-        private Label label45;
-        private Button button1;
-        private Button button2;
+        private Label timerLabel59;
+        private Button resetButton61;
+        private Button startButton61;
         private LinkLabel linkLabel7;
-        private Label label53;
-        private Button button3;
-        private Button button4;
+        private Label timerLabel60;
+        private Button resetButton60;
+        private Button startButton60;
         private PictureBox pictureBox41;
         private PictureBox pictureBox42;
         private Label label71;
         private Label label72;
         private Label label73;
         private LinkLabel linkLabel41;
-        private Label label86;
-        private Button button25;
-        private Button button26;
+        private Label timerLabel61;
+        private Button resetButton59;
+        private Button startButton59;
         private LinkLabel linkLabel42;
-        private Label label88;
-        private Button button27;
-        private Button button28;
+        private Label timerLabel58;
+        private Button resetButton58;
+        private Button startButton58;
         private LinkLabel linkLabel43;
-        private Label label111;
-        private Button button29;
-        private Button button30;
+        private Label timerLabel57;
+        private Button resetButton57;
+        private Button startButton57;
         private PictureBox pictureBox43;
         private PictureBox pictureBox44;
         private PictureBox pictureBox45;
@@ -7917,6 +7844,8 @@ namespace MVPTimer
         private Label label122;
         private Label label74;
         private Label label31;
+        private PictureBox imageMessage61;
+        private PictureBox imageMessage59;
     }
 }
 
