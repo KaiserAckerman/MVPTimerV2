@@ -176,27 +176,6 @@ namespace MVPTimer
             player.Play();
         }
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-            // Cambiar a la pestaña deseada en el TabControl
-            miTabControl.SelectedIndex = 2;                               
-        }
-        private void toolStripButton2_Click(object sender, EventArgs e)
-        {
-            // Cambiar a la pestaña deseada en el TabControl
-            miTabControl.SelectedIndex = 0; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
-        }
-        private void toolStripButton4_Click(object sender, EventArgs e)
-        {
-            // Cambiar a la pestaña deseada en el TabControl
-            miTabControl.SelectedIndex = 1; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
-        }
-        private void toolStripButton3_Click(object sender, EventArgs e)
-        {
-            // Cambiar a la pestaña deseada en el TabControl
-            miTabControl.SelectedIndex = 3; // Cambia 1 por el índice de la pestaña a la que quieres cambiar
-        }
-
         //LINKS MAPAS
         private void FallenUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -288,7 +267,138 @@ namespace MVPTimer
             System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=gef_dun03&s_block=mob_block&small=1");
         }
 
-        
+        private void linkLabel25_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Atroce1UBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ve_fild02&s_block=mob_block&small=1");
+        }
+
+        private void linkLabel21_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Atroce2UBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ve_fild01&s_block=mob_block&small=1");
+        }
+
+        private void Atroce3UBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Atroce3UBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ra_fild04&s_block=mob_block&small=1");
+        }
+
+        private void Atroce4UBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Atroce3UBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ra_fild03&s_block=mob_block&small=1");
+        }
+
+        private void Atroce5UBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Atroce4UBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ra_fild02&s_block=mob_block&small=1");
+        }
+
+        private void MoonUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MoonUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=pay_dun04&s_block=mob_block&small=1");
+        }
+
+        private void TurtleUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            TurtleUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=tur_dun04&s_block=mob_block&small=1");
+        }
+
+        private void EvilUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            EvilUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=gon_dun03&s_block=mob_block&small=1");
+        }
+
+        private void IncaUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            IncaUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ama_dun03&s_block=mob_block&small=1");
+        }
+
+        private void EddgaUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            EddgaUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.phpmap=pay_fild11&s_block=mob_block&small=1");
+        }
+
+        private void RSXUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RSXUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=ein_dun02&s_block=mob_block&small=1");
+        }
+
+        private void DetaleUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DetaleUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=abyss_03&s_block=mob_block&small=1");
+        }
+
+        private void GoldenUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            GoldenUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=prt_sewb4&s_block=mob_block&small=1");
+        }
+
+        private void GarmUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            GarmUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=xmas_fild01&s_block=mob_block&small=1");
+        }
+
+        private void StormyUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            StormyUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=xmas_dun02&s_block=mob_block&small=1");
+        }
+
+        private void VesperUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            VesperUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=jupe_core&s_block=mob_block&small=1");
+        }
+
+        private void WhiteUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            WhiteUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=lou_dun03&s_block=mob_block&small=1");
+        }
+
+        private void BeelUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            BeelUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=abbey03&s_block=mob_block&small=1");
+        }
+
+        private void PharaohUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PharaohUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=in_sphinx5&s_block=mob_block&small=1");
+        }
+
+        private void OsirisUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OsirisUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=moc_pryd04&s_block=mob_block&small=1");
+        }
+
+        private void EgniemUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            EgniemUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=lhz_dun02&s_block=mob_block&small=1");
+        }
+
+        private void WhitesmithUBI_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            WhitesmithUBI.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://ratemyserver.net/npc_shop_warp.php?map=lhz_dun03&s_block=mob_block&small=1");
+        }
+
 
 
 

@@ -44,17 +44,17 @@ namespace MVPTimer
             this.imageMessage42 = new System.Windows.Forms.PictureBox();
             this.imageMessage41 = new System.Windows.Forms.PictureBox();
             this.label140 = new System.Windows.Forms.Label();
-            this.linkLabel36 = new System.Windows.Forms.LinkLabel();
+            this.BaphometUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel45 = new System.Windows.Forms.Label();
             this.resetButton45 = new System.Windows.Forms.Button();
             this.startButton45 = new System.Windows.Forms.Button();
             this.label142 = new System.Windows.Forms.Label();
-            this.linkLabel37 = new System.Windows.Forms.LinkLabel();
+            this.MistressUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel44 = new System.Windows.Forms.Label();
             this.resetButton44 = new System.Windows.Forms.Button();
             this.startButton44 = new System.Windows.Forms.Button();
             this.label144 = new System.Windows.Forms.Label();
-            this.linkLabel38 = new System.Windows.Forms.LinkLabel();
+            this.DarkUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel43 = new System.Windows.Forms.Label();
             this.resetButton43 = new System.Windows.Forms.Button();
             this.startButton43 = new System.Windows.Forms.Button();
@@ -62,11 +62,11 @@ namespace MVPTimer
             this.pictureBox91 = new System.Windows.Forms.PictureBox();
             this.label146 = new System.Windows.Forms.Label();
             this.label147 = new System.Windows.Forms.Label();
-            this.linkLabel39 = new System.Windows.Forms.LinkLabel();
+            this.AssaUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel42 = new System.Windows.Forms.Label();
             this.resetButton42 = new System.Windows.Forms.Button();
             this.startButton42 = new System.Windows.Forms.Button();
-            this.linkLabel40 = new System.Windows.Forms.LinkLabel();
+            this.HPUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel41 = new System.Windows.Forms.Label();
             this.resetButton41 = new System.Windows.Forms.Button();
             this.startButton41 = new System.Windows.Forms.Button();
@@ -96,17 +96,17 @@ namespace MVPTimer
             this.imageMessage32 = new System.Windows.Forms.PictureBox();
             this.imageMessage31 = new System.Windows.Forms.PictureBox();
             this.label112 = new System.Windows.Forms.Label();
-            this.linkLabel26 = new System.Windows.Forms.LinkLabel();
+            this.LKUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel40 = new System.Windows.Forms.Label();
             this.resetButton40 = new System.Windows.Forms.Button();
             this.startButton40 = new System.Windows.Forms.Button();
             this.label115 = new System.Windows.Forms.Label();
-            this.linkLabel27 = new System.Windows.Forms.LinkLabel();
+            this.WizarUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel39 = new System.Windows.Forms.Label();
             this.resetButton39 = new System.Windows.Forms.Button();
             this.startButton39 = new System.Windows.Forms.Button();
             this.label117 = new System.Windows.Forms.Label();
-            this.linkLabel28 = new System.Windows.Forms.LinkLabel();
+            this.SniperUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel38 = new System.Windows.Forms.Label();
             this.resetButton38 = new System.Windows.Forms.Button();
             this.startButton38 = new System.Windows.Forms.Button();
@@ -114,11 +114,11 @@ namespace MVPTimer
             this.pictureBox77 = new System.Windows.Forms.PictureBox();
             this.label120 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
-            this.linkLabel29 = new System.Windows.Forms.LinkLabel();
+            this.WhitesmithUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel37 = new System.Windows.Forms.Label();
             this.resetButton37 = new System.Windows.Forms.Button();
             this.startButton37 = new System.Windows.Forms.Button();
-            this.linkLabel30 = new System.Windows.Forms.LinkLabel();
+            this.EgniemUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel36 = new System.Windows.Forms.Label();
             this.resetButton36 = new System.Windows.Forms.Button();
             this.startButton36 = new System.Windows.Forms.Button();
@@ -127,11 +127,11 @@ namespace MVPTimer
             this.pictureBox80 = new System.Windows.Forms.PictureBox();
             this.label124 = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
-            this.linkLabel31 = new System.Windows.Forms.LinkLabel();
+            this.OsirisUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel35 = new System.Windows.Forms.Label();
             this.resetButton35 = new System.Windows.Forms.Button();
             this.startButton35 = new System.Windows.Forms.Button();
-            this.linkLabel32 = new System.Windows.Forms.LinkLabel();
+            this.PharaohUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel34 = new System.Windows.Forms.Label();
             this.resetButton34 = new System.Windows.Forms.Button();
             this.startButton34 = new System.Windows.Forms.Button();
@@ -140,15 +140,15 @@ namespace MVPTimer
             this.label128 = new System.Windows.Forms.Label();
             this.label129 = new System.Windows.Forms.Label();
             this.label130 = new System.Windows.Forms.Label();
-            this.linkLabel33 = new System.Windows.Forms.LinkLabel();
+            this.BeelUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel33 = new System.Windows.Forms.Label();
             this.resetButton33 = new System.Windows.Forms.Button();
             this.startButton33 = new System.Windows.Forms.Button();
-            this.linkLabel34 = new System.Windows.Forms.LinkLabel();
+            this.WhiteUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel32 = new System.Windows.Forms.Label();
             this.resetButton32 = new System.Windows.Forms.Button();
             this.startButton32 = new System.Windows.Forms.Button();
-            this.linkLabel35 = new System.Windows.Forms.LinkLabel();
+            this.VesperUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel31 = new System.Windows.Forms.Label();
             this.resetButton31 = new System.Windows.Forms.Button();
             this.startButton31 = new System.Windows.Forms.Button();
@@ -164,28 +164,28 @@ namespace MVPTimer
             this.imageMessage20 = new System.Windows.Forms.PictureBox();
             this.label99 = new System.Windows.Forms.Label();
             this.label100 = new System.Windows.Forms.Label();
-            this.linkLabel24 = new System.Windows.Forms.LinkLabel();
+            this.Atroce5UBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel20 = new System.Windows.Forms.Label();
             this.resetButton20 = new System.Windows.Forms.Button();
             this.startButton20 = new System.Windows.Forms.Button();
             this.imageMessage19 = new System.Windows.Forms.PictureBox();
             this.label96 = new System.Windows.Forms.Label();
             this.label97 = new System.Windows.Forms.Label();
-            this.linkLabel23 = new System.Windows.Forms.LinkLabel();
+            this.Atroce4UBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel19 = new System.Windows.Forms.Label();
             this.resetButton19 = new System.Windows.Forms.Button();
             this.startButton19 = new System.Windows.Forms.Button();
             this.imageMessage18 = new System.Windows.Forms.PictureBox();
             this.label92 = new System.Windows.Forms.Label();
             this.label93 = new System.Windows.Forms.Label();
-            this.linkLabel22 = new System.Windows.Forms.LinkLabel();
+            this.Atroce3UBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel18 = new System.Windows.Forms.Label();
             this.resetButton18 = new System.Windows.Forms.Button();
             this.startButton18 = new System.Windows.Forms.Button();
             this.imageMessage17 = new System.Windows.Forms.PictureBox();
             this.label89 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
-            this.linkLabel21 = new System.Windows.Forms.LinkLabel();
+            this.Atroce2UBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel17 = new System.Windows.Forms.Label();
             this.resetButton17 = new System.Windows.Forms.Button();
             this.startButton17 = new System.Windows.Forms.Button();
@@ -202,18 +202,18 @@ namespace MVPTimer
             this.imageMessage16 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.StormyUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel30 = new System.Windows.Forms.Label();
             this.resetButton30 = new System.Windows.Forms.Button();
             this.startButton30 = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.GarmUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel29 = new System.Windows.Forms.Label();
             this.resetButton29 = new System.Windows.Forms.Button();
             this.startButton29 = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.GoldenUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel28 = new System.Windows.Forms.Label();
             this.resetButton28 = new System.Windows.Forms.Button();
             this.startButton28 = new System.Windows.Forms.Button();
@@ -222,11 +222,11 @@ namespace MVPTimer
             this.pictureBox52 = new System.Windows.Forms.PictureBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.DetaleUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel27 = new System.Windows.Forms.Label();
             this.resetButton27 = new System.Windows.Forms.Button();
             this.startButton27 = new System.Windows.Forms.Button();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.RSXUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel26 = new System.Windows.Forms.Label();
             this.resetButton26 = new System.Windows.Forms.Button();
             this.startButton26 = new System.Windows.Forms.Button();
@@ -235,11 +235,11 @@ namespace MVPTimer
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
-            this.linkLabel16 = new System.Windows.Forms.LinkLabel();
+            this.EddgaUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel25 = new System.Windows.Forms.Label();
             this.resetButton25 = new System.Windows.Forms.Button();
             this.startButton25 = new System.Windows.Forms.Button();
-            this.linkLabel17 = new System.Windows.Forms.LinkLabel();
+            this.IncaUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel24 = new System.Windows.Forms.Label();
             this.resetButton24 = new System.Windows.Forms.Button();
             this.startButton24 = new System.Windows.Forms.Button();
@@ -248,15 +248,15 @@ namespace MVPTimer
             this.label80 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
-            this.linkLabel18 = new System.Windows.Forms.LinkLabel();
+            this.EvilUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel23 = new System.Windows.Forms.Label();
             this.resetButton23 = new System.Windows.Forms.Button();
             this.startButton23 = new System.Windows.Forms.Button();
-            this.linkLabel19 = new System.Windows.Forms.LinkLabel();
+            this.TurtleUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel22 = new System.Windows.Forms.Label();
             this.resetButton22 = new System.Windows.Forms.Button();
             this.startButton22 = new System.Windows.Forms.Button();
-            this.linkLabel20 = new System.Windows.Forms.LinkLabel();
+            this.MoonUBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel21 = new System.Windows.Forms.Label();
             this.resetButton21 = new System.Windows.Forms.Button();
             this.startButton21 = new System.Windows.Forms.Button();
@@ -267,7 +267,7 @@ namespace MVPTimer
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
             this.label95 = new System.Windows.Forms.Label();
             this.label102 = new System.Windows.Forms.Label();
-            this.linkLabel25 = new System.Windows.Forms.LinkLabel();
+            this.Atroce1UBI = new System.Windows.Forms.LinkLabel();
             this.timerLabel16 = new System.Windows.Forms.Label();
             this.resetButton16 = new System.Windows.Forms.Button();
             this.startButton16 = new System.Windows.Forms.Button();
@@ -395,6 +395,7 @@ namespace MVPTimer
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label43 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
@@ -523,7 +524,6 @@ namespace MVPTimer
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.label43 = new System.Windows.Forms.Label();
             this.miTabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageMessage45)).BeginInit();
@@ -683,17 +683,17 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.imageMessage42);
             this.tabPage1.Controls.Add(this.imageMessage41);
             this.tabPage1.Controls.Add(this.label140);
-            this.tabPage1.Controls.Add(this.linkLabel36);
+            this.tabPage1.Controls.Add(this.BaphometUBI);
             this.tabPage1.Controls.Add(this.timerLabel45);
             this.tabPage1.Controls.Add(this.resetButton45);
             this.tabPage1.Controls.Add(this.startButton45);
             this.tabPage1.Controls.Add(this.label142);
-            this.tabPage1.Controls.Add(this.linkLabel37);
+            this.tabPage1.Controls.Add(this.MistressUBI);
             this.tabPage1.Controls.Add(this.timerLabel44);
             this.tabPage1.Controls.Add(this.resetButton44);
             this.tabPage1.Controls.Add(this.startButton44);
             this.tabPage1.Controls.Add(this.label144);
-            this.tabPage1.Controls.Add(this.linkLabel38);
+            this.tabPage1.Controls.Add(this.DarkUBI);
             this.tabPage1.Controls.Add(this.timerLabel43);
             this.tabPage1.Controls.Add(this.resetButton43);
             this.tabPage1.Controls.Add(this.startButton43);
@@ -701,11 +701,11 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox91);
             this.tabPage1.Controls.Add(this.label146);
             this.tabPage1.Controls.Add(this.label147);
-            this.tabPage1.Controls.Add(this.linkLabel39);
+            this.tabPage1.Controls.Add(this.AssaUBI);
             this.tabPage1.Controls.Add(this.timerLabel42);
             this.tabPage1.Controls.Add(this.resetButton42);
             this.tabPage1.Controls.Add(this.startButton42);
-            this.tabPage1.Controls.Add(this.linkLabel40);
+            this.tabPage1.Controls.Add(this.HPUBI);
             this.tabPage1.Controls.Add(this.timerLabel41);
             this.tabPage1.Controls.Add(this.resetButton41);
             this.tabPage1.Controls.Add(this.startButton41);
@@ -735,17 +735,17 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.imageMessage32);
             this.tabPage1.Controls.Add(this.imageMessage31);
             this.tabPage1.Controls.Add(this.label112);
-            this.tabPage1.Controls.Add(this.linkLabel26);
+            this.tabPage1.Controls.Add(this.LKUBI);
             this.tabPage1.Controls.Add(this.timerLabel40);
             this.tabPage1.Controls.Add(this.resetButton40);
             this.tabPage1.Controls.Add(this.startButton40);
             this.tabPage1.Controls.Add(this.label115);
-            this.tabPage1.Controls.Add(this.linkLabel27);
+            this.tabPage1.Controls.Add(this.WizarUBI);
             this.tabPage1.Controls.Add(this.timerLabel39);
             this.tabPage1.Controls.Add(this.resetButton39);
             this.tabPage1.Controls.Add(this.startButton39);
             this.tabPage1.Controls.Add(this.label117);
-            this.tabPage1.Controls.Add(this.linkLabel28);
+            this.tabPage1.Controls.Add(this.SniperUBI);
             this.tabPage1.Controls.Add(this.timerLabel38);
             this.tabPage1.Controls.Add(this.resetButton38);
             this.tabPage1.Controls.Add(this.startButton38);
@@ -753,11 +753,11 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox77);
             this.tabPage1.Controls.Add(this.label120);
             this.tabPage1.Controls.Add(this.label121);
-            this.tabPage1.Controls.Add(this.linkLabel29);
+            this.tabPage1.Controls.Add(this.WhitesmithUBI);
             this.tabPage1.Controls.Add(this.timerLabel37);
             this.tabPage1.Controls.Add(this.resetButton37);
             this.tabPage1.Controls.Add(this.startButton37);
-            this.tabPage1.Controls.Add(this.linkLabel30);
+            this.tabPage1.Controls.Add(this.EgniemUBI);
             this.tabPage1.Controls.Add(this.timerLabel36);
             this.tabPage1.Controls.Add(this.resetButton36);
             this.tabPage1.Controls.Add(this.startButton36);
@@ -766,11 +766,11 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox80);
             this.tabPage1.Controls.Add(this.label124);
             this.tabPage1.Controls.Add(this.label125);
-            this.tabPage1.Controls.Add(this.linkLabel31);
+            this.tabPage1.Controls.Add(this.OsirisUBI);
             this.tabPage1.Controls.Add(this.timerLabel35);
             this.tabPage1.Controls.Add(this.resetButton35);
             this.tabPage1.Controls.Add(this.startButton35);
-            this.tabPage1.Controls.Add(this.linkLabel32);
+            this.tabPage1.Controls.Add(this.PharaohUBI);
             this.tabPage1.Controls.Add(this.timerLabel34);
             this.tabPage1.Controls.Add(this.resetButton34);
             this.tabPage1.Controls.Add(this.startButton34);
@@ -779,15 +779,15 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.label128);
             this.tabPage1.Controls.Add(this.label129);
             this.tabPage1.Controls.Add(this.label130);
-            this.tabPage1.Controls.Add(this.linkLabel33);
+            this.tabPage1.Controls.Add(this.BeelUBI);
             this.tabPage1.Controls.Add(this.timerLabel33);
             this.tabPage1.Controls.Add(this.resetButton33);
             this.tabPage1.Controls.Add(this.startButton33);
-            this.tabPage1.Controls.Add(this.linkLabel34);
+            this.tabPage1.Controls.Add(this.WhiteUBI);
             this.tabPage1.Controls.Add(this.timerLabel32);
             this.tabPage1.Controls.Add(this.resetButton32);
             this.tabPage1.Controls.Add(this.startButton32);
-            this.tabPage1.Controls.Add(this.linkLabel35);
+            this.tabPage1.Controls.Add(this.VesperUBI);
             this.tabPage1.Controls.Add(this.timerLabel31);
             this.tabPage1.Controls.Add(this.resetButton31);
             this.tabPage1.Controls.Add(this.startButton31);
@@ -803,28 +803,28 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.imageMessage20);
             this.tabPage1.Controls.Add(this.label99);
             this.tabPage1.Controls.Add(this.label100);
-            this.tabPage1.Controls.Add(this.linkLabel24);
+            this.tabPage1.Controls.Add(this.Atroce5UBI);
             this.tabPage1.Controls.Add(this.timerLabel20);
             this.tabPage1.Controls.Add(this.resetButton20);
             this.tabPage1.Controls.Add(this.startButton20);
             this.tabPage1.Controls.Add(this.imageMessage19);
             this.tabPage1.Controls.Add(this.label96);
             this.tabPage1.Controls.Add(this.label97);
-            this.tabPage1.Controls.Add(this.linkLabel23);
+            this.tabPage1.Controls.Add(this.Atroce4UBI);
             this.tabPage1.Controls.Add(this.timerLabel19);
             this.tabPage1.Controls.Add(this.resetButton19);
             this.tabPage1.Controls.Add(this.startButton19);
             this.tabPage1.Controls.Add(this.imageMessage18);
             this.tabPage1.Controls.Add(this.label92);
             this.tabPage1.Controls.Add(this.label93);
-            this.tabPage1.Controls.Add(this.linkLabel22);
+            this.tabPage1.Controls.Add(this.Atroce3UBI);
             this.tabPage1.Controls.Add(this.timerLabel18);
             this.tabPage1.Controls.Add(this.resetButton18);
             this.tabPage1.Controls.Add(this.startButton18);
             this.tabPage1.Controls.Add(this.imageMessage17);
             this.tabPage1.Controls.Add(this.label89);
             this.tabPage1.Controls.Add(this.label90);
-            this.tabPage1.Controls.Add(this.linkLabel21);
+            this.tabPage1.Controls.Add(this.Atroce2UBI);
             this.tabPage1.Controls.Add(this.timerLabel17);
             this.tabPage1.Controls.Add(this.resetButton17);
             this.tabPage1.Controls.Add(this.startButton17);
@@ -841,18 +841,18 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.imageMessage16);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.label25);
-            this.tabPage1.Controls.Add(this.linkLabel1);
+            this.tabPage1.Controls.Add(this.StormyUBI);
             this.tabPage1.Controls.Add(this.timerLabel30);
             this.tabPage1.Controls.Add(this.resetButton30);
             this.tabPage1.Controls.Add(this.startButton30);
             this.tabPage1.Controls.Add(this.label29);
             this.tabPage1.Controls.Add(this.label30);
-            this.tabPage1.Controls.Add(this.linkLabel2);
+            this.tabPage1.Controls.Add(this.GarmUBI);
             this.tabPage1.Controls.Add(this.timerLabel29);
             this.tabPage1.Controls.Add(this.resetButton29);
             this.tabPage1.Controls.Add(this.startButton29);
             this.tabPage1.Controls.Add(this.label35);
-            this.tabPage1.Controls.Add(this.linkLabel3);
+            this.tabPage1.Controls.Add(this.GoldenUBI);
             this.tabPage1.Controls.Add(this.timerLabel28);
             this.tabPage1.Controls.Add(this.resetButton28);
             this.tabPage1.Controls.Add(this.startButton28);
@@ -861,11 +861,11 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox52);
             this.tabPage1.Controls.Add(this.label41);
             this.tabPage1.Controls.Add(this.label42);
-            this.tabPage1.Controls.Add(this.linkLabel4);
+            this.tabPage1.Controls.Add(this.DetaleUBI);
             this.tabPage1.Controls.Add(this.timerLabel27);
             this.tabPage1.Controls.Add(this.resetButton27);
             this.tabPage1.Controls.Add(this.startButton27);
-            this.tabPage1.Controls.Add(this.linkLabel5);
+            this.tabPage1.Controls.Add(this.RSXUBI);
             this.tabPage1.Controls.Add(this.timerLabel26);
             this.tabPage1.Controls.Add(this.resetButton26);
             this.tabPage1.Controls.Add(this.startButton26);
@@ -874,11 +874,11 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox55);
             this.tabPage1.Controls.Add(this.label75);
             this.tabPage1.Controls.Add(this.label76);
-            this.tabPage1.Controls.Add(this.linkLabel16);
+            this.tabPage1.Controls.Add(this.EddgaUBI);
             this.tabPage1.Controls.Add(this.timerLabel25);
             this.tabPage1.Controls.Add(this.resetButton25);
             this.tabPage1.Controls.Add(this.startButton25);
-            this.tabPage1.Controls.Add(this.linkLabel17);
+            this.tabPage1.Controls.Add(this.IncaUBI);
             this.tabPage1.Controls.Add(this.timerLabel24);
             this.tabPage1.Controls.Add(this.resetButton24);
             this.tabPage1.Controls.Add(this.startButton24);
@@ -887,15 +887,15 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.label80);
             this.tabPage1.Controls.Add(this.label81);
             this.tabPage1.Controls.Add(this.label82);
-            this.tabPage1.Controls.Add(this.linkLabel18);
+            this.tabPage1.Controls.Add(this.EvilUBI);
             this.tabPage1.Controls.Add(this.timerLabel23);
             this.tabPage1.Controls.Add(this.resetButton23);
             this.tabPage1.Controls.Add(this.startButton23);
-            this.tabPage1.Controls.Add(this.linkLabel19);
+            this.tabPage1.Controls.Add(this.TurtleUBI);
             this.tabPage1.Controls.Add(this.timerLabel22);
             this.tabPage1.Controls.Add(this.resetButton22);
             this.tabPage1.Controls.Add(this.startButton22);
-            this.tabPage1.Controls.Add(this.linkLabel20);
+            this.tabPage1.Controls.Add(this.MoonUBI);
             this.tabPage1.Controls.Add(this.timerLabel21);
             this.tabPage1.Controls.Add(this.resetButton21);
             this.tabPage1.Controls.Add(this.startButton21);
@@ -906,7 +906,7 @@ namespace MVPTimer
             this.tabPage1.Controls.Add(this.pictureBox62);
             this.tabPage1.Controls.Add(this.label95);
             this.tabPage1.Controls.Add(this.label102);
-            this.tabPage1.Controls.Add(this.linkLabel25);
+            this.tabPage1.Controls.Add(this.Atroce1UBI);
             this.tabPage1.Controls.Add(this.timerLabel16);
             this.tabPage1.Controls.Add(this.resetButton16);
             this.tabPage1.Controls.Add(this.startButton16);
@@ -1189,19 +1189,19 @@ namespace MVPTimer
             this.label140.Text = "Baphomet";
             this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel36
+            // BaphometUBI
             // 
-            this.linkLabel36.AutoSize = true;
-            this.linkLabel36.BackColor = System.Drawing.Color.White;
-            this.linkLabel36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel36.Location = new System.Drawing.Point(879, 1702);
-            this.linkLabel36.Name = "linkLabel36";
-            this.linkLabel36.Size = new System.Drawing.Size(84, 17);
-            this.linkLabel36.TabIndex = 540;
-            this.linkLabel36.TabStop = true;
-            this.linkLabel36.Text = "Prt_maze03";
-            this.linkLabel36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel36.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.BaphometUBI.AutoSize = true;
+            this.BaphometUBI.BackColor = System.Drawing.Color.White;
+            this.BaphometUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BaphometUBI.Location = new System.Drawing.Point(879, 1702);
+            this.BaphometUBI.Name = "BaphometUBI";
+            this.BaphometUBI.Size = new System.Drawing.Size(84, 17);
+            this.BaphometUBI.TabIndex = 540;
+            this.BaphometUBI.TabStop = true;
+            this.BaphometUBI.Text = "Prt_maze03";
+            this.BaphometUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BaphometUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel45
             // 
@@ -1248,19 +1248,19 @@ namespace MVPTimer
             this.label142.Text = "Mistress";
             this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel37
+            // MistressUBI
             // 
-            this.linkLabel37.AutoSize = true;
-            this.linkLabel37.BackColor = System.Drawing.Color.White;
-            this.linkLabel37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel37.Location = new System.Drawing.Point(676, 1702);
-            this.linkLabel37.Name = "linkLabel37";
-            this.linkLabel37.Size = new System.Drawing.Size(73, 17);
-            this.linkLabel37.TabIndex = 535;
-            this.linkLabel37.TabStop = true;
-            this.linkLabel37.Text = "Mjolnir_04";
-            this.linkLabel37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel37.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.MistressUBI.AutoSize = true;
+            this.MistressUBI.BackColor = System.Drawing.Color.White;
+            this.MistressUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.MistressUBI.Location = new System.Drawing.Point(676, 1702);
+            this.MistressUBI.Name = "MistressUBI";
+            this.MistressUBI.Size = new System.Drawing.Size(73, 17);
+            this.MistressUBI.TabIndex = 535;
+            this.MistressUBI.TabStop = true;
+            this.MistressUBI.Text = "Mjolnir_04";
+            this.MistressUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.MistressUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel44
             // 
@@ -1307,19 +1307,19 @@ namespace MVPTimer
             this.label144.Text = "Dark Lord";
             this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel38
+            // DarkUBI
             // 
-            this.linkLabel38.AutoSize = true;
-            this.linkLabel38.BackColor = System.Drawing.Color.White;
-            this.linkLabel38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel38.Location = new System.Drawing.Point(473, 1702);
-            this.linkLabel38.Name = "linkLabel38";
-            this.linkLabel38.Size = new System.Drawing.Size(73, 17);
-            this.linkLabel38.TabIndex = 530;
-            this.linkLabel38.TabStop = true;
-            this.linkLabel38.Text = "Gl_chyard";
-            this.linkLabel38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel38.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DarkUBI.AutoSize = true;
+            this.DarkUBI.BackColor = System.Drawing.Color.White;
+            this.DarkUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DarkUBI.Location = new System.Drawing.Point(473, 1702);
+            this.DarkUBI.Name = "DarkUBI";
+            this.DarkUBI.Size = new System.Drawing.Size(73, 17);
+            this.DarkUBI.TabIndex = 530;
+            this.DarkUBI.TabStop = true;
+            this.DarkUBI.Text = "Gl_chyard";
+            this.DarkUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DarkUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel43
             // 
@@ -1403,19 +1403,19 @@ namespace MVPTimer
             this.label147.Text = "Assassin Cross Eremes";
             this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel39
+            // AssaUBI
             // 
-            this.linkLabel39.AutoSize = true;
-            this.linkLabel39.BackColor = System.Drawing.Color.White;
-            this.linkLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel39.Location = new System.Drawing.Point(266, 1702);
-            this.linkLabel39.Name = "linkLabel39";
-            this.linkLabel39.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel39.TabIndex = 520;
-            this.linkLabel39.TabStop = true;
-            this.linkLabel39.Text = "Lhz_dun03";
-            this.linkLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel39.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.AssaUBI.AutoSize = true;
+            this.AssaUBI.BackColor = System.Drawing.Color.White;
+            this.AssaUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.AssaUBI.Location = new System.Drawing.Point(266, 1702);
+            this.AssaUBI.Name = "AssaUBI";
+            this.AssaUBI.Size = new System.Drawing.Size(79, 17);
+            this.AssaUBI.TabIndex = 520;
+            this.AssaUBI.TabStop = true;
+            this.AssaUBI.Text = "Lhz_dun03";
+            this.AssaUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AssaUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel42
             // 
@@ -1449,19 +1449,19 @@ namespace MVPTimer
             this.startButton42.Text = "Start";
             this.startButton42.UseVisualStyleBackColor = false;
             // 
-            // linkLabel40
+            // HPUBI
             // 
-            this.linkLabel40.AutoSize = true;
-            this.linkLabel40.BackColor = System.Drawing.Color.White;
-            this.linkLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel40.Location = new System.Drawing.Point(58, 1702);
-            this.linkLabel40.Name = "linkLabel40";
-            this.linkLabel40.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel40.TabIndex = 516;
-            this.linkLabel40.TabStop = true;
-            this.linkLabel40.Text = "Lhz_dun03";
-            this.linkLabel40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel40.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.HPUBI.AutoSize = true;
+            this.HPUBI.BackColor = System.Drawing.Color.White;
+            this.HPUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.HPUBI.Location = new System.Drawing.Point(58, 1702);
+            this.HPUBI.Name = "HPUBI";
+            this.HPUBI.Size = new System.Drawing.Size(79, 17);
+            this.HPUBI.TabIndex = 516;
+            this.HPUBI.TabStop = true;
+            this.HPUBI.Text = "Lhz_dun03";
+            this.HPUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.HPUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel41
             // 
@@ -1841,19 +1841,19 @@ namespace MVPTimer
             this.label112.Text = "Lord Knight Seyren";
             this.label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel26
+            // LKUBI
             // 
-            this.linkLabel26.AutoSize = true;
-            this.linkLabel26.BackColor = System.Drawing.Color.White;
-            this.linkLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel26.Location = new System.Drawing.Point(882, 1495);
-            this.linkLabel26.Name = "linkLabel26";
-            this.linkLabel26.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel26.TabIndex = 481;
-            this.linkLabel26.TabStop = true;
-            this.linkLabel26.Text = "Lhz_dun03";
-            this.linkLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel26.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.LKUBI.AutoSize = true;
+            this.LKUBI.BackColor = System.Drawing.Color.White;
+            this.LKUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.LKUBI.Location = new System.Drawing.Point(882, 1495);
+            this.LKUBI.Name = "LKUBI";
+            this.LKUBI.Size = new System.Drawing.Size(79, 17);
+            this.LKUBI.TabIndex = 481;
+            this.LKUBI.TabStop = true;
+            this.LKUBI.Text = "Lhz_dun03";
+            this.LKUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LKUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel40
             // 
@@ -1900,19 +1900,19 @@ namespace MVPTimer
             this.label115.Text = "High Wizard Katrinn";
             this.label115.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel27
+            // WizarUBI
             // 
-            this.linkLabel27.AutoSize = true;
-            this.linkLabel27.BackColor = System.Drawing.Color.White;
-            this.linkLabel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel27.Location = new System.Drawing.Point(675, 1495);
-            this.linkLabel27.Name = "linkLabel27";
-            this.linkLabel27.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel27.TabIndex = 475;
-            this.linkLabel27.TabStop = true;
-            this.linkLabel27.Text = "Lhz_dun03";
-            this.linkLabel27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel27.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.WizarUBI.AutoSize = true;
+            this.WizarUBI.BackColor = System.Drawing.Color.White;
+            this.WizarUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.WizarUBI.Location = new System.Drawing.Point(675, 1495);
+            this.WizarUBI.Name = "WizarUBI";
+            this.WizarUBI.Size = new System.Drawing.Size(79, 17);
+            this.WizarUBI.TabIndex = 475;
+            this.WizarUBI.TabStop = true;
+            this.WizarUBI.Text = "Lhz_dun03";
+            this.WizarUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.WizarUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel39
             // 
@@ -1959,19 +1959,19 @@ namespace MVPTimer
             this.label117.Text = "Sniper Shecil";
             this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel28
+            // SniperUBI
             // 
-            this.linkLabel28.AutoSize = true;
-            this.linkLabel28.BackColor = System.Drawing.Color.White;
-            this.linkLabel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel28.Location = new System.Drawing.Point(473, 1495);
-            this.linkLabel28.Name = "linkLabel28";
-            this.linkLabel28.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel28.TabIndex = 470;
-            this.linkLabel28.TabStop = true;
-            this.linkLabel28.Text = "Lhz_dun03";
-            this.linkLabel28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel28.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.SniperUBI.AutoSize = true;
+            this.SniperUBI.BackColor = System.Drawing.Color.White;
+            this.SniperUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.SniperUBI.Location = new System.Drawing.Point(473, 1495);
+            this.SniperUBI.Name = "SniperUBI";
+            this.SniperUBI.Size = new System.Drawing.Size(79, 17);
+            this.SniperUBI.TabIndex = 470;
+            this.SniperUBI.TabStop = true;
+            this.SniperUBI.Text = "Lhz_dun03";
+            this.SniperUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SniperUBI.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
             // timerLabel38
             // 
@@ -2055,19 +2055,20 @@ namespace MVPTimer
             this.label121.Text = "Whitesmith Harword";
             this.label121.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel29
+            // WhitesmithUBI
             // 
-            this.linkLabel29.AutoSize = true;
-            this.linkLabel29.BackColor = System.Drawing.Color.White;
-            this.linkLabel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel29.Location = new System.Drawing.Point(266, 1495);
-            this.linkLabel29.Name = "linkLabel29";
-            this.linkLabel29.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel29.TabIndex = 459;
-            this.linkLabel29.TabStop = true;
-            this.linkLabel29.Text = "Lhz_dun03";
-            this.linkLabel29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel29.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.WhitesmithUBI.AutoSize = true;
+            this.WhitesmithUBI.BackColor = System.Drawing.Color.White;
+            this.WhitesmithUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.WhitesmithUBI.Location = new System.Drawing.Point(266, 1495);
+            this.WhitesmithUBI.Name = "WhitesmithUBI";
+            this.WhitesmithUBI.Size = new System.Drawing.Size(79, 17);
+            this.WhitesmithUBI.TabIndex = 459;
+            this.WhitesmithUBI.TabStop = true;
+            this.WhitesmithUBI.Text = "Lhz_dun03";
+            this.WhitesmithUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.WhitesmithUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.WhitesmithUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.WhitesmithUBI_LinkClicked);
             // 
             // timerLabel37
             // 
@@ -2101,19 +2102,20 @@ namespace MVPTimer
             this.startButton37.Text = "Start";
             this.startButton37.UseVisualStyleBackColor = false;
             // 
-            // linkLabel30
+            // EgniemUBI
             // 
-            this.linkLabel30.AutoSize = true;
-            this.linkLabel30.BackColor = System.Drawing.Color.White;
-            this.linkLabel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel30.Location = new System.Drawing.Point(58, 1495);
-            this.linkLabel30.Name = "linkLabel30";
-            this.linkLabel30.Size = new System.Drawing.Size(79, 17);
-            this.linkLabel30.TabIndex = 455;
-            this.linkLabel30.TabStop = true;
-            this.linkLabel30.Text = "Lhz_dun02";
-            this.linkLabel30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel30.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.EgniemUBI.AutoSize = true;
+            this.EgniemUBI.BackColor = System.Drawing.Color.White;
+            this.EgniemUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.EgniemUBI.Location = new System.Drawing.Point(58, 1495);
+            this.EgniemUBI.Name = "EgniemUBI";
+            this.EgniemUBI.Size = new System.Drawing.Size(79, 17);
+            this.EgniemUBI.TabIndex = 455;
+            this.EgniemUBI.TabStop = true;
+            this.EgniemUBI.Text = "Lhz_dun02";
+            this.EgniemUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EgniemUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.EgniemUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EgniemUBI_LinkClicked);
             // 
             // timerLabel36
             // 
@@ -2210,19 +2212,20 @@ namespace MVPTimer
             this.label125.Text = "Osiris";
             this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel31
+            // OsirisUBI
             // 
-            this.linkLabel31.AutoSize = true;
-            this.linkLabel31.BackColor = System.Drawing.Color.White;
-            this.linkLabel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel31.Location = new System.Drawing.Point(879, 1288);
-            this.linkLabel31.Name = "linkLabel31";
-            this.linkLabel31.Size = new System.Drawing.Size(86, 17);
-            this.linkLabel31.TabIndex = 446;
-            this.linkLabel31.TabStop = true;
-            this.linkLabel31.Text = "Moc_pryd04";
-            this.linkLabel31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel31.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.OsirisUBI.AutoSize = true;
+            this.OsirisUBI.BackColor = System.Drawing.Color.White;
+            this.OsirisUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.OsirisUBI.Location = new System.Drawing.Point(879, 1288);
+            this.OsirisUBI.Name = "OsirisUBI";
+            this.OsirisUBI.Size = new System.Drawing.Size(86, 17);
+            this.OsirisUBI.TabIndex = 446;
+            this.OsirisUBI.TabStop = true;
+            this.OsirisUBI.Text = "Moc_pryd04";
+            this.OsirisUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OsirisUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.OsirisUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OsirisUBI_LinkClicked);
             // 
             // timerLabel35
             // 
@@ -2256,19 +2259,20 @@ namespace MVPTimer
             this.startButton35.Text = "Start";
             this.startButton35.UseVisualStyleBackColor = false;
             // 
-            // linkLabel32
+            // PharaohUBI
             // 
-            this.linkLabel32.AutoSize = true;
-            this.linkLabel32.BackColor = System.Drawing.Color.White;
-            this.linkLabel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel32.Location = new System.Drawing.Point(681, 1288);
-            this.linkLabel32.Name = "linkLabel32";
-            this.linkLabel32.Size = new System.Drawing.Size(75, 17);
-            this.linkLabel32.TabIndex = 442;
-            this.linkLabel32.TabStop = true;
-            this.linkLabel32.Text = "In_sphinx5";
-            this.linkLabel32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel32.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.PharaohUBI.AutoSize = true;
+            this.PharaohUBI.BackColor = System.Drawing.Color.White;
+            this.PharaohUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.PharaohUBI.Location = new System.Drawing.Point(681, 1288);
+            this.PharaohUBI.Name = "PharaohUBI";
+            this.PharaohUBI.Size = new System.Drawing.Size(75, 17);
+            this.PharaohUBI.TabIndex = 442;
+            this.PharaohUBI.TabStop = true;
+            this.PharaohUBI.Text = "In_sphinx5";
+            this.PharaohUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PharaohUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.PharaohUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.PharaohUBI_LinkClicked);
             // 
             // timerLabel34
             // 
@@ -2365,19 +2369,20 @@ namespace MVPTimer
             this.label130.Text = "Beelzebub";
             this.label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel33
+            // BeelUBI
             // 
-            this.linkLabel33.AutoSize = true;
-            this.linkLabel33.BackColor = System.Drawing.Color.White;
-            this.linkLabel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel33.Location = new System.Drawing.Point(479, 1288);
-            this.linkLabel33.Name = "linkLabel33";
-            this.linkLabel33.Size = new System.Drawing.Size(64, 17);
-            this.linkLabel33.TabIndex = 433;
-            this.linkLabel33.TabStop = true;
-            this.linkLabel33.Text = "Abbey03";
-            this.linkLabel33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel33.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.BeelUBI.AutoSize = true;
+            this.BeelUBI.BackColor = System.Drawing.Color.White;
+            this.BeelUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BeelUBI.Location = new System.Drawing.Point(479, 1288);
+            this.BeelUBI.Name = "BeelUBI";
+            this.BeelUBI.Size = new System.Drawing.Size(64, 17);
+            this.BeelUBI.TabIndex = 433;
+            this.BeelUBI.TabStop = true;
+            this.BeelUBI.Text = "Abbey03";
+            this.BeelUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BeelUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.BeelUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BeelUBI_LinkClicked);
             // 
             // timerLabel33
             // 
@@ -2411,19 +2416,20 @@ namespace MVPTimer
             this.startButton33.Text = "Start";
             this.startButton33.UseVisualStyleBackColor = false;
             // 
-            // linkLabel34
+            // WhiteUBI
             // 
-            this.linkLabel34.AutoSize = true;
-            this.linkLabel34.BackColor = System.Drawing.Color.White;
-            this.linkLabel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel34.Location = new System.Drawing.Point(266, 1288);
-            this.linkLabel34.Name = "linkLabel34";
-            this.linkLabel34.Size = new System.Drawing.Size(80, 17);
-            this.linkLabel34.TabIndex = 429;
-            this.linkLabel34.TabStop = true;
-            this.linkLabel34.Text = "Lou_dun03";
-            this.linkLabel34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel34.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.WhiteUBI.AutoSize = true;
+            this.WhiteUBI.BackColor = System.Drawing.Color.White;
+            this.WhiteUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.WhiteUBI.Location = new System.Drawing.Point(266, 1288);
+            this.WhiteUBI.Name = "WhiteUBI";
+            this.WhiteUBI.Size = new System.Drawing.Size(80, 17);
+            this.WhiteUBI.TabIndex = 429;
+            this.WhiteUBI.TabStop = true;
+            this.WhiteUBI.Text = "Lou_dun03";
+            this.WhiteUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.WhiteUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.WhiteUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.WhiteUBI_LinkClicked);
             // 
             // timerLabel32
             // 
@@ -2457,19 +2463,20 @@ namespace MVPTimer
             this.startButton32.Text = "Start";
             this.startButton32.UseVisualStyleBackColor = false;
             // 
-            // linkLabel35
+            // VesperUBI
             // 
-            this.linkLabel35.AutoSize = true;
-            this.linkLabel35.BackColor = System.Drawing.Color.White;
-            this.linkLabel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel35.Location = new System.Drawing.Point(62, 1288);
-            this.linkLabel35.Name = "linkLabel35";
-            this.linkLabel35.Size = new System.Drawing.Size(75, 17);
-            this.linkLabel35.TabIndex = 425;
-            this.linkLabel35.TabStop = true;
-            this.linkLabel35.Text = "Jupe_core";
-            this.linkLabel35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel35.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.VesperUBI.AutoSize = true;
+            this.VesperUBI.BackColor = System.Drawing.Color.White;
+            this.VesperUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.VesperUBI.Location = new System.Drawing.Point(62, 1288);
+            this.VesperUBI.Name = "VesperUBI";
+            this.VesperUBI.Size = new System.Drawing.Size(75, 17);
+            this.VesperUBI.TabIndex = 425;
+            this.VesperUBI.TabStop = true;
+            this.VesperUBI.Text = "Jupe_core";
+            this.VesperUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.VesperUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.VesperUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.VesperUBI_LinkClicked);
             // 
             // timerLabel31
             // 
@@ -2658,19 +2665,20 @@ namespace MVPTimer
             this.label100.Text = "(Holy)";
             this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel24
+            // Atroce5UBI
             // 
-            this.linkLabel24.AutoSize = true;
-            this.linkLabel24.BackColor = System.Drawing.Color.White;
-            this.linkLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel24.Location = new System.Drawing.Point(889, 667);
-            this.linkLabel24.Name = "linkLabel24";
-            this.linkLabel24.Size = new System.Drawing.Size(68, 17);
-            this.linkLabel24.TabIndex = 411;
-            this.linkLabel24.TabStop = true;
-            this.linkLabel24.Text = "Ra_fild02";
-            this.linkLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel24.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce5UBI.AutoSize = true;
+            this.Atroce5UBI.BackColor = System.Drawing.Color.White;
+            this.Atroce5UBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Atroce5UBI.Location = new System.Drawing.Point(889, 667);
+            this.Atroce5UBI.Name = "Atroce5UBI";
+            this.Atroce5UBI.Size = new System.Drawing.Size(68, 17);
+            this.Atroce5UBI.TabIndex = 411;
+            this.Atroce5UBI.TabStop = true;
+            this.Atroce5UBI.Text = "Ra_fild02";
+            this.Atroce5UBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Atroce5UBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce5UBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Atroce5UBI_LinkClicked);
             // 
             // timerLabel20
             // 
@@ -2744,19 +2752,20 @@ namespace MVPTimer
             this.label97.Text = "(Holy)";
             this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel23
+            // Atroce4UBI
             // 
-            this.linkLabel23.AutoSize = true;
-            this.linkLabel23.BackColor = System.Drawing.Color.White;
-            this.linkLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel23.Location = new System.Drawing.Point(687, 666);
-            this.linkLabel23.Name = "linkLabel23";
-            this.linkLabel23.Size = new System.Drawing.Size(68, 17);
-            this.linkLabel23.TabIndex = 404;
-            this.linkLabel23.TabStop = true;
-            this.linkLabel23.Text = "Ra_fild03";
-            this.linkLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel23.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce4UBI.AutoSize = true;
+            this.Atroce4UBI.BackColor = System.Drawing.Color.White;
+            this.Atroce4UBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Atroce4UBI.Location = new System.Drawing.Point(687, 666);
+            this.Atroce4UBI.Name = "Atroce4UBI";
+            this.Atroce4UBI.Size = new System.Drawing.Size(68, 17);
+            this.Atroce4UBI.TabIndex = 404;
+            this.Atroce4UBI.TabStop = true;
+            this.Atroce4UBI.Text = "Ra_fild03";
+            this.Atroce4UBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Atroce4UBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce4UBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Atroce4UBI_LinkClicked);
             // 
             // timerLabel19
             // 
@@ -2830,19 +2839,20 @@ namespace MVPTimer
             this.label93.Text = "(Holy)";
             this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel22
+            // Atroce3UBI
             // 
-            this.linkLabel22.AutoSize = true;
-            this.linkLabel22.BackColor = System.Drawing.Color.White;
-            this.linkLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel22.Location = new System.Drawing.Point(477, 666);
-            this.linkLabel22.Name = "linkLabel22";
-            this.linkLabel22.Size = new System.Drawing.Size(68, 17);
-            this.linkLabel22.TabIndex = 397;
-            this.linkLabel22.TabStop = true;
-            this.linkLabel22.Text = "Ra_fild04";
-            this.linkLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel22.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce3UBI.AutoSize = true;
+            this.Atroce3UBI.BackColor = System.Drawing.Color.White;
+            this.Atroce3UBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Atroce3UBI.Location = new System.Drawing.Point(477, 666);
+            this.Atroce3UBI.Name = "Atroce3UBI";
+            this.Atroce3UBI.Size = new System.Drawing.Size(68, 17);
+            this.Atroce3UBI.TabIndex = 397;
+            this.Atroce3UBI.TabStop = true;
+            this.Atroce3UBI.Text = "Ra_fild04";
+            this.Atroce3UBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Atroce3UBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce3UBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Atroce3UBI_LinkClicked);
             // 
             // timerLabel18
             // 
@@ -2916,19 +2926,20 @@ namespace MVPTimer
             this.label90.Text = "(Holy)";
             this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel21
+            // Atroce2UBI
             // 
-            this.linkLabel21.AutoSize = true;
-            this.linkLabel21.BackColor = System.Drawing.Color.White;
-            this.linkLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel21.Location = new System.Drawing.Point(274, 666);
-            this.linkLabel21.Name = "linkLabel21";
-            this.linkLabel21.Size = new System.Drawing.Size(67, 17);
-            this.linkLabel21.TabIndex = 390;
-            this.linkLabel21.TabStop = true;
-            this.linkLabel21.Text = "Ve_fild01";
-            this.linkLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel21.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce2UBI.AutoSize = true;
+            this.Atroce2UBI.BackColor = System.Drawing.Color.White;
+            this.Atroce2UBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Atroce2UBI.Location = new System.Drawing.Point(274, 666);
+            this.Atroce2UBI.Name = "Atroce2UBI";
+            this.Atroce2UBI.Size = new System.Drawing.Size(67, 17);
+            this.Atroce2UBI.TabIndex = 390;
+            this.Atroce2UBI.TabStop = true;
+            this.Atroce2UBI.Text = "Ve_fild01";
+            this.Atroce2UBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Atroce2UBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce2UBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel21_LinkClicked);
             // 
             // timerLabel17
             // 
@@ -3142,19 +3153,20 @@ namespace MVPTimer
             this.label25.Text = "Stormy Knight";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel1
+            // StormyUBI
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.White;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel1.Location = new System.Drawing.Point(878, 1081);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(91, 17);
-            this.linkLabel1.TabIndex = 368;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Xmas_dun02";
-            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.StormyUBI.AutoSize = true;
+            this.StormyUBI.BackColor = System.Drawing.Color.White;
+            this.StormyUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.StormyUBI.Location = new System.Drawing.Point(878, 1081);
+            this.StormyUBI.Name = "StormyUBI";
+            this.StormyUBI.Size = new System.Drawing.Size(91, 17);
+            this.StormyUBI.TabIndex = 368;
+            this.StormyUBI.TabStop = true;
+            this.StormyUBI.Text = "Xmas_dun02";
+            this.StormyUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.StormyUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.StormyUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.StormyUBI_LinkClicked);
             // 
             // timerLabel30
             // 
@@ -3214,19 +3226,20 @@ namespace MVPTimer
             this.label30.Text = "Garm";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel2
+            // GarmUBI
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.BackColor = System.Drawing.Color.White;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel2.Location = new System.Drawing.Point(678, 1081);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(85, 17);
-            this.linkLabel2.TabIndex = 362;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Xmas_fild01";
-            this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.GarmUBI.AutoSize = true;
+            this.GarmUBI.BackColor = System.Drawing.Color.White;
+            this.GarmUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.GarmUBI.Location = new System.Drawing.Point(678, 1081);
+            this.GarmUBI.Name = "GarmUBI";
+            this.GarmUBI.Size = new System.Drawing.Size(85, 17);
+            this.GarmUBI.TabIndex = 362;
+            this.GarmUBI.TabStop = true;
+            this.GarmUBI.Text = "Xmas_fild01";
+            this.GarmUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.GarmUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.GarmUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GarmUBI_LinkClicked);
             // 
             // timerLabel29
             // 
@@ -3273,19 +3286,20 @@ namespace MVPTimer
             this.label35.Text = "Golden Thief Bug";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel3
+            // GoldenUBI
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.BackColor = System.Drawing.Color.White;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel3.Location = new System.Drawing.Point(473, 1081);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(74, 17);
-            this.linkLabel3.TabIndex = 356;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Prt_sewb4";
-            this.linkLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel3.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.GoldenUBI.AutoSize = true;
+            this.GoldenUBI.BackColor = System.Drawing.Color.White;
+            this.GoldenUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.GoldenUBI.Location = new System.Drawing.Point(473, 1081);
+            this.GoldenUBI.Name = "GoldenUBI";
+            this.GoldenUBI.Size = new System.Drawing.Size(74, 17);
+            this.GoldenUBI.TabIndex = 356;
+            this.GoldenUBI.TabStop = true;
+            this.GoldenUBI.Text = "Prt_sewb4";
+            this.GoldenUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.GoldenUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.GoldenUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GoldenUBI_LinkClicked);
             // 
             // timerLabel28
             // 
@@ -3382,19 +3396,20 @@ namespace MVPTimer
             this.label42.Text = "Detardeurus";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel4
+            // DetaleUBI
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.BackColor = System.Drawing.Color.White;
-            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel4.Location = new System.Drawing.Point(273, 1081);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(70, 17);
-            this.linkLabel4.TabIndex = 344;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Abyss_03";
-            this.linkLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel4.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DetaleUBI.AutoSize = true;
+            this.DetaleUBI.BackColor = System.Drawing.Color.White;
+            this.DetaleUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DetaleUBI.Location = new System.Drawing.Point(273, 1081);
+            this.DetaleUBI.Name = "DetaleUBI";
+            this.DetaleUBI.Size = new System.Drawing.Size(70, 17);
+            this.DetaleUBI.TabIndex = 344;
+            this.DetaleUBI.TabStop = true;
+            this.DetaleUBI.Text = "Abyss_03";
+            this.DetaleUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DetaleUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.DetaleUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.DetaleUBI_LinkClicked);
             // 
             // timerLabel27
             // 
@@ -3428,19 +3443,20 @@ namespace MVPTimer
             this.startButton27.Text = "Start";
             this.startButton27.UseVisualStyleBackColor = false;
             // 
-            // linkLabel5
+            // RSXUBI
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.BackColor = System.Drawing.Color.White;
-            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel5.Location = new System.Drawing.Point(64, 1081);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(76, 17);
-            this.linkLabel5.TabIndex = 339;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Ein_dun02";
-            this.linkLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel5.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.RSXUBI.AutoSize = true;
+            this.RSXUBI.BackColor = System.Drawing.Color.White;
+            this.RSXUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.RSXUBI.Location = new System.Drawing.Point(64, 1081);
+            this.RSXUBI.Name = "RSXUBI";
+            this.RSXUBI.Size = new System.Drawing.Size(76, 17);
+            this.RSXUBI.TabIndex = 339;
+            this.RSXUBI.TabStop = true;
+            this.RSXUBI.Text = "Ein_dun02";
+            this.RSXUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RSXUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.RSXUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.RSXUBI_LinkClicked);
             // 
             // timerLabel26
             // 
@@ -3537,19 +3553,20 @@ namespace MVPTimer
             this.label76.Text = "Eddga";
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel16
+            // EddgaUBI
             // 
-            this.linkLabel16.AutoSize = true;
-            this.linkLabel16.BackColor = System.Drawing.Color.White;
-            this.linkLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel16.Location = new System.Drawing.Point(883, 874);
-            this.linkLabel16.Name = "linkLabel16";
-            this.linkLabel16.Size = new System.Drawing.Size(74, 17);
-            this.linkLabel16.TabIndex = 329;
-            this.linkLabel16.TabStop = true;
-            this.linkLabel16.Text = "Pay_fild11";
-            this.linkLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel16.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.EddgaUBI.AutoSize = true;
+            this.EddgaUBI.BackColor = System.Drawing.Color.White;
+            this.EddgaUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.EddgaUBI.Location = new System.Drawing.Point(883, 874);
+            this.EddgaUBI.Name = "EddgaUBI";
+            this.EddgaUBI.Size = new System.Drawing.Size(74, 17);
+            this.EddgaUBI.TabIndex = 329;
+            this.EddgaUBI.TabStop = true;
+            this.EddgaUBI.Text = "Pay_fild11";
+            this.EddgaUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EddgaUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.EddgaUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EddgaUBI_LinkClicked);
             // 
             // timerLabel25
             // 
@@ -3583,19 +3600,20 @@ namespace MVPTimer
             this.startButton25.Text = "Start";
             this.startButton25.UseVisualStyleBackColor = false;
             // 
-            // linkLabel17
+            // IncaUBI
             // 
-            this.linkLabel17.AutoSize = true;
-            this.linkLabel17.BackColor = System.Drawing.Color.White;
-            this.linkLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel17.Location = new System.Drawing.Point(679, 874);
-            this.linkLabel17.Name = "linkLabel17";
-            this.linkLabel17.Size = new System.Drawing.Size(84, 17);
-            this.linkLabel17.TabIndex = 325;
-            this.linkLabel17.TabStop = true;
-            this.linkLabel17.Text = "Ama_dun03";
-            this.linkLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel17.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.IncaUBI.AutoSize = true;
+            this.IncaUBI.BackColor = System.Drawing.Color.White;
+            this.IncaUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.IncaUBI.Location = new System.Drawing.Point(679, 874);
+            this.IncaUBI.Name = "IncaUBI";
+            this.IncaUBI.Size = new System.Drawing.Size(84, 17);
+            this.IncaUBI.TabIndex = 325;
+            this.IncaUBI.TabStop = true;
+            this.IncaUBI.Text = "Ama_dun03";
+            this.IncaUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.IncaUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.IncaUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.IncaUBI_LinkClicked);
             // 
             // timerLabel24
             // 
@@ -3692,19 +3710,20 @@ namespace MVPTimer
             this.label82.Text = "Evil Snake Lord";
             this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel18
+            // EvilUBI
             // 
-            this.linkLabel18.AutoSize = true;
-            this.linkLabel18.BackColor = System.Drawing.Color.White;
-            this.linkLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel18.Location = new System.Drawing.Point(468, 874);
-            this.linkLabel18.Name = "linkLabel18";
-            this.linkLabel18.Size = new System.Drawing.Size(83, 17);
-            this.linkLabel18.TabIndex = 314;
-            this.linkLabel18.TabStop = true;
-            this.linkLabel18.Text = "Gon_dun03";
-            this.linkLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel18.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.EvilUBI.AutoSize = true;
+            this.EvilUBI.BackColor = System.Drawing.Color.White;
+            this.EvilUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.EvilUBI.Location = new System.Drawing.Point(468, 874);
+            this.EvilUBI.Name = "EvilUBI";
+            this.EvilUBI.Size = new System.Drawing.Size(83, 17);
+            this.EvilUBI.TabIndex = 314;
+            this.EvilUBI.TabStop = true;
+            this.EvilUBI.Text = "Gon_dun03";
+            this.EvilUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EvilUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.EvilUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EvilUBI_LinkClicked);
             // 
             // timerLabel23
             // 
@@ -3738,19 +3757,20 @@ namespace MVPTimer
             this.startButton23.Text = "Start";
             this.startButton23.UseVisualStyleBackColor = false;
             // 
-            // linkLabel19
+            // TurtleUBI
             // 
-            this.linkLabel19.AutoSize = true;
-            this.linkLabel19.BackColor = System.Drawing.Color.White;
-            this.linkLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel19.Location = new System.Drawing.Point(266, 874);
-            this.linkLabel19.Name = "linkLabel19";
-            this.linkLabel19.Size = new System.Drawing.Size(78, 17);
-            this.linkLabel19.TabIndex = 310;
-            this.linkLabel19.TabStop = true;
-            this.linkLabel19.Text = "Tur_dun04";
-            this.linkLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel19.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.TurtleUBI.AutoSize = true;
+            this.TurtleUBI.BackColor = System.Drawing.Color.White;
+            this.TurtleUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.TurtleUBI.Location = new System.Drawing.Point(266, 874);
+            this.TurtleUBI.Name = "TurtleUBI";
+            this.TurtleUBI.Size = new System.Drawing.Size(78, 17);
+            this.TurtleUBI.TabIndex = 310;
+            this.TurtleUBI.TabStop = true;
+            this.TurtleUBI.Text = "Tur_dun04";
+            this.TurtleUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TurtleUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.TurtleUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.TurtleUBI_LinkClicked);
             // 
             // timerLabel22
             // 
@@ -3784,19 +3804,20 @@ namespace MVPTimer
             this.startButton22.Text = "Start";
             this.startButton22.UseVisualStyleBackColor = false;
             // 
-            // linkLabel20
+            // MoonUBI
             // 
-            this.linkLabel20.AutoSize = true;
-            this.linkLabel20.BackColor = System.Drawing.Color.White;
-            this.linkLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel20.Location = new System.Drawing.Point(61, 874);
-            this.linkLabel20.Name = "linkLabel20";
-            this.linkLabel20.Size = new System.Drawing.Size(80, 17);
-            this.linkLabel20.TabIndex = 305;
-            this.linkLabel20.TabStop = true;
-            this.linkLabel20.Text = "Pay_dun04";
-            this.linkLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel20.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.MoonUBI.AutoSize = true;
+            this.MoonUBI.BackColor = System.Drawing.Color.White;
+            this.MoonUBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.MoonUBI.Location = new System.Drawing.Point(61, 874);
+            this.MoonUBI.Name = "MoonUBI";
+            this.MoonUBI.Size = new System.Drawing.Size(80, 17);
+            this.MoonUBI.TabIndex = 305;
+            this.MoonUBI.TabStop = true;
+            this.MoonUBI.Text = "Pay_dun04";
+            this.MoonUBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.MoonUBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.MoonUBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MoonUBI_LinkClicked);
             // 
             // timerLabel21
             // 
@@ -3917,19 +3938,20 @@ namespace MVPTimer
             this.label102.Text = "(Holy)";
             this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel25
+            // Atroce1UBI
             // 
-            this.linkLabel25.AutoSize = true;
-            this.linkLabel25.BackColor = System.Drawing.Color.White;
-            this.linkLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel25.Location = new System.Drawing.Point(66, 667);
-            this.linkLabel25.Name = "linkLabel25";
-            this.linkLabel25.Size = new System.Drawing.Size(67, 17);
-            this.linkLabel25.TabIndex = 270;
-            this.linkLabel25.TabStop = true;
-            this.linkLabel25.Text = "Ve_fild02";
-            this.linkLabel25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel25.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce1UBI.AutoSize = true;
+            this.Atroce1UBI.BackColor = System.Drawing.Color.White;
+            this.Atroce1UBI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Atroce1UBI.Location = new System.Drawing.Point(66, 667);
+            this.Atroce1UBI.Name = "Atroce1UBI";
+            this.Atroce1UBI.Size = new System.Drawing.Size(67, 17);
+            this.Atroce1UBI.TabIndex = 270;
+            this.Atroce1UBI.TabStop = true;
+            this.Atroce1UBI.Text = "Ve_fild02";
+            this.Atroce1UBI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Atroce1UBI.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.Atroce1UBI.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel25_LinkClicked);
             // 
             // timerLabel16
             // 
@@ -4892,7 +4914,7 @@ namespace MVPTimer
             this.timerLabel8.BackColor = System.Drawing.Color.White;
             this.timerLabel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timerLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.timerLabel8.Location = new System.Drawing.Point(451, 293);
+            this.timerLabel8.Location = new System.Drawing.Point(453, 253);
             this.timerLabel8.Name = "timerLabel8";
             this.timerLabel8.Size = new System.Drawing.Size(122, 33);
             this.timerLabel8.TabIndex = 193;
@@ -5562,6 +5584,19 @@ namespace MVPTimer
             this.tabPage2.Size = new System.Drawing.Size(1059, 609);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "MVP ESCENCIAS";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.White;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label43.ForeColor = System.Drawing.Color.Silver;
+            this.label43.Location = new System.Drawing.Point(286, 240);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(39, 15);
+            this.label43.TabIndex = 505;
+            this.label43.Text = "(Holy)";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label49
             // 
@@ -7193,19 +7228,6 @@ namespace MVPTimer
             this.pictureBox42.TabIndex = 293;
             this.pictureBox42.TabStop = false;
             // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.White;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label43.ForeColor = System.Drawing.Color.Silver;
-            this.label43.Location = new System.Drawing.Point(286, 240);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(39, 15);
-            this.label43.TabIndex = 505;
-            this.label43.Text = "(Holy)";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -7490,18 +7512,18 @@ namespace MVPTimer
         private PictureBox imageMessage16;
         private Label label16;
         private Label label25;
-        private LinkLabel linkLabel1;
+        private LinkLabel StormyUBI;
         private Label timerLabel30;
         private Button resetButton30;
         private Button startButton30;
         private Label label29;
         private Label label30;
-        private LinkLabel linkLabel2;
+        private LinkLabel GarmUBI;
         private Label timerLabel29;
         private Button resetButton29;
         private Button startButton29;
         private Label label35;
-        private LinkLabel linkLabel3;
+        private LinkLabel GoldenUBI;
         private Label timerLabel28;
         private Button resetButton28;
         private Button startButton28;
@@ -7510,11 +7532,11 @@ namespace MVPTimer
         private PictureBox pictureBox52;
         private Label label41;
         private Label label42;
-        private LinkLabel linkLabel4;
+        private LinkLabel DetaleUBI;
         private Label timerLabel27;
         private Button resetButton27;
         private Button startButton27;
-        private LinkLabel linkLabel5;
+        private LinkLabel RSXUBI;
         private Label timerLabel26;
         private Button resetButton26;
         private Button startButton26;
@@ -7523,11 +7545,11 @@ namespace MVPTimer
         private PictureBox pictureBox55;
         private Label label75;
         private Label label76;
-        private LinkLabel linkLabel16;
+        private LinkLabel EddgaUBI;
         private Label timerLabel25;
         private Button resetButton25;
         private Button startButton25;
-        private LinkLabel linkLabel17;
+        private LinkLabel IncaUBI;
         private Label timerLabel24;
         private Button resetButton24;
         private Button startButton24;
@@ -7536,15 +7558,15 @@ namespace MVPTimer
         private Label label80;
         private Label label81;
         private Label label82;
-        private LinkLabel linkLabel18;
+        private LinkLabel EvilUBI;
         private Label timerLabel23;
         private Button resetButton23;
         private Button startButton23;
-        private LinkLabel linkLabel19;
+        private LinkLabel TurtleUBI;
         private Label timerLabel22;
         private Button resetButton22;
         private Button startButton22;
-        private LinkLabel linkLabel20;
+        private LinkLabel MoonUBI;
         private Label timerLabel21;
         private Button resetButton21;
         private Button startButton21;
@@ -7555,7 +7577,7 @@ namespace MVPTimer
         private PictureBox pictureBox62;
         private Label label95;
         private Label label102;
-        private LinkLabel linkLabel25;
+        private LinkLabel Atroce1UBI;
         private Label timerLabel16;
         private Button resetButton16;
         private Button startButton16;
@@ -7565,28 +7587,28 @@ namespace MVPTimer
         private PictureBox imageMessage18;
         private Label label92;
         private Label label93;
-        private LinkLabel linkLabel22;
+        private LinkLabel Atroce3UBI;
         private Label timerLabel18;
         private Button resetButton18;
         private Button startButton18;
         private PictureBox imageMessage17;
         private Label label89;
         private Label label90;
-        private LinkLabel linkLabel21;
+        private LinkLabel Atroce2UBI;
         private Label timerLabel17;
         private Button resetButton17;
         private Button startButton17;
         private PictureBox imageMessage20;
         private Label label99;
         private Label label100;
-        private LinkLabel linkLabel24;
+        private LinkLabel Atroce5UBI;
         private Label timerLabel20;
         private Button resetButton20;
         private Button startButton20;
         private PictureBox imageMessage19;
         private Label label96;
         private Label label97;
-        private LinkLabel linkLabel23;
+        private LinkLabel Atroce4UBI;
         private Label timerLabel19;
         private Button resetButton19;
         private Button startButton19;
@@ -7608,17 +7630,17 @@ namespace MVPTimer
         private PictureBox imageMessage32;
         private PictureBox imageMessage31;
         private Label label112;
-        private LinkLabel linkLabel26;
+        private LinkLabel LKUBI;
         private Label timerLabel40;
         private Button resetButton40;
         private Button startButton40;
         private Label label115;
-        private LinkLabel linkLabel27;
+        private LinkLabel WizarUBI;
         private Label timerLabel39;
         private Button resetButton39;
         private Button startButton39;
         private Label label117;
-        private LinkLabel linkLabel28;
+        private LinkLabel SniperUBI;
         private Label timerLabel38;
         private Button resetButton38;
         private Button startButton38;
@@ -7626,11 +7648,11 @@ namespace MVPTimer
         private PictureBox pictureBox77;
         private Label label120;
         private Label label121;
-        private LinkLabel linkLabel29;
+        private LinkLabel WhitesmithUBI;
         private Label timerLabel37;
         private Button resetButton37;
         private Button startButton37;
-        private LinkLabel linkLabel30;
+        private LinkLabel EgniemUBI;
         private Label timerLabel36;
         private Button resetButton36;
         private Button startButton36;
@@ -7639,11 +7661,11 @@ namespace MVPTimer
         private PictureBox pictureBox80;
         private Label label124;
         private Label label125;
-        private LinkLabel linkLabel31;
+        private LinkLabel OsirisUBI;
         private Label timerLabel35;
         private Button resetButton35;
         private Button startButton35;
-        private LinkLabel linkLabel32;
+        private LinkLabel PharaohUBI;
         private Label timerLabel34;
         private Button resetButton34;
         private Button startButton34;
@@ -7652,15 +7674,15 @@ namespace MVPTimer
         private Label label128;
         private Label label129;
         private Label label130;
-        private LinkLabel linkLabel33;
+        private LinkLabel BeelUBI;
         private Label timerLabel33;
         private Button resetButton33;
         private Button startButton33;
-        private LinkLabel linkLabel34;
+        private LinkLabel WhiteUBI;
         private Label timerLabel32;
         private Button resetButton32;
         private Button startButton32;
-        private LinkLabel linkLabel35;
+        private LinkLabel VesperUBI;
         private Label timerLabel31;
         private Button resetButton31;
         private Button startButton31;
@@ -7682,17 +7704,17 @@ namespace MVPTimer
         private PictureBox imageMessage42;
         private PictureBox imageMessage41;
         private Label label140;
-        private LinkLabel linkLabel36;
+        private LinkLabel BaphometUBI;
         private Label timerLabel45;
         private Button resetButton45;
         private Button startButton45;
         private Label label142;
-        private LinkLabel linkLabel37;
+        private LinkLabel MistressUBI;
         private Label timerLabel44;
         private Button resetButton44;
         private Button startButton44;
         private Label label144;
-        private LinkLabel linkLabel38;
+        private LinkLabel DarkUBI;
         private Label timerLabel43;
         private Button resetButton43;
         private Button startButton43;
@@ -7700,11 +7722,11 @@ namespace MVPTimer
         private PictureBox pictureBox91;
         private Label label146;
         private Label label147;
-        private LinkLabel linkLabel39;
+        private LinkLabel AssaUBI;
         private Label timerLabel42;
         private Button resetButton42;
         private Button startButton42;
-        private LinkLabel linkLabel40;
+        private LinkLabel HPUBI;
         private Label timerLabel41;
         private Button resetButton41;
         private Button startButton41;
