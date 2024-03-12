@@ -524,6 +524,7 @@ namespace MVPTimer
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.miTabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageMessage45)).BeginInit();
@@ -651,6 +652,7 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // miTabControl
@@ -660,7 +662,7 @@ namespace MVPTimer
             this.miTabControl.Controls.Add(this.tabPage2);
             this.miTabControl.Controls.Add(this.tabPage3);
             this.miTabControl.Controls.Add(this.tabPage4);
-            this.miTabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.miTabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.miTabControl.Location = new System.Drawing.Point(16, 0);
             this.miTabControl.Name = "miTabControl";
             this.miTabControl.SelectedIndex = 0;
@@ -6374,14 +6376,6 @@ namespace MVPTimer
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tabPage3.Controls.Add(this.imageMessage48);
-            this.tabPage3.Controls.Add(this.label113);
-            this.tabPage3.Controls.Add(this.label116);
-            this.tabPage3.Controls.Add(this.linkLabel46);
-            this.tabPage3.Controls.Add(this.timerLabel48);
-            this.tabPage3.Controls.Add(this.resetButton48);
-            this.tabPage3.Controls.Add(this.startButton48);
-            this.tabPage3.Controls.Add(this.pictureBox47);
             this.tabPage3.Controls.Add(this.label91);
             this.tabPage3.Controls.Add(this.imageMessage47);
             this.tabPage3.Controls.Add(this.imageMessage46);
@@ -6398,6 +6392,7 @@ namespace MVPTimer
             this.tabPage3.Controls.Add(this.startButton46);
             this.tabPage3.Controls.Add(this.pictureBox33);
             this.tabPage3.Controls.Add(this.pictureBox34);
+            this.tabPage3.Controls.Add(this.panel1);
             this.tabPage3.Location = new System.Drawing.Point(4, 27);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -6407,11 +6402,11 @@ namespace MVPTimer
             // 
             // imageMessage48
             // 
-            this.imageMessage48.BackColor = System.Drawing.Color.White;
+            this.imageMessage48.BackColor = System.Drawing.Color.Transparent;
             this.imageMessage48.ErrorImage = null;
             this.imageMessage48.Image = ((System.Drawing.Image)(resources.GetObject("imageMessage48.Image")));
             this.imageMessage48.InitialImage = null;
-            this.imageMessage48.Location = new System.Drawing.Point(559, 31);
+            this.imageMessage48.Location = new System.Drawing.Point(147, 31);
             this.imageMessage48.Name = "imageMessage48";
             this.imageMessage48.Size = new System.Drawing.Size(40, 40);
             this.imageMessage48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -6425,7 +6420,7 @@ namespace MVPTimer
             this.label113.BackColor = System.Drawing.Color.White;
             this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label113.Location = new System.Drawing.Point(439, 9);
+            this.label113.Location = new System.Drawing.Point(27, 9);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(147, 22);
             this.label113.TabIndex = 508;
@@ -6438,7 +6433,7 @@ namespace MVPTimer
             this.label116.BackColor = System.Drawing.Color.White;
             this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label116.ForeColor = System.Drawing.Color.Silver;
-            this.label116.Location = new System.Drawing.Point(491, 31);
+            this.label116.Location = new System.Drawing.Point(79, 31);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(39, 15);
             this.label116.TabIndex = 510;
@@ -6450,7 +6445,7 @@ namespace MVPTimer
             this.linkLabel46.AutoSize = true;
             this.linkLabel46.BackColor = System.Drawing.Color.White;
             this.linkLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLabel46.Location = new System.Drawing.Point(475, 44);
+            this.linkLabel46.Location = new System.Drawing.Point(63, 44);
             this.linkLabel46.Name = "linkLabel46";
             this.linkLabel46.Size = new System.Drawing.Size(76, 17);
             this.linkLabel46.TabIndex = 509;
@@ -6465,7 +6460,7 @@ namespace MVPTimer
             this.timerLabel48.BackColor = System.Drawing.Color.White;
             this.timerLabel48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timerLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.timerLabel48.Location = new System.Drawing.Point(452, 84);
+            this.timerLabel48.Location = new System.Drawing.Point(40, 84);
             this.timerLabel48.Name = "timerLabel48";
             this.timerLabel48.Size = new System.Drawing.Size(122, 33);
             this.timerLabel48.TabIndex = 507;
@@ -6474,7 +6469,7 @@ namespace MVPTimer
             // resetButton48
             // 
             this.resetButton48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.resetButton48.Location = new System.Drawing.Point(526, 135);
+            this.resetButton48.Location = new System.Drawing.Point(114, 135);
             this.resetButton48.Name = "resetButton48";
             this.resetButton48.Size = new System.Drawing.Size(75, 23);
             this.resetButton48.TabIndex = 506;
@@ -6484,7 +6479,7 @@ namespace MVPTimer
             // startButton48
             // 
             this.startButton48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.startButton48.Location = new System.Drawing.Point(425, 135);
+            this.startButton48.Location = new System.Drawing.Point(13, 135);
             this.startButton48.Name = "startButton48";
             this.startButton48.Size = new System.Drawing.Size(75, 23);
             this.startButton48.TabIndex = 505;
@@ -6494,10 +6489,9 @@ namespace MVPTimer
             // pictureBox47
             // 
             this.pictureBox47.BackColor = System.Drawing.Color.White;
-            this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
             this.pictureBox47.ImageLocation = "";
-            this.pictureBox47.Location = new System.Drawing.Point(412, 0);
+            this.pictureBox47.Location = new System.Drawing.Point(5, -3);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(200, 200);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -6743,10 +6737,10 @@ namespace MVPTimer
             this.tabPage4.Controls.Add(this.pictureBox44);
             this.tabPage4.Controls.Add(this.pictureBox45);
             this.tabPage4.Controls.Add(this.pictureBox42);
-            this.tabPage4.Location = new System.Drawing.Point(4, 27);
+            this.tabPage4.Location = new System.Drawing.Point(4, 30);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1059, 609);
+            this.tabPage4.Size = new System.Drawing.Size(1059, 606);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Otros";
             // 
@@ -7228,6 +7222,23 @@ namespace MVPTimer
             this.pictureBox42.TabIndex = 293;
             this.pictureBox42.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.imageMessage48);
+            this.panel1.Controls.Add(this.startButton48);
+            this.panel1.Controls.Add(this.label113);
+            this.panel1.Controls.Add(this.resetButton48);
+            this.panel1.Controls.Add(this.label116);
+            this.panel1.Controls.Add(this.timerLabel48);
+            this.panel1.Controls.Add(this.linkLabel46);
+            this.panel1.Controls.Add(this.pictureBox47);
+            this.panel1.Location = new System.Drawing.Point(412, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 200);
+            this.panel1.TabIndex = 513;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -7370,6 +7381,8 @@ namespace MVPTimer
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -7868,6 +7881,7 @@ namespace MVPTimer
         private PictureBox imageMessage61;
         private PictureBox imageMessage59;
         private Label label43;
+        private Panel panel1;
     }
 }
 
